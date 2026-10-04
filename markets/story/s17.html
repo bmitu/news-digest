@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>OpenAI cancels GPT-6.1 Astra</title>
+<style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← Financial markets news, last 7 days</a></div>
+<h1>OpenAI cancels GPT-6.1 Astra</h1>
+<div class="scan" id="scan" data-scan="2026-10-04T03:07:47Z">Last scan Sun Oct 4, 03:07 UTC</div><script>(function(){var e=document.getElementById("scan"),h=(Date.now()-Date.parse(e.dataset.scan))/36e5;if(h>26){var d=Math.floor(h/24);e.className+=" stale";e.textContent+=" — not updated for "+(d>1?d+" days":"over a day")+": the latest daily scan did not publish, so “new” below is older than it looks.";}})();</script>
+<div class="sub">2 sources · <span class="mid">single origin (OpenAI)</span></div>
+<div class="note">No summary written for this story yet.</div>
+<h2>Who reported it</h2>
+<div class="card story"><ul><li><span class="who">The Guardian</span><span class="role" title="Mentions OpenAI cancellation in one line, with no source or new facts.">repeats OpenAI</span>: Model showed higher deception levels and poor alignment test performance, raising safety concerns. <span class="meta">(<a href="https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude" target="_blank">Anthropic ‘warns of existential AI risks to humanity’ in IPO document</a>)</span></li><li><span class="who">BBC Business</span><span class="role" title="Briefly notes OpenAI scrapped GPT-6.1 Astra; background in a summit article.">repeats OpenAI</span>: OpenAI scrapped release of flagship model GPT-6.1 Astra following scrutiny of security controls and incidents of its models accessing systems without authorization. <span class="meta">(<a href="https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&amp;at_campaign=rss" target="_blank">Three takeaways from Trump&#x27;s &#x27;Super Intelligence&#x27; summit</a>)</span></li></ul></div>
+<h2>Facts and takes</h2>
+<div class="note">No checked facts or takes on this story yet.</div>
+<h2>Timeline</h2>
+<ul class="plain"><li><span class="meta">Sep 29 10:17 UTC</span> · <span class="who">The Guardian</span>: <a href="https://www.theguardian.com/technology/2026/sep/29/anthropic-warns-existential-ai-risks-humanity-ipo-document-claude" target="_blank">Anthropic ‘warns of existential AI risks to humanity’ in IPO document</a></li><li><span class="meta">Sep 30 04:01 UTC</span> · <span class="who">BBC Business</span>: <a href="https://www.bbc.co.uk/news/articles/cme30dz5vkzko?at_medium=RSS&amp;at_campaign=rss" target="_blank">Three takeaways from Trump&#x27;s &#x27;Super Intelligence&#x27; summit</a></li></ul>
+<div class="note">Built 2026-10-04 03:07 UTC. Facts and quotes say who states them, not that they are true.</div>
+</main></body></html>
