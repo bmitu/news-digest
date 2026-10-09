@@ -1,0 +1,72 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Muse Spark 1.3</title><style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0}td,th{border-bottom:1px solid var(--line);
+padding:5px 6px;text-align:left;vertical-align:top}th{color:var(--muted);font-weight:600}.num{white-space:nowrap}
+.wrap{overflow-x:auto}</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news, last 7 days</a></div>
+<h1>Muse Spark 1.3</h1>
+<div class="sub">9 checked facts from 2 sources</div>
+<h2>Timeline</h2><ul class="plain"><li><span class="meta">2026-09-25</span> Muse Spark 1.3 is available on GCP <span class="meta">· <a href="https://www.latent.space/p/ainews-the-future-of-latent-space" target="_blank" title="Meta’s Muse Spark 1.3 is available on GCP and Oracle">Latent Space</a></span></li><li><span class="meta">2026-09-25</span> Muse Spark 1.3 is available on Oracle <span class="meta">· <a href="https://www.latent.space/p/ainews-the-future-of-latent-space" target="_blank" title="Meta’s Muse Spark 1.3 is available on GCP and Oracle">Latent Space</a></span></li></ul>
+<h2>Prices</h2>
+<div class="sub">Per price, each value with the dates it was seen. A value seen on one date only is one copy of the page.
+No price has changed over the record.</div>
+<div class="wrap"><table><tr><th>Price for</th><th>Values over time</th></tr><tr><td>per 1M cached input tokens</td><td><b>$0.15</b> <span class="meta">2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3 Not used to improve our products. 1M $1.25 $0.15 $4.25">Meta&#x27;s page as archived 2026-09-14</a></span></td></tr><tr><td>per 1M cached input tokens (contributor)</td><td><b>$0.002</b> <span class="meta">2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3-contributor Used to improve our products. 1M $0.10 $0.002 $0.20">Meta&#x27;s page as archived 2026-09-14</a></span></td></tr><tr><td>per 1M input tokens</td><td><b>$1.25</b> <span class="meta">2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3 Not used to improve our products. 1M $1.25 $0.15 $4.25">Meta&#x27;s page as archived 2026-09-14</a></span></td></tr><tr><td>per 1M input tokens (contributor)</td><td><b>$0.10</b> <span class="meta">2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3-contributor Used to improve our products. 1M $0.10 $0.002 $0.20">Meta&#x27;s page as archived 2026-09-14</a></span></td></tr><tr><td>per 1M output tokens</td><td><b>$4.25</b> <span class="meta">2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3 Not used to improve our products. 1M $1.25 $0.15 $4.25">Meta&#x27;s page as archived 2026-09-14</a></span></td></tr><tr><td>per 1M output tokens (contributor)</td><td><b>$0.20</b> <span class="meta">2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3-contributor Used to improve our products. 1M $0.10 $0.002 $0.20">Meta&#x27;s page as archived 2026-09-14</a></span></td></tr></table></div>
+
+<h2>Scores</h2>
+<div class="sub">Self-reported: stated on the lab's own channel. A score reported twice with two values is shown twice, with
+its date: a lab re-runs a benchmark under a new setup; neither replaces the other.</div>
+<div class="wrap"><table><tr><th>Benchmark</th><th>Score</th><th>Date</th><th>Who</th></tr></table></div>
+<h2>What it does</h2><ul class="plain"><li>Muse Spark 1.3: 1M context window <span class="meta">· 2026-09-14 · <a href="https://web.archive.org/web/20260914105657/https://developer.meta.com/ai/products/meta-model-api/" target="_blank" title="muse-spark-1.3 Not used to improve our products. 1M">Meta&#x27;s page as archived 2026-09-14</a></span></li></ul>
+<h2>In the news</h2><ul class="plain"><li><span class="meta">2026-09-29</span> Latent Space: <a href="https://www.latent.space/p/ainews-opus-55-is-good-at-explainer" target="_blank">[AINews] Opus 5.5 is good at explainer videos</a></li><li><span class="meta">2026-09-25</span> Latent Space: <a href="https://www.latent.space/p/ainews-the-future-of-latent-space" target="_blank">[AINews] The Future of Latent Space</a></li></ul>
+<div class="note">Built 2026-10-09 03:39 UTC from the news
+knowledge graph by code. Every line is a fact whose quote was checked against the source's own words (hover a source);
+it says who states it, not that it is true. Archived pages are the lab's pages as the Wayback Machine holds them.</div>
+</main></body></html>
