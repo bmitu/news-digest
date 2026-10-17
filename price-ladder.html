@@ -160,7 +160,7 @@ td .fs { color: var(--faint); font-size: 12px; }
       <li><b>Sources.</b> Only each lab's own pages count here: pricing pages as archived by the Wayback Machine (about every second month), live pricing pages, and launch posts. Every price has a quote that was checked against the copy it came from. Prices quoted by news sources are left out.</li>
       <li><b>What a point is.</b> A model's first standard-tier price per 1M tokens. Batch, priority, cached, long-context and fine-tuning prices are left out. A point sits at the model's launch date when the record has one. Otherwise it sits at the first copy that prices it, drawn hollow.</li>
       <li><b>Lines.</b> The six lines group models by product line. That grouping is an editorial call and is not stored in the graph. Dated snapshot ids (gpt-4o-2024-05-13 and similar) and older endpoints are left out of the chart.</li>
-      <li><b>Built</b> 2026-10-10 12:55 UTC from the news knowledge graph by code, no model call. Every price quote was checked against the copy it came from; it says what the lab's page stated, not that it is the price today.</li>
+      <li><b>Built</b> 2026-10-17 12:47 UTC from the news knowledge graph by code, no model call. Every price quote was checked against the copy it came from; it says what the lab's page stated, not that it is the price today.</li>
       <li><b>Known gaps.</b> OpenAI's archived pricing pages start in May 2024, so GPT-4 sits where it was first seen, not at its 2023 launch. xAI's model docs load their price table in the browser for Jan–Jul 2025, so the copies from those months have no prices in them. A change seen on only one copy is flagged as such.</li>
     </ul>
   </section>
@@ -172,7 +172,7 @@ td .fs { color: var(--faint); font-size: 12px; }
   const D = JSON.parse(document.getElementById("data").textContent);
   const LABS = D.labs;
   const SHAPE = { OpenAI: "circle", Anthropic: "square", xAI: "diamond" };
-  const TODAY = "2026-10-10";
+  const TODAY = "2026-10-17";
   const st = { io: "in", labs: new Set(LABS), pinned: null };
   try { const s = JSON.parse(localStorage.getItem("ladder") || "{}"); if (s.io) st.io = s.io; } catch (e) {}
 
