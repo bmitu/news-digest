@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>AI lab leaders and control</title><style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0}td,th{border-bottom:1px solid var(--line);
+padding:5px 6px;text-align:left;vertical-align:top}th{color:var(--muted);font-weight:600}.num{white-space:nowrap}
+.wrap{overflow-x:auto}ul.plain ul{margin:2px 0 8px}</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news digest</a> · <a href="index.html">All debates</a></div><h1>AI lab leaders and control</h1><div class="one">“AI company leaders and labs cannot be trusted to handle superintelligence safely”</div><div class="sub">7 people · 5 agree · 1 disagree · 1 no clear side · 1 unclear · 14 views · 2026-10-12 to 2026-10-14</div><div class="note">Who stands where on the statement above, from their own words. A person's side is shown only where two separate readings of the quote agree; otherwise they are under "Side unclear". This page does not say who is right.</div><h2>Agree <span class="count">5 people</span></h2><ul class="plain"><li><span class="pol ok">✓</span><span class="who">mortoray.com</span><ul><li><q>I believe these companies are committing crimes.</q> <span class="meta">evaluation · hedged · 2026-10-12 · <a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/" target="_blank">Why aren&#x27;t AI companies being charged for hacking?</a></span></li><li><q>It’s a position tailored to dissuade prosecution as it removes intent, which is typically required for a crime.</q> <span class="meta">explanation · 2026-10-12 · <a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/" target="_blank">Why aren&#x27;t AI companies being charged for hacking?</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Zvi Mowshowitz</span><ul><li><q>Even if you take a maximally generous view of the safety impact of working inside the labs, the average return is greater for those who loudly leave.</q> <span class="meta">recommendation · hedged · 2026-10-14 · <a href="https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is" target="_blank">The Safety Culture at the Labs is Broken</a></span></li><li><q>If anything, things elsewhere are even worse.</q> <span class="meta">evaluation · 2026-10-14 · <a href="https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is" target="_blank">The Safety Culture at the Labs is Broken</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Micah Lee</span><ul><li><q>the American frontier labs are run by unhinged lunatics who genuinely believe they&#x27;re creating the Machine God</q> <span class="meta">evaluation · 2026-10-12 · <a href="https://micahflee.com/just-say-no-to-openai-and-anthropic/" target="_blank">Just say no to OpenAI and Anthropic</a> · via micahflee.com</span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Daniel Kokotajlo</span><ul><li><q>almost certainly they will not be able to maintain control</q> <span class="meta">prediction · hedged · 2026-10-14 · <a href="https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is" target="_blank">The Safety Culture at the Labs is Broken</a> · via Zvi Mowshowitz</span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Nate Soares</span><ul><li><q>Each AI CEOs has their ego built around them being the only guy who can do the job right.</q> <span class="meta">explanation · 2026-10-14 · <a href="https://thezvi.substack.com/p/the-safety-culture-at-the-labs-is" target="_blank">The Safety Culture at the Labs is Broken</a> · via Zvi Mowshowitz</span></li></ul></li></ul><h2>Disagree <span class="count">1 person</span></h2><ul class="plain"><li><span class="pol bad">✗</span><span class="who">Andrew Feldman</span><ul><li><q>some of the leaders in the AI world maybe shouldn’t be allowed to talk in public.</q> <span class="meta">evaluation · hedged · 2026-10-13 · <a href="https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/" target="_blank">Cerebras CEO pushes back on AI doomsday warnings</a> · via TechCrunch</span></li></ul></li></ul><h2>No clear side <span class="count">1 person</span></h2><ul class="plain"><li><span class="pol mid">~</span><span class="who">Andrew Feldman</span><ul><li><q>I don’t think there are powerful technologies that don’t come with the challenge of ‘what happens when powerful technologies are in the hands of bad people?’ I think you can’t make one and not have the other,”</q> <span class="meta">explanation · hedged · 2026-10-13 · <a href="https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/" target="_blank">Cerebras CEO pushes back on AI doomsday warnings</a> · via TechCrunch</span></li></ul></li></ul><h2>Side unclear <span class="count">3 people</span></h2><ul class="plain"><li><span class="pol ">·</span><span class="who">mortoray.com</span><ul><li><q>the company creating it has extensive control. Despite emergent properties, the AIs are not black boxes with unknown behaviours.</q> <span class="meta">explanation · 2026-10-12 · <a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/" target="_blank">Why aren&#x27;t AI companies being charged for hacking?</a></span></li><li><q>the company must provide a detailed account of how it was built.</q> <span class="meta">recommendation · 2026-10-12 · <a href="https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/" target="_blank">Why aren&#x27;t AI companies being charged for hacking?</a></span></li></ul></li><li><span class="pol ">·</span><span class="who">Zvi Mowshowitz</span><ul><li><q>No matter what happened, and how this is handled from here, this sucks bigly. OpenAI has three less good safety researchers. Trust will be lower. Speech will be chilled.</q> <span class="meta">evaluation · 2026-10-12 · <a href="https://thezvi.substack.com/p/openai-fires-three-safety-researchers" target="_blank">OpenAI Fires Three Safety Researchers</a></span></li><li><q>‘these three high level and highly valuable OpenAI safety researchers were fired for their safety advocacy’ would be deeply, deeply stupid.</q> <span class="meta">evaluation · 2026-10-12 · <a href="https://thezvi.substack.com/p/openai-fires-three-safety-researchers" target="_blank">OpenAI Fires Three Safety Researchers</a></span></li></ul></li><li><span class="pol ">·</span><span class="who">Timothy B. Lee</span><ul><li><q>mandating monitorability would ultimately do the whole industry a favor — it would make all their statements more believable.</q> <span class="meta">recommendation · 2026-10-14 · <a href="https://www.understandingai.org/p/openais-ironic-credibility-problem" target="_blank">OpenAI’s ironic credibility problem</a></span></li></ul></li></ul><h2>Week by week</h2><ul class="plain"><li><span class="meta">Week of Oct 12</span> · 7: mortoray.com <span class="ok">✓</span>, Micah Lee <span class="ok">✓</span>, Zvi Mowshowitz <span class="">·</span>, Andrew Feldman <span class="bad">✗</span>, Daniel Kokotajlo <span class="ok">✓</span>, Nate Soares <span class="ok">✓</span>, Timothy B. Lee <span class="">·</span></li></ul>
+<div class="note">Built 2026-10-19 22:33 UTC from the news knowledge
+graph by code. Every quote was checked against the source's own words; which side a quote takes is a model's reading,
+made twice.</div>
+</main></body></html>

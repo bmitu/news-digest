@@ -1,0 +1,59 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Experiments and data limits in AI for science</title><style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0}td,th{border-bottom:1px solid var(--line);
+padding:5px 6px;text-align:left;vertical-align:top}th{color:var(--muted);font-weight:600}.num{white-space:nowrap}
+.wrap{overflow-x:auto}ul.plain ul{margin:2px 0 8px}</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news digest</a> · <a href="index.html">All debates</a></div><h1>Experiments and data limits in AI for science</h1><div class="one">“AI-driven science is bottlenecked by experiments, lab work and data quality rather than by compute or reasoning alone”</div><div class="sub">5 people · 2 agree · 3 unclear · 8 views · 2026-10-05 to 2026-10-10</div><div class="note">Who stands where on the statement above, from their own words. A person's side is shown only where two separate readings of the quote agree; otherwise they are under "Side unclear". This page does not say who is right.</div><h2>Agree <span class="count">2 people</span></h2><ul class="plain"><li><span class="pol ok">✓</span><span class="who">Liam Fedus</span><ul><li><q>No one’s going to zero shot the room-temperature superconductor.</q> <span class="meta">prediction · 2026-10-08 · <a href="https://www.latent.space/p/periodic" target="_blank">Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk</a> · via Latent Space</span></li><li><q>If you throw a huge amount of compute against a bunch of noise, you’re not going to have a good thing emerge.</q> <span class="meta">explanation · 2026-10-08 · <a href="https://www.latent.space/p/periodic" target="_blank">Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk</a> · via Latent Space</span></li><li><q>solving humanoids would actually be slower to kind of getting to some of our goals.</q> <span class="meta">recommendation · 2026-10-08 · <a href="https://www.latent.space/p/periodic" target="_blank">Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk</a> · via Latent Space</span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Ekin Dogus Cubuk</span><ul><li><q>Most experimental data in the literature have such a high noise floor that it’s actually usually worse than DFT accuracy.</q> <span class="meta">explanation · 2026-10-08 · <a href="https://www.latent.space/p/periodic" target="_blank">Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk</a> · via Latent Space</span></li></ul></li></ul><h2>Side unclear <span class="count">4 people</span></h2><ul class="plain"><li><span class="pol ">·</span><span class="who">Geby Jaff</span><ul><li><q>This suggests that materials for the next step in spintronics may already exist, waiting to be recognized.</q> <span class="meta">explanation · hedged · 2026-10-05 · <a href="https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors" target="_blank">Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates</a> · via vals.ai</span></li></ul></li><li><span class="pol ">·</span><span class="who">Liam Fedus</span><ul><li><q>the optimal reasoning strategies to do math, to do theoretical computer science, to do these types of things may not be the optimal reasoning strategies to do science.</q> <span class="meta">evaluation · hedged · 2026-10-08 · <a href="https://www.latent.space/p/periodic" target="_blank">Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk</a> · via Latent Space</span></li></ul></li><li><span class="pol ">·</span><span class="who">Reddit commenters</span><ul><li><q>commenters predict researchers, especially PhD-level specialists, will need to “sluice through” large volumes of AI-generated hypotheses, drafts, or analyses to find genuinely valuable results</q> <span class="meta">prediction · 2026-10-08 · <a href="https://www.latent.space/p/ainews-not-much-happened-today-60f" target="_blank">[AINews] not much happened today</a> · via Latent Space</span></li></ul></li><li><span class="pol ">·</span><span class="who">Sal Candido</span><ul><li><q>One misconception of scaling laws is that scaling laws are everywhere and they always exist. A lot of the work is actually finding that scaling law.</q> <span class="meta">explanation · 2026-10-10 · <a href="https://www.latent.space/p/biohub-deepmind" target="_blank">Why AlphaFold Didn&#x27;t Solve Protein Folding — Pushmeet Kohli, Google DeepMind &amp; Sal Candido, Biohub</a> · via Latent Space</span></li></ul></li></ul><h2>Week by week</h2><ul class="plain"><li><span class="meta">Week of Oct 5</span> · 5: Geby Jaff <span class="">·</span>, Liam Fedus <span class="ok">✓</span>, Ekin Dogus Cubuk <span class="ok">✓</span>, Reddit commenters <span class="">·</span>, Sal Candido <span class="">·</span></li></ul>
+<div class="note">Built 2026-10-19 22:33 UTC from the news knowledge
+graph by code. Every quote was checked against the source's own words; which side a quote takes is a model's reading,
+made twice.</div>
+</main></body></html>
