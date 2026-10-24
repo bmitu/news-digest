@@ -1,0 +1,70 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>SpireClimb benchmark</title>
+<style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+.jump{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;font-size:14px;margin-bottom:8px}
+.jump a{text-decoration:none}.jump .n{color:var(--muted);font-size:12px;margin-left:3px}.jump .bar{width:1px;height:16px;background:var(--line)}
+.jump details{position:relative}.jump summary{cursor:pointer;color:var(--accent);list-style:none}.jump summary::-webkit-details-marker{display:none}
+.jump details>div{position:absolute;top:22px;left:0;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:8px;
+padding:6px 0;min-width:180px;box-shadow:0 4px 14px rgba(0,0,0,.12)}.jump details>div a{display:block;padding:5px 12px}
+h2[id],details[id]{scroll-margin-top:100px}details#arguments>summary .n{color:var(--muted);font-size:14px;margin-left:6px}
+</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news, last 7 days</a></div>
+<h1>SpireClimb benchmark</h1>
+<div class="scan" id="scan" data-scan="2026-10-24T14:03:35Z">Last scan Sat Oct 24, 14:03 UTC</div><script>(function(){var e=document.getElementById("scan"),h=(Date.now()-Date.parse(e.dataset.scan))/36e5;if(h>194){var d=Math.floor(h/24);e.className+=" stale";e.textContent+=" — not updated for "+(d>1?d+" days":"over a day")+": the latest weekly scan did not publish, so “new” below is older than it looks.";}})();</script>
+<div class="sub">2 sources · <span class="mid">single origin (Epoch AI)</span></div>
+<div class="summary"><p>Epoch AI says its new SpireClimb benchmark, which tests AI models on the deck-building game Slay the Spire, shows that in six months the best models went from struggling to beat the game to winning over 90% of runs at base difficulty.<sup><a href="#n1" id="r1">1</a></sup><sup><a href="#n2" id="r2">2</a></sup> Epoch says SpireClimb requires computer interactions, so a model that does well may be better positioned to take on computer-based work.<sup><a href="#n3" id="r3">3</a></sup></p><p>At the original game&#x27;s hardest difficulty, Epoch reports that GPT-6.1 Sol wins 20% of runs and Astra wins 17%, while the other models tested win almost none.<sup><a href="#n4" id="r4">4</a></sup> Epoch estimates top human players win about 85% of runs at the original&#x27;s hardest difficulty and about 95% in the sequel.<sup><a href="#n5" id="r5">5</a></sup></p><p>To check whether prior knowledge of the nearly decade-old game inflated scores, researchers also tested Slay the Spire 2, where Astra wins 35% of runs at the hardest difficulty, though Epoch notes that setting is easier.<sup><a href="#n6" id="r6">6</a></sup> Epoch concludes that, because models know less about the newer game and the top models still did reasonably well, their scores on the original did not come solely from prior knowledge.<sup><a href="#n7" id="r7">7</a></sup></p><p>Commenting on the results, Zvi Mowshowitz says the win rate is higher than he expected to see so soon and that Sol and Astra are doing much better than the average player, even confined to those who unlocked max difficulty and choose to play it.<sup><a href="#n8" id="r8">8</a></sup> Thomas Friedel asked whether OpenAI had an RL environment to train Astra specifically for Slay the Spire, and Benjamin Ou, who says he created the benchmark, answered that this is probably the case.<sup><a href="#n9" id="r9">9</a></sup><sup><a href="#n10" id="r10">10</a></sup> Ou says the labs like the game so all signs point to RL, but adds that there is also some generalization to other strategy card games; Mowshowitz says the working theory is a mix of both.<sup><a href="#n11" id="r11">11</a></sup><sup><a href="#n12" id="r12">12</a></sup><sup><a href="#n13" id="r13">13</a></sup></p></div><div class="note">Every sentence is backed by the quotes in its footnotes, checked word for word against the article; a model wrote and arranged the sentences, and a second read checked each against its quotes (written 2026-10-24).</div><h2>Sources quoted</h2><ol class="fn"><li id="n1"><q>Our new benchmark, SpireClimb, tests this on Slay the Spire, a deck-building strategy video game.</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n2"><q>frontier models went from struggling to beat the game at all to winning over 90% of runs at base difficulty, with GPT-6 Astra winning 98% of runs</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n3"><q>Because SpireClimb requires computer interactions, a model that does well may be better positioned to take on computer-based work.</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n4"><q>At the game’s hardest difficulty, GPT-6.1 Sol wins 20% of runs, and Astra wins 17%, while the other models tested win almost none of their runs.</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n5"><q>Top human players still do better, winning an estimated 85% of runs at the original’s hardest difficulty and about 95% in the sequel.</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n6"><q>At the sequel’s hardest difficulty, Astra wins 35% of runs. That’s higher than its rate in the original, but the sequel’s hardest setting is easier.</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n7"><q>Still, models know less about the newer game, and the top models did reasonably well, suggesting their scores on the original didn’t come solely from prior knowledge.</q> — <span class="who">Epoch AI</span>, <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li><li id="n8"><q>This is a higher win rate than I expected to see so soon and Sol and Astra are doing much better than the average player</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li id="n9"><q>do you think OpenAI had a RL env to train Astra specifically for STS ?</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li id="n10"><q>Benchmark creator here! Probably yeah, GPT generations have gotten ridiculously strong at this</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li id="n11"><q>We know the labs like the game, so all signs point to RL.</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li id="n12"><q>there&#x27;s def some generalization going on as well</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li id="n13"><q>The working theory is a mix of both.</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li></ol>
+<h2>Who reported it</h2>
+<div class="card story"><ul><li><span class="who">Zvi Mowshowitz</span><span class="role" title="Zvi relays Epoch&#x27;s SpireClimb results, adding commentary and creator&#x27;s quoted remarks.">repeats Epoch AI</span>: Epoch&#x27;s Slay the Spire benchmark shows top models near-perfect at Ascension 0, with Sol and Astra far above average players at max difficulty. <span class="meta">(<a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a>)</span></li><li><span class="who">Epoch AI</span><span class="role" title="Epoch&#x27;s own newsletter announcing its SpireClimb benchmark results.">announcement</span>: Frontier models now win over 90% of base-difficulty runs; at the hardest difficulty GPT-6.1 Sol wins 20% and Astra wins 17%, versus about 85% for top humans. <span class="meta">(<a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a>)</span></li></ul></div>
+<h2>Facts and takes</h2>
+<div class="note">No checked facts or takes on this story yet.</div>
+<h2>Timeline</h2>
+<ul class="plain"><li><span class="meta">Oct 22 15:13 UTC</span> · <span class="who">Zvi Mowshowitz</span>: <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li><span class="meta">Oct 23 19:29 UTC</span> · <span class="who">Epoch AI</span>: <a href="https://epochai.substack.com/p/the-epoch-brief-october-23-2026" target="_blank">The Epoch Brief - October 23, 2026</a></li></ul>
+<div class="note">Built 2026-10-24 14:03 UTC. Facts and quotes say who states them, not that they are true.</div>
+</main><script data-goatcounter="https://bogdanmitu.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>

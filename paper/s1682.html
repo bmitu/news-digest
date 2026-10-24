@@ -1,0 +1,75 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Co-Existence book launches</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap"><style>
+:root{--bg:#f3f5f3;--surface:#fcfdfc;--ink:#14181a;--muted:#586160;--faint:#8a9391;--rule:#dce1de;--accent:#2a78d6;
+--f-display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;--f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+--f-data:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111416;--surface:#171b1d;--ink:#edf0ee;--muted:#a2aaa8;
+--faint:#6f7876;--rule:#2a3033;--accent:#3987e5;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111416;--surface:#171b1d;--ink:#edf0ee;--muted:#a2aaa8;--faint:#6f7876;--rule:#2a3033;
+--accent:#3987e5;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--f-body);padding:0 16px}
+main{max-width:1080px;margin:0 auto;padding:28px 0 64px}
+a{color:inherit;text-decoration:none}a:hover{text-decoration:underline;text-decoration-color:var(--faint);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.mono,.eyebrow,.kicker,.meta{font-family:var(--f-data);font-variant-numeric:tabular-nums}
+.eyebrow{font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.masthead{text-align:center;border-bottom:3px double var(--ink);padding-bottom:10px;margin-bottom:6px}
+.masthead .name{font:700 clamp(48px,10vw,96px)/.9 var(--f-display);text-transform:uppercase;letter-spacing:-.01em;margin:6px 0 8px}
+.masthead.small .name{font-size:clamp(32px,6vw,44px)}
+.dateline{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;border-bottom:1px solid var(--ink);
+padding:6px 0;margin-bottom:28px;font:12px/1.4 var(--f-data);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.kicker{font-size:11.5px;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.meta{font-size:12px;color:var(--muted)}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0}
+.front{display:grid;grid-template-columns:2fr 1fr;gap:0 32px;padding-bottom:28px;border-bottom:1px solid var(--rule)}
+.lead h2{font-size:clamp(34px,5vw,52px);font-weight:700;line-height:.98;text-transform:uppercase;margin:2px 0 14px}
+.lead .body{columns:2 260px;column-gap:28px;column-rule:1px solid var(--rule)}
+.lead .body p:first-child::first-letter{font:700 3.4em/.8 var(--f-display);float:left;margin:6px 8px 0 0}
+p{margin:0 0 12px}
+.tops{border-left:1px solid var(--rule);padding-left:24px;display:grid;align-content:start;gap:0}
+.tops article{padding:0 0 16px;margin-bottom:16px;border-bottom:1px solid var(--rule)}
+.tops article:last-child{border:0;margin:0}
+.tops h3,.grid h3{font-size:23px;font-weight:600;line-height:1.05;margin:0 0 6px}
+.tops p,.grid p{font-size:14.5px;line-height:1.5;color:var(--ink);margin:0 0 6px}
+section.desk{padding:24px 0 8px;border-bottom:1px solid var(--rule)}
+.deskhead{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 16px;border-top:3px solid var(--ink);padding-top:8px;margin-bottom:6px}
+.deskhead h2{font-size:30px;font-weight:700;text-transform:uppercase;letter-spacing:.01em}
+.standfirst{font-size:17px;line-height:1.5;color:var(--muted);max-width:70ch;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:0;margin:0 -12px}
+.grid article{padding:4px 12px 16px;border-left:1px solid var(--rule);min-width:0}
+.front>*,.argue>*{min-width:0}h1,h2,h3,p{overflow-wrap:break-word}
+.grid article:first-child{border-left:0}
+.argue{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.arg{background:var(--surface);border:1px solid var(--rule);padding:16px}
+.arg h3{font-size:22px;font-weight:600;line-height:1.05;margin-bottom:6px}
+.prop{font-style:italic;color:var(--muted);margin:0 0 12px}
+.side{border-left:3px solid var(--rule);padding-left:12px;margin:0 0 10px;font-size:14.5px}
+.side.agree{border-color:#1baf7a}.side.disagree{border-color:#d95926}
+.side .who{display:block;font:500 11.5px/1.4 var(--f-data);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-top:4px}
+.agreed{list-style:none;padding:0;margin:0;max-width:80ch}.agreed li{padding:8px 0;border-bottom:1px solid var(--rule)}
+.agreed b{font:600 19px/1.2 var(--f-display);text-transform:uppercase;margin-right:6px}
+.further{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule)}
+.further a{background:var(--surface);padding:14px 16px;display:block}
+.further b{display:block;font:600 22px/1.1 var(--f-display);text-transform:uppercase;margin-bottom:4px}
+.further span{font-size:13.5px;color:var(--muted)}
+.colophon{font-size:12.5px;color:var(--muted);max-width:75ch;margin-top:28px}
+/* the article */
+.story{max-width:680px;margin:0 auto}
+.story h1{font-size:clamp(36px,6vw,58px);font-weight:700;line-height:.98;text-transform:uppercase;margin:4px 0 14px}
+.story .dek{font-size:19px;line-height:1.45;color:var(--muted);margin:0 0 14px}
+.byline{border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:8px 0;margin-bottom:22px}
+.story .body p{font-size:17.5px;line-height:1.7;margin:0 0 16px}
+sup{font:500 10px var(--f-data);line-height:0}sup a{color:var(--accent);padding:0 1px}
+.inf{font:500 10.5px var(--f-data);color:var(--muted);border:1px solid var(--rule);border-radius:3px;padding:0 4px;margin-left:3px}
+blockquote{margin:26px 0;padding:14px 0;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule)}
+blockquote p{font:600 26px/1.15 var(--f-display);margin:0 0 8px !important}
+blockquote cite{font:normal 12px var(--f-data);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+details.notes{margin:26px 0;border-top:1px solid var(--rule);padding-top:10px}
+details.notes summary{cursor:pointer;font:600 20px var(--f-display);text-transform:uppercase}
+ol.fn{font-size:13.5px;line-height:1.5;color:var(--muted);padding-left:22px}ol.fn li{margin-bottom:8px}ol.fn q{color:var(--ink)}
+.more{border-top:3px solid var(--ink);padding-top:8px;margin-top:30px}
+.more ul{list-style:none;padding:0;margin:8px 0 0}.more li{padding:8px 0;border-bottom:1px solid var(--rule);font:600 19px/1.15 var(--f-display)}
+.record{display:inline-block;margin-top:18px;font:500 13px var(--f-data);color:var(--accent)}
+@media (max-width:760px){.front{grid-template-columns:1fr}.tops{border:0;padding:20px 0 0}
+.grid article{border-left:0;border-top:1px solid var(--rule)}.grid article:first-child{border-top:0}}
+</style></head><body><main><header class="masthead small"><div class="name"><a href="index.html">Seven Days of AI</a></div></header><div class="dateline"><span>Saturday, October 24, 2026</span><a href="index.html">← Front page</a></div><article class="story"><div class="kicker">Also this week</div><h1>Co-Existence book launches</h1><div class="byline meta">From reports by Ethan Mollick, Zvi Mowshowitz · Oct 20 – Oct 22</div><div class="body"><p>Ethan Mollick announced that his second book on AI, Co-Existence, was out that day, 30 months after the early-2024 release of Co-Intelligence.<sup><a href="#n1">1</a></sup> Zvi Mowshowitz&#x27;s newsletter AI #191 noted that Ethan Mollick wrote a book, Co-Existence, about how to live and work in a world where AI is sometimes, but not always, better than you.<sup><a href="#n2">2</a></sup></p><p>Mollick says the book does not try to keep up with news or model releases but focuses on trends: AI improving exponentially but unevenly, and a shift from chatbots to agents that do real work.<sup><a href="#n3">3</a></sup> He says the book addresses what this means for humans who must co-exist with these systems, arguing that humans&#x27; advantage comes down to deep knowledge, wide knowledge, taste, and agency.<sup><a href="#n4">4</a></sup></p><p>In a launch post, Mollick says 180 AI models are now better than GPT-4 was at its release and nineteen of them can run on a modern smartphone.<sup><a href="#n5">5</a></sup><sup><a href="#n6">6</a></sup> Citing the METR benchmark, Mollick says the work AI could do doubled eight times from GPT-4&#x27;s release, from a four minute task in 2024 to 17 hours of human work when he submitted his draft in April 2026, after which METR said it could no longer measure accurately.<sup><a href="#n7">7</a></sup><sup><a href="#n8">8</a></sup><sup><a href="#n9">9</a></sup> He also says a correct answer on the Google Proof Question and Answer Exam once cost 30 cents and now costs four hundredths of a cent.<sup><a href="#n10">10</a></sup></p><p>Mollick says he made the post&#x27;s charts by delegating to Opus 5.5 in Claude Projects, which caught that he had gotten the math wrong in his planned title of &quot;28 months&quot;.<sup><a href="#n11">11</a></sup><sup><a href="#n12">12</a></sup> He adds that AI remains jagged, still a bad long-form writer but superhuman at math, and he describes a third way of working with AI, the &quot;conjurer&quot;, which he calls the most powerful but one that carries new risks as people lose control over what the AI is doing.<sup><a href="#n13">13</a></sup><sup><a href="#n14">14</a></sup></p></div><details class="notes"><summary>What each sentence rests on</summary><ol class="fn"><li id="n1"><q>My second book on AI, Co-Existence, is out today (and you can get it here), 30 months after the release of Co-Intelligence in early 2024.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n2"><q>Ethan Mollick wrote a book, Co-Existence, about how to live and work in a world where AI is sometimes, but not always, better than you.</q> — Zvi Mowshowitz, <a href="https://thezvi.substack.com/p/ai-191-the-hackening-begins" target="_blank">AI #191: The Hackening Begins</a></li><li id="n3"><q>it focuses on trends like the ones in this post: AI is improving exponentially but unevenly, and the way we use it is shifting from chatbots to agents that do real work.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n4"><q>where we still have an advantage (I argue it comes down to deep knowledge, wide knowledge, taste, and agency), when to hand work to AI, and when to avoid it entirely.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n5"><q>A total of 180 AI models are now better than GPT-4 was at its release</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n6"><q>Nineteen of them can run on a modern smartphone.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n7"><q>From the release of GPT-4 to the end of the METR measure, the amount of work AI could do doubled eight times.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n8"><q>In 2024, an AI could do a four minute task. At the moment I turned in my draft of Co-Existence in April of 2026, an AI could do 17 hours of human work.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n9"><q>METR said they could no longer accurately measure the amount of work an AI could do using their current methods.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n10"><q>used to cost 30 cents in AI usage to get a single correct answer. Now, it costs four hundredths of a cent to get the same result.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n11"><q>I used Opus 5.5 in Claude Projects, which allows you to talk to a single “orchestrator” agent</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n12"><q>It even caught that I’d gotten the math wrong. I was going to call this post “28 months on the exponential.”</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n13"><q>the frontier of AI ability is still jagged, just as it was 30 months ago.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li><li id="n14"><q>It is the most powerful way to use AI, and it carries new risks as we lose control over what, exactly, the AI is doing to get us those results.</q> — Ethan Mollick, <a href="https://www.oneusefulthing.org/p/30-months-on-the-exponential-in-charts" target="_blank">30 Months on the Exponential (in Charts)</a></li></ol><p class="meta">Every sentence is backed by the quotes in its footnotes, checked word for word against the article. A model wrote and arranged the sentences; a second read checked each against its quotes (written 2026-10-24).</p></details><a class="record" href="../story/s1682.html">The record: who reported it, checked facts, all quoted views, timeline →</a><div class="more"><div class="eyebrow">More in Also this week</div><ul><li><a href="s1503.html">Anthropic proposed federal AI safety bill</a></li><li><a href="s1881.html">Claude Duet launch</a></li><li><a href="s1587.html">OpenAI models on Google Cloud</a></li><li><a href="s1876.html">US banks find unauthorized AI agents</a></li><li><a href="s1574.html">DeepSeek releases DeepInfer</a></li></ul></div></article></main><script data-goatcounter="https://bogdanmitu.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>
