@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>GLM-5.3 security and cyber findings</title><style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+.jump{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;font-size:14px;margin-bottom:8px}
+.jump a{text-decoration:none}.jump .n{color:var(--muted);font-size:12px;margin-left:3px}.jump .bar{width:1px;height:16px;background:var(--line)}
+.jump details{position:relative}.jump summary{cursor:pointer;color:var(--accent);list-style:none}.jump summary::-webkit-details-marker{display:none}
+.jump details>div{position:absolute;top:22px;left:0;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:8px;
+padding:6px 0;min-width:180px;box-shadow:0 4px 14px rgba(0,0,0,.12)}.jump details>div a{display:block;padding:5px 12px}
+h2[id],details[id]{scroll-margin-top:100px}details#arguments>summary .n{color:var(--muted);font-size:14px;margin-left:6px}
+.essay p{font-size:16px;line-height:1.65;margin:0 0 12px}.essay h2{font-size:19px;margin:30px 0 8px}
+.drop{color:var(--bad);text-decoration:line-through;opacity:.7}.drop .why{text-decoration:none;font-size:12px}
+.rec{font-size:13px;color:var(--muted);margin:-2px 0 10px}.bar{display:flex;height:8px;border-radius:4px;overflow:hidden;
+margin:3px 0;max-width:420px}.bar span{display:block}.s-data{background:var(--ok)}.s-example{background:var(--accent)}
+.s-reasoning{background:var(--mid)}.s-none{background:var(--line)}.s-unfound{background:var(--bad)}
+ol.cites{font-size:13px}ol.cites li{margin:6px 0}ol.cites q{font-style:italic}sup a{font-size:11px}
+.legend span{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 10px;vertical-align:-1px}
+.venn{max-width:520px;width:100%;height:auto;display:block;margin:6px 0}.venn circle{fill-opacity:.12;stroke-width:1.5}
+.venn .c0{fill:var(--accent);stroke:var(--accent)}.venn .c1{fill:var(--mid);stroke:var(--mid)}.venn .c2{fill:var(--ok);stroke:var(--ok)}
+.venn text{fill:var(--fg);font-size:11.5px;text-anchor:middle}.venn .lab{font-weight:600;font-size:13px}
+.venn .n{font-size:20px;font-weight:700}.venn .m{fill:var(--muted);font-size:11.5px}
+.cross li{margin:5px 0}
+.omap{max-width:860px;width:100%;height:auto;display:block;margin:6px 0}.omap .deb{fill:var(--accent);fill-opacity:.18;
+stroke:var(--accent);stroke-width:1.5}.omap text{fill:var(--fg);font-size:12px}.omap .dl{font-weight:600}
+.omap .pl{font-size:11px}.omap .pn{fill:var(--fg);stroke:var(--bg);stroke-width:2}.omap .k{fill:var(--muted);font-size:11px}
+.omap line,.key line{stroke-width:1.6}.omap .ok,.key .ok{stroke:var(--ok)}.omap .bad,.key .bad{stroke:var(--bad);stroke-dasharray:7 4}
+.omap .mid,.key .mid{stroke:var(--mid);stroke-dasharray:2 3}.omap .unc,.key .unc{stroke:var(--muted);stroke-width:1;stroke-dasharray:1 3}
+.omap .mix,.key .mix{stroke:var(--muted);stroke-dasharray:9 3 2 3}.omap g.p:hover line{stroke-width:3}
+.key{font-size:12.5px;color:var(--muted)}.key svg{vertical-align:middle;margin:0 4px 0 12px}.debs li{margin:8px 0}.cross .on{white-space:nowrap;margin-right:10px;font-size:13.5px}.cross .on b{font-weight:700}h4{margin:14px 0 4px;font-size:.95em;color:var(--muted)}.tag{font-size:.78em;padding:0 5px;border:1px solid var(--line);border-radius:3px;margin-right:2px}details{margin:6px 0 14px}summary{cursor:pointer;color:var(--muted)}</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← This week</a> · <a href="index.html">All arcs</a></div><h1>GLM-5.3 security and cyber findings</h1><div class="sub">3 stories · Oct 1, 2026 to Oct 30, 2026</div><div class="note">The stories of one ongoing situation, in the order they were first reported. Which stories belong together is a model's grouping; each story's sources are the reports that carried it.</div><div class="essay"><h2>What happened</h2><p>Latent Space reported on October 1, 2026 that Anthropic found Zhipu&#x27;s open-weight GLM-5.3 achieved 50 of 410 V8 exploits on ExploitBench.<sup><a href="#o1">1</a></sup> The same report described the model as weakly refusal-tuned, with jailbreak success of 64-100%.<sup><a href="#o1">1</a></sup> Writing the same day about Anthropic&#x27;s analysis, Zvi Mowshowitz said the Chinese model lacks robust safeguards against misuse and can create end-to-end exploits.<sup><a href="#o2">2</a></sup> Mowshowitz also wrote that the absence of a spike in incidents so far suggested slow diffusion.<sup><a href="#o2">2</a></sup></p><h3>Comparison with Claude Mythos</h3><p>Latent Space reported on October 3 that GLM-5.3 nearly matched Claude Mythos at exploiting vulnerabilities.<sup><a href="#o3">3</a></sup> The report gave success rates of 12% vs 14%.<sup><a href="#o3">3</a></sup></p><h3>Cloudflare discloses a cache leak</h3><p>Cloudflare&#x27;s blog disclosed a KV cache leak involving GLM-5.3 on Workers AI on October 26.<sup><a href="#o4">4</a></sup> According to the disclosure, researcher Gadi Evron reported the leak on September 8.<sup><a href="#o4">4</a></sup> It said 155 responses from August 27 to September 9 contained other customers&#x27; data.<sup><a href="#o4">4</a></sup> It also said the model was restored.<sup><a href="#o4">4</a></sup></p><h3>Firefox exploit findings</h3><p>Epoch AI reported on October 30 that the open-weight model built working exploits from published Firefox patches across six releases.<sup><a href="#o5">5</a></sup> Epoch AI put the compute cost at about $1,000 for each exploit.<sup><a href="#o5">5</a></sup> Latent Space described the same work as autonomous and said the exploits came from unshipped fixes.<sup><a href="#o6">6</a></sup> Epoch AI said Mozilla fixed the chained bug in Firefox 159.0.<sup><a href="#o5">5</a></sup></p><h3>Latest reported</h3><p>On October 30, Interconnects said the Firefox exploit could exfiltrate files when a user visits a site, and its author cited it as a multi-stage example.<sup><a href="#o7">7</a></sup> Hacker News carried a report the same day on cross-request KV cache exposure in the GLM-5.3 Workers AI model, which gave a figure of 155 responses.<sup><a href="#o8">8</a></sup></p></div><div class="note">Written by a model (opus) on Nov 6, 2026 from what this page showed that day, and checked sentence by sentence against it; 16 sentences shown. Each source line is the record's summary of a report.</div><details><summary>Sources for the overview</summary><ol class="cites"><li id="o1">Latent Space: GLM-5.3 Cyber Capabilities <span class="meta">Oct 1, 2026 · <a href="https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer" target="_blank">Latent Space</a></span></li><li id="o2">Zvi Mowshowitz: Anthropic analyzes GLM-5.3 cyber capabilities <span class="meta">Oct 1, 2026 · <a href="https://thezvi.substack.com/p/ai-188-gemini-dot-argon" target="_blank">Zvi Mowshowitz</a></span></li><li id="o3">Latent Space: GLM-5.3 offensive capability <span class="meta">Oct 3, 2026 · <a href="https://www.latent.space/p/ainews-not-much-happened-today-cee" target="_blank">Latent Space</a></span></li><li id="o4">blog.cloudflare.com: Cloudflare discloses GLM-5.3 Workers AI KV cache leak <span class="meta">Oct 26, 2026 · <a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/" target="_blank">blog.cloudflare.com</a></span></li><li id="o5"><a href="../story/s2293.html">Epoch AI: GLM 5.3 exploits unshipped Firefox fixes</a> <span class="meta">Oct 30, 2026 · <a href="https://epochai.substack.com/p/glm-patch-gap-exploit-firefox" target="_blank">Epoch AI</a></span></li><li id="o6"><a href="../story/s2293.html">Latent Space: GLM 5.3 builds Firefox exploits from patch gap</a> <span class="meta">Oct 30, 2026 · <a href="https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/" target="_blank">Latent Space</a></span></li><li id="o7"><a href="../story/s2293.html">Interconnects: Epoch AI GLM-5.3 Firefox exploit</a> <span class="meta">Oct 30, 2026 · <a href="https://www.interconnects.ai/p/was-i-wrong-about-open-models-and" target="_blank">Interconnects</a></span></li><li id="o8">Hacker News: Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses) <span class="meta">Oct 30, 2026</span></li></ol></details><h2>The stories</h2><ul class="plain"><li><span class="meta">Oct 1, 2026</span> · <span class="who">GLM-5.3 Cyber Capabilities</span> <span class="meta">(2 sources: <a href="https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer" target="_blank">Latent Space</a> · <a href="https://thezvi.substack.com/p/ai-188-gemini-dot-argon" target="_blank">Zvi Mowshowitz</a>)</span></li><li><span class="meta">Oct 30, 2026</span> · <span class="who">GLM-5.3 Workers AI KV cache leak</span> <span class="meta">(2 sources: <a href="https://blog.cloudflare.com/kv-cache-exposure-remediation/" target="_blank">blog.cloudflare.com</a> · 1 more)</span></li><li><span class="meta">Oct 30, 2026</span> · <span class="who"><a href="../story/s2293.html">GLM 5.3 Firefox exploits</a></span> <span class="meta">(3 sources: <a href="https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/" target="_blank">Latent Space</a> · <a href="https://epochai.substack.com/p/glm-patch-gap-exploit-firefox" target="_blank">Epoch AI</a> · <a href="https://www.interconnects.ai/p/was-i-wrong-about-open-models-and" target="_blank">Interconnects</a>)</span></li></ul><div class="note">Built 2026-11-06 18:29 UTC from the news record.</div></main></body></html>
