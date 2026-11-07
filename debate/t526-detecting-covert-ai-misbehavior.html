@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Detecting covert AI misbehavior</title><style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+.jump{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;font-size:14px;margin-bottom:8px}
+.jump a{text-decoration:none}.jump .n{color:var(--muted);font-size:12px;margin-left:3px}.jump .bar{width:1px;height:16px;background:var(--line)}
+.jump details{position:relative}.jump summary{cursor:pointer;color:var(--accent);list-style:none}.jump summary::-webkit-details-marker{display:none}
+.jump details>div{position:absolute;top:22px;left:0;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:8px;
+padding:6px 0;min-width:180px;box-shadow:0 4px 14px rgba(0,0,0,.12)}.jump details>div a{display:block;padding:5px 12px}
+h2[id],details[id]{scroll-margin-top:100px}details#arguments>summary .n{color:var(--muted);font-size:14px;margin-left:6px}
+
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0}td,th{border-bottom:1px solid var(--line);
+padding:5px 6px;text-align:left;vertical-align:top}th{color:var(--muted);font-weight:600}.num{white-space:nowrap}
+.wrap{overflow-x:auto}ul.plain ul{margin:2px 0 8px}details{margin:6px 0}details>summary{cursor:pointer}
+h3{font-size:15px;margin:16px 0 2px}</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news digest</a> · <a href="index.html">All debates</a></div><h1>Detecting covert AI misbehavior</h1><div class="one">“Current AI training and evaluation methods cannot reliably detect or prevent covert misbehavior and sabotage by AI models.”</div><div class="sub">8 people · 6 agree · 2 disagree · 9 views · 2026-11-02 to 2026-11-06</div><div class="note">Who stands where on the statement above, from their own words. A person's side is shown only where two separate readings of the quote agree; otherwise they are under "Side unclear". This page does not say who is right.</div><h2>Agree <span class="count">6 people</span></h2><ul class="plain"><li><span class="pol ok">✓</span><span class="who">Zvi Mowshowitz</span><ul><li><q>If this happens in more strategic form in the future, will our evals and tests catch it? My guess is that we would not.</q> <span class="meta">prediction · hedged · 2026-11-06 · <a href="https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms" target="_blank">GPT-6 Astra Covertly Underperforms on Safety Research Tasks</a></span></li><li><q>There is always going to be such a grader, somewhere, even if you have operational excellence. You cannot hope to, in every case, avoid every incentive to every undesired behavior.</q> <span class="meta">explanation · 2026-11-06 · <a href="https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms" target="_blank">GPT-6 Astra Covertly Underperforms on Safety Research Tasks</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">arxiv.org</span><ul><li><q>Large language models are pretrained on vast, uncurated corpora scraped from the public web. This creates a security risk from attackers who plant poisoned content in the pretraining data.</q> <span class="meta">explanation · 2026-11-02 · <a href="https://arxiv.org/abs/2610.37741" target="_blank">Agentic backdoors via pretraining poisoning</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">MIT Technology Review</span><ul><li><q>these techniques don’t seem to work particularly well</q> <span class="meta">evaluation · hedged · 2026-11-03 · <a href="https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/" target="_blank">How “reverse game theory” could keep AI agents in check</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">OpenAI</span><ul><li><q>These results show why we need comprehensive behavioral evaluations that test for unexplained performance gaps alongside monitoring of individual trajectories.</q> <span class="meta">recommendation · 2026-11-05 · <a href="https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks/" target="_blank">GPT-6 Astra covertly underperforms on safety research</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Nate Soares</span><ul><li><q>This is the sort of emergent surprise that signals that you have no idea what&#x27;s going on in there, and that it&#x27;s time to back off.</q> <span class="meta">evaluation · 2026-11-06 · <a href="https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms" target="_blank">GPT-6 Astra Covertly Underperforms on Safety Research Tasks</a> · via Zvi Mowshowitz</span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Peter Wildeford</span><ul><li><q>I&#x27;m also not reassured by &quot;don&#x27;t worry, the models are actively undermining our safety work and no we don&#x27;t know how often it happens</q> <span class="meta">evaluation · 2026-11-06 · <a href="https://thezvi.substack.com/p/gpt-6-astra-covertly-underperforms" target="_blank">GPT-6 Astra Covertly Underperforms on Safety Research Tasks</a> · via Zvi Mowshowitz</span></li></ul></li></ul><h2>Disagree <span class="count">2 people</span></h2><ul class="plain"><li><span class="pol bad">✗</span><span class="who">Redwood Research</span><ul><li><q>it seems like we’re currently still in a regime where this doesn’t overwhelmingly interfere with our ability to understand AI motivations.</q> <span class="meta">evaluation · hedged · 2026-11-02 · <a href="https://blog.redwoodresearch.org/p/towards-understanding-score-seeking" target="_blank">Towards understanding score-seeking in LLMs</a></span></li></ul></li><li><span class="pol bad">✗</span><span class="who">Stephen Morris</span><ul><li><q>So it does seem like a context where this cross-checking could work more practically.</q> <span class="meta">evaluation · hedged · 2026-11-03 · <a href="https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/" target="_blank">How “reverse game theory” could keep AI agents in check</a> · via MIT Technology Review</span></li></ul></li></ul><h2>Week by week</h2><ul class="plain"><li><span class="meta">Week of Nov 2</span> · 8: arxiv.org <span class="ok">✓</span>, Redwood Research <span class="bad">✗</span>, MIT Technology Review <span class="ok">✓</span>, Stephen Morris <span class="bad">✗</span>, OpenAI <span class="ok">✓</span>, Zvi Mowshowitz <span class="ok">✓</span>, Nate Soares <span class="ok">✓</span>, Peter Wildeford <span class="ok">✓</span></li></ul>
+<div class="note">Built 2026-11-07 03:54 UTC from the news knowledge
+graph by code. Every quote was checked against the source's own words; which side a quote takes is a model's reading,
+made twice.</div>
+</main></body></html>
