@@ -68,6 +68,7 @@
   "date": "2024",
   "id": "L625e9b8b",
   "stage": "in force",
+  "stage_status": "went into effect",
   "name": "AI Act",
   "by": [
    "European Commission",
@@ -103,6 +104,7 @@
   "date": "2023",
   "id": "Ladf9768e",
   "stage": "in force",
+  "stage_status": "applies to both open and closed models",
   "name": "Interim Measures for the Management of Generative AI Services, applying to both open and closed models",
   "by": [
    "China"
@@ -131,36 +133,18 @@
     "place": "Arizona (Marana)",
     "date": "2024",
     "stage": "passed"
-   },
-   {
-    "args": {
-     "by": "Marana",
-     "law": "data center regulations",
-     "status": "approved",
-     "where": "Marana"
-    },
-    "quote": "Marana approves data center regulations amid community pushback",
-    "source": "The Verge",
-    "title": "All the latest updates on AI data centers",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-    "published": "2026-11-06T15:02:22-05:00",
-    "item": "c0641eb0de56",
-    "group": "US states and cities",
-    "place": "Arizona (Marana)",
-    "date": null,
-    "stage": "passed"
    }
   ],
   "ids": [],
   "date": "2024",
   "id": "L6ede8d5c",
   "stage": "passed",
+  "stage_status": "passed",
   "name": "an ordinance restricting data center development",
   "by": [
-   "Marana",
    "Marana Town Council"
   ],
-  "reported": "2026-11-06"
+  "reported": "2026-10-29"
  },
  {
   "group": "Other countries",
@@ -190,6 +174,7 @@
   "date": "2024",
   "id": "L6ff7b0a9",
   "stage": "stopped",
+  "stage_status": "later dropped",
   "name": "requirement of official permission before 'unreliable' AI models could be released",
   "by": [
    "India"
@@ -224,6 +209,7 @@
   "date": "2024",
   "id": "Lf54ae5e9",
   "stage": "in force",
+  "stage_status": "existing",
   "name": "guidelines for staff on using AI",
   "by": [
    "European Parliament"
@@ -260,6 +246,7 @@
   "date": "2025-01",
   "id": "Lce9dcccb",
   "stage": "stopped",
+  "stage_status": "rescinded",
   "name": "Executive Order 14110, establishing safety standards and reporting requirements for advanced AI developers",
   "by": [
    "United States"
@@ -294,6 +281,7 @@
   "date": "2025-02",
   "id": "Ldefd07ac",
   "stage": "as reported",
+  "stage_status": "declaration with 64 signatories",
   "name": "Summit declaration endorsing development of open source AI for the public, with 64 signatories, missing the US and the UK",
   "by": [
    "AI Action Summit"
@@ -328,6 +316,7 @@
   "date": "2025-07",
   "id": "Lbb328bfa",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "legislative resolution to create a regulatory sandbox framework for the testing of innovative and novel technologies that utilize agentic artificial intelligence",
   "by": [
    "Matt Meyer"
@@ -364,6 +353,7 @@
   "date": "2025-07",
   "id": "L6e72121b",
   "stage": "passed",
+  "stage_status": "released as a voluntary guideline",
   "name": "General-Purpose AI Code of Practice (final version), a voluntary guideline to help developers comply with the EU AI Act",
   "by": [
    "European Union"
@@ -398,6 +388,7 @@
   "date": "2025-07-23",
   "id": "Lce081a73",
   "stage": "passed",
+  "stage_status": "released",
   "name": "Executive order requiring the federal government to avoid using and acquiring \"woke AI\" that promotes diversity, equity, and inclusion",
   "by": [
    "Trump administration"
@@ -432,6 +423,7 @@
   "date": "2025-07-23",
   "id": "Lf72b91a6",
   "stage": "passed",
+  "stage_status": "published",
   "name": "28-page AI action plan declaring an international struggle for dominance in AI, promoting AI research and innovation, and discouraging regulation",
   "by": [
    "Trump administration"
@@ -466,6 +458,7 @@
   "date": "2025-07-23",
   "id": "L2f6e8186",
   "stage": "passed",
+  "stage_status": "released",
   "name": "A sweeping set of executive orders and policy documents on AI in the United States",
   "by": [
    "Trump administration"
@@ -537,6 +530,7 @@
   "date": "2026-06",
   "id": "L8c314984",
   "stage": "passed",
+  "stage_status": "ordered",
   "name": "order requiring Google to provide an AI opt-out for publishers that would not penalize them in organic search results",
   "by": [
    "UK",
@@ -572,6 +566,7 @@
   "date": "2026",
   "id": "L86f56e6d",
   "stage": "in force",
+  "stage_status": "took effect",
   "name": "Companion Chatbot Law (Cal. Bus. & Prof. § 22601)",
   "by": [
    "California"
@@ -662,6 +657,7 @@
   "date": "2026-03",
   "id": "Ld7846160",
   "stage": "in force",
+  "stage_status": "upheld by an appeals court",
   "name": "supply chain risk designation of Anthropic, barring military use of Claude models and blocking defense contractors from using them",
   "by": [
    "Department of Defense",
@@ -692,24 +688,6 @@
     "group": "US states and cities",
     "place": "Maine",
     "date": "2026-04",
-    "stage": "passed"
-   },
-   {
-    "args": {
-     "by": "towns across Maine",
-     "law": "temporary moratoriums on data centers",
-     "status": "adopted",
-     "where": "Maine"
-    },
-    "quote": "towns across the state adopting temporary moratoriums or putting the question of data center expansion to voters this November",
-    "source": "The Verge",
-    "title": "Maine’s data center revolt will decide who controls the Senate",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
-    "published": "2026-10-30T07:00:00-04:00",
-    "item": "dbfbce585037",
-    "group": "US states and cities",
-    "place": "Maine",
-    "date": null,
     "stage": "passed"
    },
    {
@@ -753,12 +731,12 @@
   "date": "2026-04",
   "id": "Lda252539",
   "stage": "stopped",
+  "stage_status": "vetoed",
   "name": "statewide moratorium on large data centers",
   "by": [
    "Janet Mills",
    "Maine Legislature",
-   "the governor of Maine",
-   "towns across Maine"
+   "the governor of Maine"
   ],
   "reported": "2026-11-06"
  },
@@ -790,6 +768,7 @@
   "date": "2026-05",
   "id": "Lc5575c40",
   "stage": "passed",
+  "stage_status": "signed, not legally binding",
   "name": "pledge by major tech companies, including OpenAI, to cover the cost of building new data centers",
   "by": [
    "White House"
@@ -844,6 +823,7 @@
   "date": "2026-07",
   "id": "Lb2f23613",
   "stage": "proposed",
+  "stage_status": "proposed",
   "name": "the FRONTIER Act",
   "by": [
    "Obernolte",
@@ -880,6 +860,7 @@
   "date": "2026-07",
   "id": "L601c4b78",
   "stage": "proposed",
+  "stage_status": "introduced",
   "name": "the Protecting Ratepayers Act, requiring data center developers to fund the energy and water needed to run their operations",
   "by": [
    "Byron Donalds"
@@ -914,6 +895,7 @@
   "date": "2026-08",
   "id": "L0e6ce34a",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "an executive order prohibiting nondisclosure agreements for data center developers",
   "by": [
    "Josh Shapiro"
@@ -942,36 +924,18 @@
     "place": "Texas",
     "date": "2026-08",
     "stage": "passed"
-   },
-   {
-    "args": {
-     "by": "San Marcos",
-     "law": "a ban on data centers",
-     "status": "banned data centers; first city in Texas to do so",
-     "where": "Texas"
-    },
-    "quote": "San Marcos became the first city in all of Texas to ban data centers.",
-    "source": "The Verge",
-    "title": "All the latest updates on AI data centers",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-    "published": "2026-11-06T15:02:22-05:00",
-    "item": "c0641eb0de56",
-    "group": "US states and cities",
-    "place": "Texas",
-    "date": null,
-    "stage": "in force"
    }
   ],
   "ids": [],
   "date": "2026-08",
   "id": "Le1684c41",
-  "stage": "in force",
+  "stage": "passed",
+  "stage_status": "announced",
   "name": "an audit that could slow new data center facilities connecting to the state energy grid",
   "by": [
-   "Greg Abbott",
-   "San Marcos"
+   "Greg Abbott"
   ],
-  "reported": "2026-11-06"
+  "reported": "2026-10-27"
  },
  {
   "group": "US states and cities",
@@ -1001,6 +965,7 @@
   "date": "2026-08",
   "id": "L0869d17b",
   "stage": "proposed",
+  "stage_status": "proposed",
   "name": "a moratorium on any new data center development in San Antonio",
   "by": [
    "Ric Galvan"
@@ -1035,6 +1000,7 @@
   "date": "2026-08",
   "id": "L77048bde",
   "stage": "as reported",
+  "stage_status": "gained enforcement powers",
   "name": "AI Office enforcement powers over general purpose AI models",
   "by": [
    "European Union"
@@ -1068,6 +1034,7 @@
   "date": null,
   "id": "Ld707e209",
   "stage": "in force",
+  "stage_status": "in effect",
   "name": "Required Mythos to meet various safety restrictions; now available only to approved organizations",
   "by": [
    "Trump administration"
@@ -1102,6 +1069,7 @@
   "date": "2026-09",
   "id": "Ld57f53c6",
   "stage": "as reported",
+  "stage_status": "launched",
   "name": "rapid review into whether existing legislation and governance are fit for purpose to prepare for and respond to cyber incidents involving AI",
   "by": [
    "Australian government"
@@ -1136,6 +1104,7 @@
   "date": "2026-09",
   "id": "L6a2613a1",
   "stage": "in force",
+  "stage_status": "imposed",
   "name": "a 120-day moratorium on new data center projects",
   "by": [
    "Pima County Board of Supervisors"
@@ -1243,6 +1212,7 @@
   "date": "2026-09-29",
   "id": "L3828cc86",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "executive order ordering government agencies to rebrand artificial intelligence as \"Super Intelligence\"",
   "by": [
    "Donald Trump",
@@ -1278,6 +1248,7 @@
   "date": "2026-09",
   "id": "L93695122",
   "stage": "proposed",
+  "stage_status": "tabled",
   "name": "Bill aimed at banning the creation of artificial superintelligence (ASI), tabled by Labour MP Alex Sobel",
   "by": [
    "UK Parliament"
@@ -1312,6 +1283,7 @@
   "date": "2026-09",
   "id": "L94e0b934",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "Requires chatbot developers to assess a model's risk to children, show how they tried to eliminate those risks and submit to an independent audit",
   "by": [
    "California"
@@ -1346,6 +1318,7 @@
   "date": "2026-09-21",
   "id": "L9957d0c3",
   "stage": "as reported",
+  "stage_status": "directed on September 21",
   "name": "directive to a key state regulator to halt data center permits",
   "by": [
    "Greg Abbott"
@@ -1380,6 +1353,7 @@
   "date": "2026-09-22",
   "id": "Lcc838184",
   "stage": "as reported",
+  "stage_status": "posted",
   "name": "joint statement signed by a number of countries stating AI \"must remain under human direction\"",
   "by": [
    "Dutch government"
@@ -1431,6 +1405,7 @@
   "date": null,
   "id": "L2a7941f6",
   "stage": "stopped",
+  "stage_status": "blocked",
   "name": "legislation requiring companies to install 'kill switches' for their AI models",
   "by": [
    "John Kennedy",
@@ -1465,6 +1440,7 @@
   "date": null,
   "id": "L8be9e4c3",
   "stage": "in force",
+  "stage_status": "imposed",
   "name": "'voluntary' review framework for new model releases",
   "by": [
    "Donald Trump"
@@ -1498,6 +1474,7 @@
   "date": null,
   "id": "L6a605e31",
   "stage": "proposed",
+  "stage_status": "being eyed",
   "name": "laws to force tech firms to be transparent about rogue AI",
   "by": [
    "Labor"
@@ -1531,6 +1508,7 @@
   "date": null,
   "id": "L3b340a37",
   "stage": "proposed",
+  "stage_status": "being prepared for early next year",
   "name": "a set of laws on data centres and AI safety",
   "by": [
    "Labor"
@@ -1564,6 +1542,7 @@
   "date": null,
   "id": "Le9956f0e",
   "stage": "as reported",
+  "stage_status": "instructed last week",
   "name": "DOJ warning that anyone furthering a foreign power's goals in any public activity, including public demonstrations, must formally notify the government",
   "by": [
    "Justice Department"
@@ -1597,6 +1576,7 @@
   "date": null,
   "id": "L53281a85",
   "stage": "in force",
+  "stage_status": "in place; OpenAI and Anthropic urged Australia to reconsider it",
   "name": "a ban preventing OpenAI and Anthropic from using the country's creative content to train their models",
   "by": [
    "Australia"
@@ -1631,6 +1611,7 @@
   "date": null,
   "id": "L79570eb6",
   "stage": "proposed",
+  "stage_status": "formally introduced",
   "name": "the Ban Artificial Superintelligence Act",
   "by": [
    "Bernie Sanders"
@@ -1663,6 +1644,7 @@
   "date": null,
   "id": "Lb28cd163",
   "stage": "as reported",
+  "stage_status": "instituted",
   "name": "a prior restraint system for testing frontier model releases",
   "by": [
    "Donald Trump"
@@ -1695,6 +1677,7 @@
   "date": null,
   "id": "Ld76ff9ac",
   "stage": "as reported",
+  "stage_status": "taken off the market for weeks",
   "name": "forced removal of Fable 5 from the market over a jailbreak demo",
   "by": [
    "Donald Trump"
@@ -1747,6 +1730,7 @@
   "date": "2026-09-25",
   "id": "L4f95f1d6",
   "stage": "in force",
+  "stage_status": "upheld, ruling stayed pending appeal",
   "name": "denial of Anthropic's petitions for review, upholding the Department of Defense's blacklisting of Anthropic as a supply chain risk under 41 U.S.C. § 4713",
   "by": [
    "US Court of Appeals for the District of Columbia Circuit",
@@ -1783,6 +1767,7 @@
   "date": null,
   "id": "Lae2d548a",
   "stage": "proposed",
+  "stage_status": "bipartisan House proposal",
   "name": "AI Security and Innovation Act, a bipartisan proposal to establish a center on AI risks",
   "by": [
    "House"
@@ -1816,6 +1801,7 @@
   "date": null,
   "id": "L0a5a3acb",
   "stage": "as reported",
+  "stage_status": "House bill",
   "name": "a bill to establish a new reporting and tracking system for AI",
   "by": [
    "House"
@@ -1850,6 +1836,7 @@
   "date": null,
   "id": "Lf5883e1b",
   "stage": "as reported",
+  "stage_status": "ruled illegal",
   "name": "ruling that the blacklisting of Anthropic was illegal under 10 U.S.C. § 3252 because Anthropic does not meet the definition of a supply-chain risk",
   "by": [
    "US District Court for the Northern District of California"
@@ -1883,6 +1870,7 @@
   "date": null,
   "id": "L7c392647",
   "stage": "as reported",
+  "stage_status": "ruled in Anthropic's favor",
   "name": "ruling that the blacklisting of Anthropic violated the First Amendment",
   "by": [
    "Rita Lin"
@@ -1916,6 +1904,7 @@
   "date": null,
   "id": "L8262f963",
   "stage": "passed",
+  "stage_status": "enacted",
   "name": "giving the DC Circuit exclusive jurisdiction to review procurement actions taken under Section 4713 designations",
   "by": [
    "Congress"
@@ -1949,6 +1938,7 @@
   "date": null,
   "id": "L991b6bef",
   "stage": "passed",
+  "stage_status": "declared, citing national security; Fable no longer available a few hours after the announcement",
   "name": "export control directive on Claude Fable 5",
   "by": [
    "US government"
@@ -1982,6 +1972,7 @@
   "date": null,
   "id": "Lb8d621cb",
   "stage": "stopped",
+  "stage_status": "lifted",
   "name": "export controls on H200 chips",
   "by": [
    "Donald Trump"
@@ -2015,6 +2006,7 @@
   "date": null,
   "id": "Lafc1de52",
   "stage": "proposed",
+  "stage_status": "China is mulling relaxing; not yet approved",
   "name": "controls on importing banned Nvidia chips, possibly relaxed to allow Alibaba and ByteDance to buy RTX Pro 5500 chips",
   "by": [
    "China"
@@ -2048,6 +2040,7 @@
   "date": null,
   "id": "Ld3bc501d",
   "stage": "in force",
+  "stage_status": "in force during Biden's administration",
   "name": "export controls restricting Nvidia chip sales to China",
   "by": [
    "Joe Biden's administration"
@@ -2081,6 +2074,7 @@
   "date": null,
   "id": "L6c97e939",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "executive order requiring official US government websites, documents, and press releases to refer to \"Super Intelligence\" instead of \"artificial intelligence\"",
   "by": [
    "Donald Trump"
@@ -2114,6 +2108,7 @@
   "date": null,
   "id": "L12b64f03",
   "stage": "passed",
+  "stage_status": "ordered",
   "name": "order requiring Google to make changes to its search engine",
   "by": [
    "European Union"
@@ -2146,6 +2141,7 @@
   "date": null,
   "id": "Ldc55b888",
   "stage": "proposed",
+  "stage_status": "proposed last year",
   "name": "decade-long moratorium on state AI laws",
   "by": [
    "Ted Cruz"
@@ -2178,6 +2174,7 @@
   "date": null,
   "id": "L3f9a1fe7",
   "stage": "as reported",
+  "stage_status": "under discussion in talks",
   "name": "preemption of state laws on catastrophic risk",
   "by": [
    "Ted Cruz"
@@ -2211,6 +2208,7 @@
   "date": null,
   "id": "Lafbf905f",
   "stage": "stopped",
+  "stage_status": "pulled after pushing from Huang and Zuckerberg",
   "name": "an executive order that would have established a standards body that reports AI safety and security incidents to the government",
   "by": [
    "Donald Trump"
@@ -2244,6 +2242,7 @@
   "date": null,
   "id": "L328686de",
   "stage": "passed",
+  "stage_status": "agreed at the US-China Summit",
   "name": "agreement with China to establish a dialogue on AI risks and benefits by November 2026 and a bilateral communication channel for incidents",
   "by": [
    "United States"
@@ -2277,6 +2276,7 @@
   "date": null,
   "id": "Lb07f5d5b",
   "stage": "passed",
+  "stage_status": "agreed at the US-China Summit",
   "name": "agreement with the US to establish a dialogue on AI risks and benefits by November 2026 and a bilateral communication channel for incidents",
   "by": [
    "China"
@@ -2310,6 +2310,7 @@
   "date": null,
   "id": "L1bdd12af",
   "stage": "in force",
+  "stage_status": "in effect",
   "name": "guidance telling civil servants to use Gemini Flash instead of Pro and GPT Instant instead of Thinking whenever possible, with as few prompts as possible",
   "by": [
    "UK government"
@@ -2362,6 +2363,7 @@
   "date": "2026-10-02",
   "id": "L500a2952",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "an executive order officially rebranding AI as \"super intelligence\"",
   "by": [
    "Donald Trump"
@@ -2390,36 +2392,18 @@
     "place": "Texas",
     "date": null,
     "stage": "in force"
-   },
-   {
-    "args": {
-     "by": "Gina Hinojosa",
-     "law": "a full-fledged moratorium on data centers",
-     "status": "pushed during her campaign",
-     "where": "Texas"
-    },
-    "quote": "during her campaign she began pushing for a full-fledged moratorium",
-    "source": "MIT Technology Review",
-    "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-    "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-    "published": "2026-11-04T18:50:55+00:00",
-    "item": "2550523e2a0e",
-    "group": "US states and cities",
-    "place": "Texas",
-    "date": null,
-    "stage": "proposed"
    }
   ],
   "ids": [],
   "date": null,
   "id": "L6a2c9fbe",
-  "stage": "proposed",
+  "stage": "in force",
+  "stage_status": "imposed",
   "name": "statewide moratoriums on data center projects seeking to connect to the power grid pending audits on their electricity and water use",
   "by": [
-   "Gina Hinojosa",
    "Greg Abbott"
   ],
-  "reported": "2026-11-04"
+  "reported": "2026-10-02"
  },
  {
   "group": "United States (federal)",
@@ -2450,6 +2434,7 @@
   "date": null,
   "id": "L904f66b0",
   "stage": "in force",
+  "stage_status": "in force; Lui accused of conspiring to violate them",
   "name": "Export Control Reform Act and the Export Administration Regulations",
   "by": [
    "US"
@@ -2483,6 +2468,7 @@
   "date": null,
   "id": "L0af013b2",
   "stage": "as reported",
+  "stage_status": "watered down by industry opposition",
   "name": "an anti-smuggling bill",
   "by": [
    "Congress"
@@ -2516,6 +2502,7 @@
   "date": null,
   "id": "L806e62f2",
   "stage": "as reported",
+  "stage_status": "relaxed",
   "name": "export controls",
   "by": [
    "Donald Trump"
@@ -2550,6 +2537,7 @@
   "date": "2026-10-05",
   "id": "L40dea2fd",
   "stage": "proposed",
+  "stage_status": "proposed; law to be introduced to parliament soon",
   "name": "a temporary ban on the use of AI glasses in selected public places such as parks, beaches, schools, and kindergartens",
   "by": [
    "Norway's government"
@@ -2583,6 +2571,7 @@
   "date": null,
   "id": "L2f9c5c62",
   "stage": "in force",
+  "stage_status": "banned",
   "name": "ban on essentially all uses of AI in school for students under 13",
   "by": [
    "Norway"
@@ -2616,6 +2605,7 @@
   "date": null,
   "id": "L6a796474",
   "stage": "in force",
+  "stage_status": "implemented",
   "name": "ban on chatbots in schools",
   "by": [
    "Los Angeles"
@@ -2649,6 +2639,7 @@
   "date": null,
   "id": "L4c1b7245",
   "stage": "proposed",
+  "stage_status": "under consideration",
   "name": "a ban on smart glasses in certain public spaces",
   "by": [
    "Australia"
@@ -2682,6 +2673,7 @@
   "date": null,
   "id": "L421cb30b",
   "stage": "as reported",
+  "stage_status": "allowed",
   "name": "permission for Tencent to lease 100,000 chips from Oracle",
   "by": [
    "White House"
@@ -2732,7 +2724,8 @@
   "ids": [],
   "date": null,
   "id": "L88a07b87",
-  "stage": "passed",
+  "stage": "in force",
+  "stage_status": "in force",
   "name": "a one year moratorium on permits for large data center projects, until the state finalizes an environmental review process",
   "by": [
    "New York"
@@ -2766,6 +2759,7 @@
   "date": null,
   "id": "L329b9d19",
   "stage": "passed",
+  "stage_status": "passed recently",
   "name": "a data center moratorium",
   "by": [
    "San Francisco"
@@ -2801,6 +2795,7 @@
   "date": null,
   "id": "L94ecb114",
   "stage": "proposed",
+  "stage_status": "not yet passed; authors urge Congress to pass it",
   "name": "AI Whistleblower Protection Act",
   "by": [
    "Senator Grassley"
@@ -2836,6 +2831,7 @@
   "date": null,
   "id": "L66e88ae5",
   "stage": "proposed",
+  "stage_status": "not yet passed; authors urge Congress to pass it",
   "name": "AI Incident Reporting Act",
   "by": [
    "Representative Moran"
@@ -2869,6 +2865,7 @@
   "date": null,
   "id": "Lc13842ce",
   "stage": "in force",
+  "stage_status": "in force as of January",
   "name": "law allowing AI companies to create legally binding safety plans",
   "by": [
    "California"
@@ -2901,6 +2898,7 @@
   "date": null,
   "id": "La11437f8",
   "stage": "as reported",
+  "stage_status": "mandating, following Anthropic's use of government systems",
   "name": "mandate that AI companies notify and correct security incidents",
   "by": [
    "The White House"
@@ -2934,6 +2932,7 @@
   "date": null,
   "id": "L71d09856",
   "stage": "as reported",
+  "stage_status": "reversed course, allows access",
   "name": "allowing UK AISI access to frontier models prior to release",
   "by": [
    "White House"
@@ -2984,6 +2983,43 @@
    },
    {
     "args": {
+     "by": "MOFCOM",
+     "law": "draft revision to the export-control catalog proposing 40 new restricted/prohibited technologies, including 23 AI-related categories",
+     "status": "draft published, public comments run until 2026-11-15",
+     "where": "China",
+     "date": "2026-11-15"
+    },
+    "quote": "China’s MOFCOM and MOST published a draft revision to the export-control catalog proposing 40 new restricted/prohibited technologies, including 23 AI-related categories",
+    "source": "Latent Space",
+    "title": "[AINews] High Taste Testers Ep. 1",
+    "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+    "published": "2026-10-17T07:47:38+00:00",
+    "item": "25f370b6a2f3",
+    "group": "China",
+    "place": "",
+    "date": "2026-11-15",
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-11-15",
+  "id": "L13726edf",
+  "stage": "proposed",
+  "stage_status": "draft published, public comments run until 2026-11-15",
+  "name": "Announcement No. 48 of 2026 proposing to add 40 technologies (23 in AI) to the Catalogue of Technologies Prohibited or Restricted from Export (draft, open for comment until November 15, 2026)",
+  "by": [
+   "China's Ministry of Commerce",
+   "MOFCOM",
+   "Ministry of Commerce of the PRC"
+  ],
+  "reported": "2026-11-02"
+ },
+ {
+  "group": "China",
+  "place": "",
+  "reports": [
+   {
+    "args": {
      "by": "China's Ministry of Commerce",
      "law": "temporary pre-export registration requirements for the covered technologies",
      "status": "take effect immediately",
@@ -3019,35 +3055,16 @@
     "place": "",
     "date": "2026-10-16",
     "stage": "in force"
-   },
-   {
-    "args": {
-     "by": "MOFCOM",
-     "law": "draft revision to the export-control catalog proposing 40 new restricted/prohibited technologies, including 23 AI-related categories",
-     "status": "draft published, public comments run until 2026-11-15",
-     "where": "China",
-     "date": "2026-11-15"
-    },
-    "quote": "China’s MOFCOM and MOST published a draft revision to the export-control catalog proposing 40 new restricted/prohibited technologies, including 23 AI-related categories",
-    "source": "Latent Space",
-    "title": "[AINews] High Taste Testers Ep. 1",
-    "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
-    "published": "2026-10-17T07:47:38+00:00",
-    "item": "25f370b6a2f3",
-    "group": "China",
-    "place": "",
-    "date": "2026-11-15",
-    "stage": "proposed"
    }
   ],
   "ids": [],
-  "date": "2026-11-15",
-  "id": "L13726edf",
-  "stage": "proposed",
-  "name": "Announcement No. 48 of 2026 proposing to add 40 technologies (23 in AI) to the Catalogue of Technologies Prohibited or Restricted from Export (draft, open for comment until November 15, 2026)",
+  "date": "2026-10-16",
+  "id": "Lcde2d425",
+  "stage": "in force",
+  "stage_status": "already in effect",
+  "name": "Interim pre-export registration requirement for listed technologies under Announcement No. 48",
   "by": [
    "China's Ministry of Commerce",
-   "MOFCOM",
    "Ministry of Commerce of the PRC"
   ],
   "reported": "2026-11-02"
@@ -3079,6 +3096,7 @@
   "date": null,
   "id": "L5ae99201",
   "stage": "proposed",
+  "stage_status": "proposed, not yet in force",
   "name": "proposal requiring Chinese labs to get MOFCOM permission to open-source models above 2T parameters or trained on more than 10^26 FLOPs",
   "by": [
    "MOFCOM"
@@ -3112,6 +3130,7 @@
   "date": null,
   "id": "L45a1d1e6",
   "stage": "as reported",
+  "stage_status": "being worked on",
   "name": "a proposal to enforce kill switches on the most powerful AI models",
   "by": [
    "Congress"
@@ -3145,6 +3164,7 @@
   "date": null,
   "id": "L5abba60e",
   "stage": "proposed",
+  "stage_status": "proposed",
   "name": "a proposed 20-year prison term for anyone developing AI superintelligence",
   "by": [
    "Bernie Sanders"
@@ -3179,6 +3199,7 @@
   "date": "2026-10-19",
   "id": "L4a3eb9bc",
   "stage": "proposed",
+  "stage_status": "under consideration",
   "name": "Petition by Club for Growth seeking permission to use AI-generated robocalls in political campaigns",
   "by": [
    "FCC"
@@ -3213,6 +3234,7 @@
   "date": "2026-10-19",
   "id": "L0611d30a",
   "stage": "in force",
+  "stage_status": "imposed",
   "name": "sanctions on five Chinese entities, including Zhisuan and MiraclePlus, over theft of Google AI trade secrets",
   "by": [
    "US"
@@ -3264,6 +3286,7 @@
   "date": null,
   "id": "L48c81982",
   "stage": "in force",
+  "stage_status": "in place; Intel received a waiver",
   "name": "ban on foreign-made automated guided vehicles (AI-powered robots)",
   "by": [
    "FCC",
@@ -3298,6 +3321,7 @@
   "date": null,
   "id": "L555238b9",
   "stage": "passed",
+  "stage_status": "issued",
   "name": "executive order to create an AI “kill switch”",
   "by": [
    "Gavin Newsom"
@@ -3331,6 +3355,7 @@
   "date": null,
   "id": "L533a6ff6",
   "stage": "stopped",
+  "stage_status": "vetoed",
   "name": "a bill that would have instituted some similar measures to an AI “kill switch”",
   "by": [
    "Gavin Newsom"
@@ -3364,42 +3389,10 @@
   "date": null,
   "id": "L8cc532d9",
   "stage": "proposed",
+  "stage_status": "repeatedly pushed",
   "name": "sweeping bans on state AI regulation",
   "by": [
    "Donald Trump"
-  ],
-  "reported": "2026-10-19"
- },
- {
-  "group": "United States (federal)",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "Anthropic",
-     "law": "a leaked discussion draft of a federal AI bill requiring third-party evaluators, with preemption of state frontier AI laws",
-     "status": "discussion draft circulated to lawmakers, leaked",
-     "where": "US"
-    },
-    "quote": "A leaked discussion draft of a federal AI bill which Anthropic has been circulating to lawmakers, published by Politico on Friday",
-    "source": "Transformer",
-    "title": "Anthropic’s weak AI bill undermines its ‘safety first’ approach",
-    "link": "https://www.transformernews.ai/p/anthropic-leaked-ai-bill-undermines-safety-first-approach",
-    "published": "2026-10-19T16:47:52+00:00",
-    "item": "9487c00abcf2",
-    "group": "United States (federal)",
-    "place": "",
-    "date": null,
-    "stage": "proposed"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "Ldb77d063",
-  "stage": "proposed",
-  "name": "a leaked discussion draft of a federal AI bill requiring third-party evaluators, with preemption of state frontier AI laws",
-  "by": [
-   "Anthropic"
   ],
   "reported": "2026-10-19"
  },
@@ -3450,7 +3443,8 @@
   ],
   "date": null,
   "id": "L13044d9e",
-  "stage": "passed",
+  "stage": "in force",
+  "stage_status": "existing law governing frontier AI",
   "name": "Senate Bill 53",
   "by": [
    "California"
@@ -3487,6 +3481,7 @@
   "date": null,
   "id": "L853da473",
   "stage": "in force",
+  "stage_status": "existing law governing frontier AI",
   "name": "RAISE",
   "by": [
    "New York"
@@ -3523,6 +3518,7 @@
   "date": null,
   "id": "L789a15e7",
   "stage": "in force",
+  "stage_status": "existing law governing frontier AI",
   "name": "SB 315",
   "by": [
    "Illinois"
@@ -3556,6 +3552,7 @@
   "date": null,
   "id": "Laabfb005",
   "stage": "as reported",
+  "stage_status": "gives people rights; the rights come from these articles",
   "name": "GDPR Article 17 and Article 77 (rights to erasure and to complain to a regulator)",
   "by": [
    "EU"
@@ -3589,6 +3586,7 @@
   "date": null,
   "id": "Lfaab1650",
   "stage": "as reported",
+  "stage_status": "gives residents a right to ask for deletion",
   "name": "right for residents to ask for deletion of their data",
   "by": [
    "California"
@@ -3623,6 +3621,7 @@
   "date": null,
   "id": "L33b1ec93",
   "stage": "passed",
+  "stage_status": "announced",
   "name": "Superintelligence Task Force focused on allowing AI companies to self-regulate",
   "by": [
    "Donald Trump"
@@ -3674,6 +3673,7 @@
   "date": null,
   "id": "L2facf949",
   "stage": "passed",
+  "stage_status": "ordered",
   "name": "order to remove DeepSeek and products built on it from civilian agencies",
   "by": [
    "US Department of Homeland Security"
@@ -3707,6 +3707,7 @@
   "date": null,
   "id": "L667c1c18",
   "stage": "proposed",
+  "stage_status": "reportedly under consideration",
   "name": "export restrictions on 23 AI-related technologies, including chip designs and certain advanced AI models",
   "by": [
    "China"
@@ -3740,6 +3741,7 @@
   "date": null,
   "id": "Lbcb20e01",
   "stage": "passed",
+  "stage_status": "released",
   "name": "order restricting DeepSeek and its models from being a vendor in federal civilian procurement",
   "by": [
    "Department of Homeland Security"
@@ -3773,6 +3775,7 @@
   "date": null,
   "id": "Ld0aa2438",
   "stage": "in force",
+  "stage_status": "already on the Entity List",
   "name": "Entity List restricting Zhipu AI's access to American technology",
   "by": [
    "Commerce/BIS"
@@ -3806,6 +3809,7 @@
   "date": null,
   "id": "L482786b6",
   "stage": "proposed",
+  "stage_status": "planned; no bill yet",
   "name": "legislation that would hold an AI firm criminally liable if a model \"participates\" in a crime",
   "by": [
    "Florida's attorney general"
@@ -3838,6 +3842,7 @@
   "date": null,
   "id": "L897479b7",
   "stage": "proposed",
+  "stage_status": "introduced",
   "name": "the strongest AI bill on the table (bill introduced by Senator Sanders)",
   "by": [
    "Senator Sanders"
@@ -3873,6 +3878,7 @@
   "date": null,
   "id": "L8b6a44d0",
   "stage": "proposed",
+  "stage_status": "introduced",
   "name": "GUARD Act to ban A.I. companions for minors, mandate A.I. chatbots disclose its non-human status, and create new crimes for companies who make A.I. for minors that solicit or produce sexual content",
   "by": [
    "GUARD Act"
@@ -3945,6 +3951,7 @@
   "date": "2026-10-22",
   "id": "L8b7298c9",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "Artificial Intelligence Deceptive Advertising Act, requiring disclosures on AI-generated ads",
   "by": [
    "Josh Shapiro",
@@ -3979,6 +3986,7 @@
   "date": null,
   "id": "L40124cb4",
   "stage": "as reported",
+  "stage_status": "being set up",
   "name": "first system for policing \"superintelligence\" developers",
   "by": [
    "Trump administration"
@@ -4012,6 +4020,7 @@
   "date": null,
   "id": "L88b78c20",
   "stage": "in force",
+  "stage_status": "in force",
   "name": "law voiding perpetual non-disparagement clauses against protected disclosures",
   "by": [
    "UK"
@@ -4045,6 +4054,7 @@
   "date": null,
   "id": "L8b4aebbc",
   "stage": "proposed",
+  "stage_status": "public comments solicited",
   "name": "revision of AI export controls",
   "by": [
    "Chinese Ministry of Commerce"
@@ -4078,6 +4088,7 @@
   "date": null,
   "id": "L338dcb97",
   "stage": "proposed",
+  "stage_status": "proposed in public consultation",
   "name": "proposed export prohibition on AI-driven malicious code generation and mutation technology",
   "by": [
    "Chinese Ministry of Commerce"
@@ -4111,6 +4122,7 @@
   "date": null,
   "id": "L27e2900b",
   "stage": "proposed",
+  "stage_status": "proposed in public consultation",
   "name": "proposed export restriction on AI-assisted vulnerability mining technology",
   "by": [
    "Chinese Ministry of Commerce"
@@ -4179,6 +4191,7 @@
   "date": null,
   "id": "L65018acb",
   "stage": "stopped",
+  "stage_status": "narrowly failed to pass the Senate",
   "name": "the Ratepayer Protection Act, requiring large load customers like data centers to cover their own energy costs and infrastructure upgrades",
   "by": [
    "House",
@@ -4214,6 +4227,7 @@
   "date": null,
   "id": "Lf8d55dba",
   "stage": "proposed",
+  "stage_status": "introduced",
   "name": "two bills strengthening local decision-making on data center development and barring federal lawmakers from signing non-disclosure agreements about data centers",
   "by": [
    "Tom Barrett"
@@ -4248,6 +4262,7 @@
   "date": null,
   "id": "L1ed8787b",
   "stage": "proposed",
+  "stage_status": "introduced",
   "name": "an executive order tying tax incentives to developers covering power costs and meeting water use standards",
   "by": [
    "Joe Lombardo"
@@ -4281,6 +4296,7 @@
   "date": null,
   "id": "L3f5107a3",
   "stage": "in force",
+  "stage_status": "banned",
   "name": "ban on most government systems using AI models made by DeepSeek",
   "by": [
    "US Department of Homeland Security"
@@ -4314,6 +4330,7 @@
   "date": null,
   "id": "L15eb525c",
   "stage": "proposed",
+  "stage_status": "proposed",
   "name": "export controls on its AI technologies",
   "by": [
    "China"
@@ -4347,6 +4364,7 @@
   "date": null,
   "id": "L0beaaa29",
   "stage": "proposed",
+  "stage_status": "draft bill that may be submitted to the state legislature; likely to be introduced next year",
   "name": "draft bill creating Artificial Intelligence Company (AIC) entity with a 30-month regulatory sandbox",
   "by": [
    "Delaware"
@@ -4380,6 +4398,7 @@
   "date": null,
   "id": "Lc4cace51",
   "stage": "proposed",
+  "stage_status": "suggested as a possibility; not yet proposed",
   "name": "possible federal legislation limiting state AI regulatory initiatives",
   "by": [
    "James Comer"
@@ -4413,6 +4432,7 @@
   "date": null,
   "id": "Lce0d10d1",
   "stage": "as reported",
+  "stage_status": "voted down",
   "name": "one-year moratorium on AI data center development",
   "by": [
    "Memphis City Council"
@@ -4446,6 +4466,7 @@
   "date": null,
   "id": "L94d8005a",
   "stage": "passed",
+  "stage_status": "adopted",
   "name": "ordinance pausing data center construction for 135 days",
   "by": [
    "Memphis City Council"
@@ -4482,6 +4503,7 @@
   "date": null,
   "id": "L9c7a6174",
   "stage": "in force",
+  "stage_status": "took effect",
   "name": "AI Transparency Act requiring provenance data for generated images and free public synthetic media detection tools",
   "by": [
    "California"
@@ -4515,6 +4537,7 @@
   "date": null,
   "id": "Lcbc6b5be",
   "stage": "in force",
+  "stage_status": "implemented",
   "name": "new, stringent limits on data centers",
   "by": [
    "Tucson City Council"
@@ -4550,6 +4573,7 @@
   "date": null,
   "id": "L9eb2b654",
   "stage": "proposed",
+  "stage_status": "sponsored",
   "name": "the Building Chips in America Act",
   "by": [
    "Mark Kelly"
@@ -4583,11 +4607,46 @@
   "date": null,
   "id": "Lbeeb8843",
   "stage": "proposed",
+  "stage_status": "reportedly planning",
   "name": "letting AI agents run companies while shielding their owners from liability",
   "by": [
    "Delaware"
   ],
   "reported": "2026-10-29"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Maine",
+  "reports": [
+   {
+    "args": {
+     "by": "towns across Maine",
+     "law": "temporary moratoriums on data centers",
+     "status": "adopted",
+     "where": "Maine"
+    },
+    "quote": "towns across the state adopting temporary moratoriums or putting the question of data center expansion to voters this November",
+    "source": "The Verge",
+    "title": "Maine’s data center revolt will decide who controls the Senate",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1021080/maine-senate-race-susan-collins-ai-data-centers",
+    "published": "2026-10-30T07:00:00-04:00",
+    "item": "dbfbce585037",
+    "group": "US states and cities",
+    "place": "Maine",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lccced641",
+  "stage": "passed",
+  "stage_status": "adopted",
+  "name": "temporary moratoriums on data centers",
+  "by": [
+   "towns across Maine"
+  ],
+  "reported": "2026-10-30"
  },
  {
   "group": "US states and cities",
@@ -4616,6 +4675,7 @@
   "date": null,
   "id": "L755539dc",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "a bill restricting AI chatbot interactions with minors",
   "by": [
    "Kathy Hochul"
@@ -4649,6 +4709,7 @@
   "date": null,
   "id": "L35a46268",
   "stage": "passed",
+  "stage_status": "ordered",
   "name": "a statewide cybersecurity plan and new Cyber Consortium to address AI-related cyberattacks",
   "by": [
    "Abigail Spanberger"
@@ -4682,6 +4743,7 @@
   "date": null,
   "id": "L740c9c43",
   "stage": "passed",
+  "stage_status": "signed",
   "name": "a proclamation directing officials to negotiate agreements protecting the domestic robotics industry",
   "by": [
    "Donald Trump"
@@ -4715,6 +4777,7 @@
   "date": null,
   "id": "L7b3dfbf8",
   "stage": "proposed",
+  "stage_status": "introduced",
   "name": "a resolution opposing AI company bailouts",
   "by": [
    "Congressional Progressive Caucus"
@@ -4748,6 +4811,7 @@
   "date": null,
   "id": "L66dd88c7",
   "stage": "proposed",
+  "stage_status": "called for",
   "name": "a data center moratorium",
   "by": [
    "Kris Mayes"
@@ -4781,6 +4845,7 @@
   "date": null,
   "id": "L9dccae72",
   "stage": "as reported",
+  "stage_status": "backed",
   "name": "a €0.055-per-GB tax on data that providers send to French users",
   "by": [
    "France's lower house"
@@ -4815,78 +4880,12 @@
   "date": "2026-11",
   "id": "L153655cb",
   "stage": "passed",
+  "stage_status": "unveiled",
   "name": "New York chatbot safety law imposing restrictions on minor chatbot use",
   "by": [
    "New York"
   ],
   "reported": "2026-11-05"
- },
- {
-  "group": "Other countries",
-  "place": "Germany",
-  "reports": [
-   {
-    "args": {
-     "by": "German government",
-     "law": "strategy to make Germany a sovereign AI nation by 2030, including help building at least three European frontier AI labs",
-     "status": "unveiled plans",
-     "date": "2026-11-02"
-    },
-    "quote": "the German government unveiled plans on Monday to make Germany a “sovereign AI nation” by 2030",
-    "source": "Politico EU tech",
-    "title": "Mistral CEO: Europe faces ‘complete trap’ without frontier AI",
-    "link": "https://www.politico.eu/article/mistral-ceo-mensch-warns-europe-trap-ai-dependence/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "published": "2026-11-02T18:36:08+00:00",
-    "item": "e84a98be65b2",
-    "eid": "E7979d71a",
-    "group": "Other countries",
-    "place": "Germany",
-    "date": "2026-11-02",
-    "stage": "passed"
-   }
-  ],
-  "ids": [],
-  "date": "2026-11-02",
-  "id": "La3b1aaa6",
-  "stage": "passed",
-  "name": "strategy to make Germany a sovereign AI nation by 2030, including help building at least three European frontier AI labs",
-  "by": [
-   "German government"
-  ],
-  "reported": "2026-11-02"
- },
- {
-  "group": "United Kingdom",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "UK",
-     "law": "Joint plan with Germany to test, develop and eventually deploy AI in their armed forces, expanding the Cyber Lighthouse project",
-     "status": "announced plans; government and industry meeting set for 2027"
-    },
-    "quote": "The UK and Germany have announced plans to jointly test, develop, and eventually deploy artificial intelligence in their armed forces, expanding their existing Cyber Lighthouse project.",
-    "source": "OECD AI Incidents Monitor",
-    "title": "UK and Germany Plan Joint Military AI Development - OECD.AI",
-    "link": "https://oecd.ai/en/incidents/2026-11-02-4773",
-    "published": "2026-11-02T00:00:00+00:00",
-    "item": "17b15bad94f7",
-    "eid": "E072dd985",
-    "group": "United Kingdom",
-    "place": "",
-    "date": null,
-    "stage": "passed"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "L909c160a",
-  "stage": "passed",
-  "name": "Joint plan with Germany to test, develop and eventually deploy AI in their armed forces, expanding the Cyber Lighthouse project",
-  "by": [
-   "UK"
-  ],
-  "reported": "2026-11-02"
  },
  {
   "group": "European Union",
@@ -4915,6 +4914,7 @@
   "date": null,
   "id": "Lebaf9efc",
   "stage": "passed",
+  "stage_status": "designated",
   "name": "Designation of ChatGPT as a very large online search engine under the DSA",
   "by": [
    "European Commission"
@@ -4948,6 +4948,7 @@
   "date": null,
   "id": "Lccda6a48",
   "stage": "in force",
+  "stage_status": "requires",
   "name": "AI models must uphold 'socialist core values'",
   "by": [
    "China"
@@ -4981,6 +4982,7 @@
   "date": null,
   "id": "Lf0c94866",
   "stage": "stopped",
+  "stage_status": "blocked by U.S. courts citing the First Amendment",
   "name": "ban on sharing deceptive AI content about candidates in the months around an election",
   "by": [
    "California"
@@ -5014,6 +5016,7 @@
   "date": null,
   "id": "L37c5ef8f",
   "stage": "as reported",
+  "stage_status": "new pilot program",
   "name": "TEMPO pilot program allowing companies to commercialize AI-enabled mental health devices using a Quality Management System without immediate premarket authorization",
   "by": [
    "FDA"
@@ -5047,42 +5050,10 @@
   "date": null,
   "id": "Lc223e421",
   "stage": "in force",
+  "stage_status": "in force",
   "name": "local law requiring location-sharing apps to be listed with the A16 rating",
   "by": [
    "Brazil"
-  ],
-  "reported": "2026-11-03"
- },
- {
-  "group": "United States (federal)",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "Directors Guild of America",
-     "law": "Studios declare that AI cannot replace the duties performed by members",
-     "status": "pushed studios to declare"
-    },
-    "quote": "members of the Directors Guild of America pushed studios to declare that “AI cannot replace the duties performed by members”",
-    "source": "Data & Society",
-    "title": "The Fight Against Big Tech’s AI Takeover Must Continue Past the Midterms",
-    "link": "https://datasociety.net/research-library/the-fight-against-big-techs-ai-takeover-must-continue-past-the-midterms/",
-    "published": "2026-11-03T18:33:32+00:00",
-    "item": "b581f9225ede",
-    "eid": "Eb4e484fe",
-    "group": "United States (federal)",
-    "place": "",
-    "date": null,
-    "stage": "proposed"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "L50fa4820",
-  "stage": "proposed",
-  "name": "Studios declare that AI cannot replace the duties performed by members",
-  "by": [
-   "Directors Guild of America"
   ],
   "reported": "2026-11-03"
  },
@@ -5113,42 +5084,10 @@
   "date": null,
   "id": "Lb6927350",
   "stage": "proposed",
+  "stage_status": "in preparation, to be submitted to senior leaders \"very soon\"",
   "name": "new guidelines for lawmakers on how to use AI",
   "by": [
    "European Parliament"
-  ],
-  "reported": "2026-11-04"
- },
- {
-  "group": "US states and cities",
-  "place": "Texas",
-  "reports": [
-   {
-    "args": {
-     "by": "Gina Hinojosa",
-     "law": "moratorium on data center projects until legislation is passed",
-     "status": "planned",
-     "where": "Texas"
-    },
-    "quote": "Hinojosa plans to delay projects as long as it takes to pass laws “tackling impacts on water, electricity, air, and property rights.”",
-    "source": "Ars Technica",
-    "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
-    "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
-    "published": "2026-11-04T20:55:50+00:00",
-    "item": "e5cb2e6663b2",
-    "group": "US states and cities",
-    "place": "Texas",
-    "date": null,
-    "stage": "proposed"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "L03dfac0f",
-  "stage": "proposed",
-  "name": "moratorium on data center projects until legislation is passed",
-  "by": [
-   "Gina Hinojosa"
   ],
   "reported": "2026-11-04"
  },
@@ -5180,6 +5119,7 @@
   "date": "2026-11-05",
   "id": "Ldcbbfe25",
   "stage": "stopped",
+  "stage_status": "blocked",
   "name": "Blocked SoftBank's $5.4 billion acquisition of ABB's robotics business, citing concerns about sensitive data transfer and potential use in training foreign AI models",
   "by": [
    "China"
@@ -5213,6 +5153,7 @@
   "date": null,
   "id": "L9879696c",
   "stage": "proposed",
+  "stage_status": "advancing with bipartisan support",
   "name": "a massive permitting bill to speed up energy projects",
   "by": [
    "Congress"
@@ -5246,9 +5187,78 @@
   "date": null,
   "id": "Lf0037eda",
   "stage": "passed",
+  "stage_status": "announced in September",
   "name": "a permitting pause for data centers",
   "by": [
    "Greg Abbott"
+  ],
+  "reported": "2026-11-06"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Texas",
+  "reports": [
+   {
+    "args": {
+     "by": "San Marcos",
+     "law": "a ban on data centers",
+     "status": "banned data centers; first city in Texas to do so",
+     "where": "Texas"
+    },
+    "quote": "San Marcos became the first city in all of Texas to ban data centers.",
+    "source": "The Verge",
+    "title": "All the latest updates on AI data centers",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+    "published": "2026-11-06T15:02:22-05:00",
+    "item": "c0641eb0de56",
+    "group": "US states and cities",
+    "place": "Texas",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lef80fc58",
+  "stage": "in force",
+  "stage_status": "banned data centers; first city in Texas to do so",
+  "name": "a ban on data centers",
+  "by": [
+   "San Marcos"
+  ],
+  "reported": "2026-11-06"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Arizona (Marana)",
+  "reports": [
+   {
+    "args": {
+     "by": "Marana",
+     "law": "data center regulations",
+     "status": "approved",
+     "where": "Marana"
+    },
+    "quote": "Marana approves data center regulations amid community pushback",
+    "source": "The Verge",
+    "title": "All the latest updates on AI data centers",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+    "published": "2026-11-06T15:02:22-05:00",
+    "item": "c0641eb0de56",
+    "group": "US states and cities",
+    "place": "Arizona (Marana)",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lf2e828ca",
+  "stage": "passed",
+  "stage_status": "approved",
+  "name": "data center regulations",
+  "by": [
+   "Marana"
   ],
   "reported": "2026-11-06"
  },
@@ -5279,6 +5289,7 @@
   "date": null,
   "id": "L8776d3b2",
   "stage": "as reported",
+  "stage_status": "joined the list of Wisconsin cities pausing data center projects",
   "name": "a pause on data center projects",
   "by": [
    "Milwaukee"
@@ -5312,6 +5323,7 @@
   "date": null,
   "id": "L1e02ac58",
   "stage": "as reported",
+  "stage_status": "new",
   "name": "AI safety law requiring oversight of major AI developers, with no private right to sue",
   "by": [
    "Illinois"
