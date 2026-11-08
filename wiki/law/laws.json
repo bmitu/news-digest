@@ -182,41 +182,6 @@
   "reported": "2026-11-02"
  },
  {
-  "group": "European Union",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "European Parliament",
-     "law": "guidelines for staff on using AI",
-     "status": "existing",
-     "date": "2024"
-    },
-    "quote": "Existing guidelines for staff date from 2024.",
-    "source": "Politico EU tech",
-    "title": "Metsola tells MEPs not to rely on AI when drafting laws",
-    "link": "https://www.politico.eu/article/roberta-metsola-tells-meps-not-to-rely-on-ai-when-drafting-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "published": "2026-11-04T14:35:14+00:00",
-    "item": "1ee4de5d7a85",
-    "eid": "E5379916b",
-    "group": "European Union",
-    "place": "",
-    "date": "2024",
-    "stage": "in force"
-   }
-  ],
-  "ids": [],
-  "date": "2024",
-  "id": "Lf54ae5e9",
-  "stage": "in force",
-  "stage_status": "existing",
-  "name": "guidelines for staff on using AI",
-  "by": [
-   "European Parliament"
-  ],
-  "reported": "2026-11-04"
- },
- {
   "group": "United States (federal)",
   "place": "",
   "reports": [
@@ -5056,75 +5021,6 @@
    "Brazil"
   ],
   "reported": "2026-11-03"
- },
- {
-  "group": "European Union",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "European Parliament",
-     "law": "new guidelines for lawmakers on how to use AI",
-     "status": "in preparation, to be submitted to senior leaders \"very soon\""
-    },
-    "quote": "as the Parliament prepares new guidelines for lawmakers on how to use it",
-    "source": "Politico EU tech",
-    "title": "Metsola tells MEPs not to rely on AI when drafting laws",
-    "link": "https://www.politico.eu/article/roberta-metsola-tells-meps-not-to-rely-on-ai-when-drafting-laws/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-    "published": "2026-11-04T14:35:14+00:00",
-    "item": "1ee4de5d7a85",
-    "eid": "E2cdbc9de",
-    "group": "European Union",
-    "place": "",
-    "date": null,
-    "stage": "proposed"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "Lb6927350",
-  "stage": "proposed",
-  "stage_status": "in preparation, to be submitted to senior leaders \"very soon\"",
-  "name": "new guidelines for lawmakers on how to use AI",
-  "by": [
-   "European Parliament"
-  ],
-  "reported": "2026-11-04"
- },
- {
-  "group": "China",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "China",
-     "law": "Blocked SoftBank's $5.4 billion acquisition of ABB's robotics business, citing concerns about sensitive data transfer and potential use in training foreign AI models",
-     "status": "blocked",
-     "date": "2026-11-05"
-    },
-    "quote": "Chinese regulators blocked SoftBank's $5.4 billion acquisition of ABB's robotics business, citing concerns about sensitive data transfer and potential use in training foreign AI models.",
-    "source": "OECD AI Incidents Monitor",
-    "title": "China Blocks SoftBank's $5.4 Billion Acquisition of ABB Robotics Over AI Data Concerns - OECD.AI",
-    "link": "https://oecd.ai/en/incidents/2026-11-05-6ed6",
-    "published": "2026-11-05T00:00:00+00:00",
-    "item": "78009ff80a18",
-    "eid": "Ee2257a59",
-    "group": "China",
-    "place": "",
-    "date": "2026-11-05",
-    "stage": "stopped"
-   }
-  ],
-  "ids": [],
-  "date": "2026-11-05",
-  "id": "Ldcbbfe25",
-  "stage": "stopped",
-  "stage_status": "blocked",
-  "name": "Blocked SoftBank's $5.4 billion acquisition of ABB's robotics business, citing concerns about sensitive data transfer and potential use in training foreign AI models",
-  "by": [
-   "China"
-  ],
-  "reported": "2026-11-05"
  },
  {
   "group": "United States (federal)",
