@@ -59,6 +59,24 @@
     "place": "",
     "date": "2024",
     "stage": "in force"
+   },
+   {
+    "args": {
+     "by": "AI Office",
+     "law": "AI Act request channel for national fundamental rights authorities",
+     "status": "set up"
+    },
+    "quote": "The AI Office sets up a channel that national bodies protecting EU fundamental rights",
+    "source": "EU AI Act Newsletter",
+    "title": "The EU AI Act Newsletter #114: Who Evaluates the Evaluators?",
+    "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-114-who",
+    "published": "2026-11-10T07:58:06+00:00",
+    "item": "9a94a5317478",
+    "eid": "E4c11b684",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
    }
   ],
   "ids": [
@@ -69,12 +87,86 @@
   "id": "L625e9b8b",
   "stage": "in force",
   "stage_status": "went into effect",
-  "name": "AI Act",
+  "name": "AI Act request channel for national fundamental rights authorities",
   "by": [
+   "AI Office",
    "European Commission",
    "European Union"
   ],
-  "reported": "2026-11-02"
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Washington",
+     "law": "restriction on sale of H800 chips to China",
+     "status": "restricted",
+     "where": "US",
+     "date": "2023"
+    },
+    "quote": "H800 chips, which Washington restricted from sale to China in 2023",
+    "source": "Zvi",
+    "title": "Jensen Huang Resigns After Having Another Affair In Addition to the Chinese Spy",
+    "link": "https://thezvi.substack.com/p/jensen-huang-resigns-after-having",
+    "published": "2026-11-13T12:20:54+00:00",
+    "item": "05414e5e05a2",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2023",
+    "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "Joe Biden's administration",
+     "law": "export controls restricting Nvidia chip sales to China",
+     "status": "in force during Biden's administration",
+     "where": "United States"
+    },
+    "quote": "start selling chips that were restricted during Joe Biden’s administration",
+    "source": "Ars Technica",
+    "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+    "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+    "published": "2026-09-28T21:49:10+00:00",
+    "item": "ce7b13e0f7aa",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "in force"
+   },
+   {
+    "args": {
+     "by": "Trump administration",
+     "law": "allowed Nvidia to resume some chip sales to China in return for a share of the revenue (15% of H20 sales, 25% of H200 sales)",
+     "status": "allowed",
+     "where": "US"
+    },
+    "quote": "The Trump administration allowed the company to resume some chip sales to China in return for a share of the revenue.",
+    "source": "bbc.co.uk",
+    "title": "Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+    "link": "https://www.bbc.co.uk/news/live/c6zjry11v8w1t",
+    "published": "2026-11-12T13:56:38+00:00",
+    "item": "3f3d1dcfd401",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": "2023",
+  "id": "Ld3bc501d",
+  "stage": "in force",
+  "stage_status": "in force during Biden's administration",
+  "name": "allowed Nvidia to resume some chip sales to China in return for a share of the revenue (15% of H20 sales, 25% of H200 sales)",
+  "by": [
+   "Joe Biden's administration",
+   "Trump administration",
+   "Washington"
+  ],
+  "reported": "2026-11-13"
  },
  {
   "group": "China",
@@ -110,6 +202,62 @@
    "China"
   ],
   "reported": "2026-02-01"
+ },
+ {
+  "group": "US states and cities",
+  "place": "California",
+  "reports": [
+   {
+    "args": {
+     "by": "California",
+     "law": "SB 1047",
+     "status": "failed",
+     "where": "California",
+     "date": "2024"
+    },
+    "quote": "failed California bill SB 1047 in 2024",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "US states and cities",
+    "place": "California",
+    "date": "2024",
+    "stage": "stopped"
+   },
+   {
+    "args": {
+     "by": "Gavin Newsom",
+     "law": "SB 1047, a bill on frontier AI",
+     "status": "vetoed",
+     "where": "California"
+    },
+    "quote": "before it was vetoed by California governor Gavin Newsom",
+    "source": "MIT Technology Review",
+    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+    "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "published": "2026-11-09T17:05:43+00:00",
+    "item": "50d303e5bf84",
+    "group": "US states and cities",
+    "place": "California",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [
+   "sb 1047"
+  ],
+  "date": "2024",
+  "id": "L962b2076",
+  "stage": "stopped",
+  "stage_status": "vetoed",
+  "name": "SB 1047",
+  "by": [
+   "California",
+   "Gavin Newsom"
+  ],
+  "reported": "2026-11-13"
  },
  {
   "group": "US states and cities",
@@ -219,6 +367,41 @@
   "reported": "2026-02-01"
  },
  {
+  "group": "US states and cities",
+  "place": "Illinois",
+  "reports": [
+   {
+    "args": {
+     "by": "Illinois Supreme Court",
+     "law": "AI policy applying to the judiciary and other court participants",
+     "status": "effective",
+     "date": "2025-01-01"
+    },
+    "quote": "The Illinois Supreme Court’s AI policy, effective January 1, 2025, applies to the judiciary and other court participants.",
+    "source": "Above the Law",
+    "title": "Clio Wants To Bring AI To The Judiciary, But 50-State Survey Reveals Policies Differ In Whether They Allow It",
+    "link": "https://www.lawnext.com/2026/11/clio-wants-to-bring-ai-to-the-judiciary-but-50-state-survey-reveals-policies-differ-in-whether-they-allow-it.html",
+    "published": "2026-11-12T17:17:00+00:00",
+    "item": "a8cf23aa9e26",
+    "eid": "E93d28293",
+    "group": "US states and cities",
+    "place": "Illinois",
+    "date": "2025-01-01",
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": "2025-01-01",
+  "id": "L9ab4e238",
+  "stage": "in force",
+  "stage_status": "effective",
+  "name": "AI policy applying to the judiciary and other court participants",
+  "by": [
+   "Illinois Supreme Court"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
   "group": "International",
   "place": "",
   "reports": [
@@ -310,6 +493,24 @@
     "place": "",
     "date": "2025-07",
     "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "European Union",
+     "law": "EU Code of Practice",
+     "status": "took effect",
+     "where": "European Union"
+    },
+    "quote": "Since the EU Code of Practice took effect",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "in force"
    }
   ],
   "ids": [
@@ -317,13 +518,13 @@
   ],
   "date": "2025-07",
   "id": "L6e72121b",
-  "stage": "passed",
-  "stage_status": "released as a voluntary guideline",
+  "stage": "in force",
+  "stage_status": "took effect",
   "name": "General-Purpose AI Code of Practice (final version), a voluntary guideline to help developers comply with the EU AI Act",
   "by": [
    "European Union"
   ],
-  "reported": "2026-02-01"
+  "reported": "2026-11-13"
  },
  {
   "group": "United States (federal)",
@@ -429,6 +630,219 @@
    "Trump administration"
   ],
   "reported": "2026-10-26"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Louisiana",
+  "reports": [
+   {
+    "args": {
+     "by": "Louisiana Supreme Court Technology Commission",
+     "law": "Generative Artificial Intelligence Guidelines",
+     "status": "issued, nonbinding",
+     "date": "2025-10-03"
+    },
+    "quote": "On October 3, 2025, the Louisiana Supreme Court Technology Commission issued Generative Artificial Intelligence Guidelines.",
+    "source": "Above the Law",
+    "title": "Clio Wants To Bring AI To The Judiciary, But 50-State Survey Reveals Policies Differ In Whether They Allow It",
+    "link": "https://www.lawnext.com/2026/11/clio-wants-to-bring-ai-to-the-judiciary-but-50-state-survey-reveals-policies-differ-in-whether-they-allow-it.html",
+    "published": "2026-11-12T17:17:00+00:00",
+    "item": "a8cf23aa9e26",
+    "eid": "Eb46e380f",
+    "group": "US states and cities",
+    "place": "Louisiana",
+    "date": "2025-10-03",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2025-10-03",
+  "id": "Lfbc8bab6",
+  "stage": "passed",
+  "stage_status": "issued, nonbinding",
+  "name": "Generative Artificial Intelligence Guidelines",
+  "by": [
+   "Louisiana Supreme Court Technology Commission"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Massachusetts",
+  "reports": [
+   {
+    "args": {
+     "by": "Massachusetts Supreme Judicial Court",
+     "law": "Interim Guidelines for use of Generative AI, banning AI for legal research, legal writing or other legal work",
+     "status": "adopted",
+     "date": "2025-11"
+    },
+    "quote": "The Massachusetts Supreme Judicial Court adopted the guidelines, “Interim Guidelines for use of Generative AI,” in November 2025.",
+    "source": "Above the Law",
+    "title": "Clio Wants To Bring AI To The Judiciary, But 50-State Survey Reveals Policies Differ In Whether They Allow It",
+    "link": "https://www.lawnext.com/2026/11/clio-wants-to-bring-ai-to-the-judiciary-but-50-state-survey-reveals-policies-differ-in-whether-they-allow-it.html",
+    "published": "2026-11-12T17:17:00+00:00",
+    "item": "a8cf23aa9e26",
+    "eid": "E07c8f46b",
+    "group": "US states and cities",
+    "place": "Massachusetts",
+    "date": "2025-11",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2025-11",
+  "id": "Le3aec3bb",
+  "stage": "passed",
+  "stage_status": "adopted",
+  "name": "Interim Guidelines for use of Generative AI, banning AI for legal research, legal writing or other legal work",
+  "by": [
+   "Massachusetts Supreme Judicial Court"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "Other countries",
+  "place": "Turkey",
+  "reports": [
+   {
+    "args": {
+     "by": "Turkey",
+     "law": "Antalya Artificial Intelligence Pledge",
+     "status": "previewed, voluntary and non-prescriptive, official launch November 16th",
+     "date": "2025-11-16"
+    },
+    "quote": "Turkey previewed its Antalya Artificial Intelligence Pledge ahead of the convening, inviting delegates from other countries to endorse the pledge before its official launch on November 16th.",
+    "source": "The Verge policy",
+    "title": "The global pledge to use AI for climate good is a cruel joke",
+    "link": "https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+    "published": "2026-11-09T16:13:16-05:00",
+    "item": "ad3fd33cd90b",
+    "eid": "Ec26f9099",
+    "group": "Other countries",
+    "place": "Turkey",
+    "date": "2025-11-16",
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": "2025-11-16",
+  "id": "L1f4e7e4f",
+  "stage": "as reported",
+  "stage_status": "previewed, voluntary and non-prescriptive, official launch November 16th",
+  "name": "Antalya Artificial Intelligence Pledge",
+  "by": [
+   "Turkey"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Donald Trump",
+     "law": "permission for Nvidia to sell its advanced H200 AI chips to China in exchange for a cut of the export sales",
+     "status": "granted",
+     "where": "United States",
+     "date": "December 2025"
+    },
+    "quote": "President Trump granted Nvidia permission to sell its advanced H200 AI chips to China in December 2025 in exchange for a cut of the export sales",
+    "source": "TechCrunch",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "published": "2026-11-13T15:58:00+00:00",
+    "item": "59c58e3f39cc",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2025-12",
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "Trump Administration",
+     "law": "permission for Nvidia to sell the H200 chip to China if the U.S. government receives a cut of sales",
+     "status": "permission granted",
+     "date": "2025-12"
+    },
+    "quote": "Mr. Trump gave Nvidia permission to sell the H200, an older but still powerful A.I. chip, to China, as long as the U.S. government was given a cut of the sales",
+    "source": "Fortune",
+    "title": "The case of Nvidia and the growing risk of AI and corruption",
+    "link": "https://fortune.com/2026/11/14/ai-corruption-nvidia-export-controls-lutnick-susan-ariel-aaronson/",
+    "published": "2026-11-14T12:00:00+00:00",
+    "item": "ac26b96bfb70",
+    "eid": "E08e977c0",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2025-12",
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "Donald Trump",
+     "law": "export controls on H200 chips",
+     "status": "lifted",
+     "where": "United States"
+    },
+    "quote": "Trump lifted the export controls on H200 chips, which China eventually allowed to be sold to some firms.",
+    "source": "Ars Technica",
+    "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
+    "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+    "published": "2026-09-28T21:49:10+00:00",
+    "item": "ce7b13e0f7aa",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [],
+  "date": "2025-12",
+  "id": "Lb8d621cb",
+  "stage": "stopped",
+  "stage_status": "lifted",
+  "name": "permission for Nvidia to sell its advanced H200 AI chips to China in exchange for a cut of the export sales",
+  "by": [
+   "Donald Trump",
+   "Trump Administration"
+  ],
+  "reported": "2026-11-14"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Arkansas",
+  "reports": [
+   {
+    "args": {
+     "by": "Arkansas Supreme Court",
+     "law": "Administrative Order No. 25 on protecting confidential court data from public LLMs",
+     "status": "adopted",
+     "date": "2025-12-11"
+    },
+    "quote": "Arkansas Supreme Court Administrative Order No. 25, adopted Dec. 11, 2025",
+    "source": "Above the Law",
+    "title": "Clio Wants To Bring AI To The Judiciary, But 50-State Survey Reveals Policies Differ In Whether They Allow It",
+    "link": "https://www.lawnext.com/2026/11/clio-wants-to-bring-ai-to-the-judiciary-but-50-state-survey-reveals-policies-differ-in-whether-they-allow-it.html",
+    "published": "2026-11-12T17:17:00+00:00",
+    "item": "a8cf23aa9e26",
+    "eid": "E1d3c9dd3",
+    "group": "US states and cities",
+    "place": "Arkansas",
+    "date": "2025-12-11",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2025-12-11",
+  "id": "L0108a7a9",
+  "stage": "passed",
+  "stage_status": "adopted",
+  "name": "Administrative Order No. 25 on protecting confidential court data from public LLMs",
+  "by": [
+   "Arkansas Supreme Court"
+  ],
+  "reported": "2026-11-12"
  },
  {
   "group": "United Kingdom",
@@ -537,6 +951,76 @@
    "California"
   ],
   "reported": "2026-11-06"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "U.S. Congress",
+     "law": "bipartisan proposal to extend ban on AI companionship for children nationwide, with penalties up to $250,000 for failing to verify user age",
+     "status": "proposed (introduced)",
+     "date": "2026"
+    },
+    "quote": "a bipartisan congressional proposal introduced earlier this year would extend that effort across the country, and introduce up to $250,000 penalties for failures to verify the age of a user",
+    "source": "The Atlantic",
+    "title": "The Quest to Build an Immortal AI Companion",
+    "link": "https://www.theatlantic.com/technology/2026/11/people-keeping-ai-partners-alive/689380/?utm_source=feed",
+    "published": "2026-11-12T08:48:37-05:00",
+    "item": "e6452ba27b81",
+    "eid": "E8aaf064b",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2026",
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": "2026",
+  "id": "L2ef8ac0a",
+  "stage": "proposed",
+  "stage_status": "proposed (introduced)",
+  "name": "bipartisan proposal to extend ban on AI companionship for children nationwide, with penalties up to $250,000 for failing to verify user age",
+  "by": [
+   "U.S. Congress"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "China",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "China",
+     "law": "strict new rules on AI companions",
+     "status": "introduced",
+     "date": "2026"
+    },
+    "quote": "China introduced strict new rules on AI companions earlier this year",
+    "source": "The Atlantic",
+    "title": "The Quest to Build an Immortal AI Companion",
+    "link": "https://www.theatlantic.com/technology/2026/11/people-keeping-ai-partners-alive/689380/?utm_source=feed",
+    "published": "2026-11-12T08:48:37-05:00",
+    "item": "e6452ba27b81",
+    "eid": "E4d262cef",
+    "group": "China",
+    "place": "",
+    "date": "2026",
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": "2026",
+  "id": "L8648f12b",
+  "stage": "proposed",
+  "stage_status": "introduced",
+  "name": "strict new rules on AI companions",
+  "by": [
+   "China"
+  ],
+  "reported": "2026-11-12"
  },
  {
   "group": "United States (federal)",
@@ -741,6 +1225,76 @@
   "reported": "2026-11-05"
  },
  {
+  "group": "US states and cities",
+  "place": "Alaska",
+  "reports": [
+   {
+    "args": {
+     "by": "Alaska Court System",
+     "law": "Policy for Court Staff and Judicial Officers on Using Artificial Intelligence (Version 1.2)",
+     "status": "in force",
+     "date": "2026-06"
+    },
+    "quote": "The Alaska Court System’s Policy for Court Staff and Judicial Officers on Using Artificial Intelligence (Version 1.2, June 2026) applies to all judges and court staff.",
+    "source": "Above the Law",
+    "title": "Clio Wants To Bring AI To The Judiciary, But 50-State Survey Reveals Policies Differ In Whether They Allow It",
+    "link": "https://www.lawnext.com/2026/11/clio-wants-to-bring-ai-to-the-judiciary-but-50-state-survey-reveals-policies-differ-in-whether-they-allow-it.html",
+    "published": "2026-11-12T17:17:00+00:00",
+    "item": "a8cf23aa9e26",
+    "eid": "E1cb925ac",
+    "group": "US states and cities",
+    "place": "Alaska",
+    "date": "2026-06",
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": "2026-06",
+  "id": "L51409faf",
+  "stage": "in force",
+  "stage_status": "in force",
+  "name": "Policy for Court Staff and Judicial Officers on Using Artificial Intelligence (Version 1.2)",
+  "by": [
+   "Alaska Court System"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Illinois",
+  "reports": [
+   {
+    "args": {
+     "by": "Illinois",
+     "law": "an auditing regime measuring AI companies against their own promises",
+     "status": "passed",
+     "where": "Illinois",
+     "date": "July"
+    },
+    "quote": "Illinois finally passed an auditing regime in July",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "US states and cities",
+    "place": "Illinois",
+    "date": "2026-07",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-07",
+  "id": "L4f943521",
+  "stage": "passed",
+  "stage_status": "passed",
+  "name": "an auditing regime measuring AI companies against their own promises",
+  "by": [
+   "Illinois"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
   "group": "United States (federal)",
   "place": "",
   "reports": [
@@ -779,6 +1333,24 @@
     "place": "",
     "date": null,
     "stage": "proposed"
+   },
+   {
+    "args": {
+     "by": "Jay Obernolte",
+     "law": "FRONTIER Act",
+     "status": "introduced",
+     "where": "United States"
+    },
+    "quote": "A part of the FRONTIER Act, introduced by House Reps. Jay Obernolte and Lori Trahan",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
    }
   ],
   "ids": [
@@ -788,13 +1360,14 @@
   "date": "2026-07",
   "id": "Lb2f23613",
   "stage": "proposed",
-  "stage_status": "proposed",
+  "stage_status": "introduced",
   "name": "the FRONTIER Act",
   "by": [
+   "Jay Obernolte",
    "Obernolte",
    "Trahan"
   ],
-  "reported": "2026-11-04"
+  "reported": "2026-11-13"
  },
  {
   "group": "United States (federal)",
@@ -1911,40 +2484,6 @@
   "reported": "2026-09-27"
  },
  {
-  "group": "United States (federal)",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "Donald Trump",
-     "law": "export controls on H200 chips",
-     "status": "lifted",
-     "where": "United States"
-    },
-    "quote": "Trump lifted the export controls on H200 chips, which China eventually allowed to be sold to some firms.",
-    "source": "Ars Technica",
-    "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
-    "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
-    "published": "2026-09-28T21:49:10+00:00",
-    "item": "ce7b13e0f7aa",
-    "group": "United States (federal)",
-    "place": "",
-    "date": null,
-    "stage": "stopped"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "Lb8d621cb",
-  "stage": "stopped",
-  "stage_status": "lifted",
-  "name": "export controls on H200 chips",
-  "by": [
-   "Donald Trump"
-  ],
-  "reported": "2026-09-28"
- },
- {
   "group": "China",
   "place": "",
   "reports": [
@@ -1975,40 +2514,6 @@
   "name": "controls on importing banned Nvidia chips, possibly relaxed to allow Alibaba and ByteDance to buy RTX Pro 5500 chips",
   "by": [
    "China"
-  ],
-  "reported": "2026-09-28"
- },
- {
-  "group": "United States (federal)",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "Joe Biden's administration",
-     "law": "export controls restricting Nvidia chip sales to China",
-     "status": "in force during Biden's administration",
-     "where": "United States"
-    },
-    "quote": "start selling chips that were restricted during Joe Biden’s administration",
-    "source": "Ars Technica",
-    "title": "Experts worry about Nvidia's AI chip sales in China and influence over Trump",
-    "link": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
-    "published": "2026-09-28T21:49:10+00:00",
-    "item": "ce7b13e0f7aa",
-    "group": "United States (federal)",
-    "place": "",
-    "date": null,
-    "stage": "in force"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "Ld3bc501d",
-  "stage": "in force",
-  "stage_status": "in force during Biden's administration",
-  "name": "export controls restricting Nvidia chip sales to China",
-  "by": [
-   "Joe Biden's administration"
   ],
   "reported": "2026-09-28"
  },
@@ -2179,6 +2684,41 @@
    "Donald Trump"
   ],
   "reported": "2026-09-30"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "Kathy Hochul",
+     "law": "a separate chatbot safety law for minors",
+     "status": "signed",
+     "where": "New York",
+     "date": "October"
+    },
+    "quote": "In October, Hochul signed a separate chatbot safety law for minors",
+    "source": "TechCrunch",
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "published": "2026-11-10T20:52:13+00:00",
+    "item": "91faed0650f0",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": "2026-10",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-10",
+  "id": "L00841c32",
+  "stage": "passed",
+  "stage_status": "signed",
+  "name": "a separate chatbot safety law for minors",
+  "by": [
+   "Kathy Hochul"
+  ],
+  "reported": "2026-11-10"
  },
  {
   "group": "United States (federal)",
@@ -3400,6 +3940,42 @@
     "place": "California",
     "date": null,
     "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "Gavin Newsom",
+     "law": "SB 53, a lighter-touch AI bill",
+     "status": "signed",
+     "where": "California"
+    },
+    "quote": "he then sponsored SB 53, a lighter-touch bill that Newsom signed",
+    "source": "MIT Technology Review",
+    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+    "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "published": "2026-11-09T17:05:43+00:00",
+    "item": "50d303e5bf84",
+    "group": "US states and cities",
+    "place": "California",
+    "date": null,
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "California",
+     "law": "SB 53",
+     "status": "took effect in January",
+     "where": "California"
+    },
+    "quote": "California’s SB 53, which took effect in January",
+    "source": "TechCrunch",
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "published": "2026-11-10T20:52:13+00:00",
+    "item": "91faed0650f0",
+    "group": "US states and cities",
+    "place": "California",
+    "date": null,
+    "stage": "in force"
    }
   ],
   "ids": [
@@ -3409,12 +3985,13 @@
   "date": null,
   "id": "L13044d9e",
   "stage": "in force",
-  "stage_status": "existing law governing frontier AI",
-  "name": "Senate Bill 53",
+  "stage_status": "took effect in January",
+  "name": "SB 53, a lighter-touch AI bill",
   "by": [
-   "California"
+   "California",
+   "Gavin Newsom"
   ],
-  "reported": "2026-10-20"
+  "reported": "2026-11-10"
  },
  {
   "group": "US states and cities",
@@ -3474,6 +4051,24 @@
     "place": "Illinois",
     "date": null,
     "stage": "in force"
+   },
+   {
+    "args": {
+     "by": "Illinois",
+     "law": "SB 315",
+     "status": "will go into effect at the start of 2027",
+     "where": "Illinois"
+    },
+    "quote": "Illinois’ SB 315, which will go into effect at the start of 2027",
+    "source": "TechCrunch",
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "published": "2026-11-10T20:52:13+00:00",
+    "item": "91faed0650f0",
+    "group": "US states and cities",
+    "place": "Illinois",
+    "date": null,
+    "stage": "as reported"
    }
   ],
   "ids": [
@@ -3488,7 +4083,7 @@
   "by": [
    "Illinois"
   ],
-  "reported": "2026-10-19"
+  "reported": "2026-11-10"
  },
  {
   "group": "European Union",
@@ -4445,8 +5040,8 @@
    {
     "args": {
      "by": "California",
-     "law": "AI Transparency Act requiring provenance data for generated images and free public synthetic media detection tools",
-     "status": "took effect"
+     "law": "Transparency in Frontier Artificial Intelligence Act (S.B. 53)",
+     "status": "signed"
     },
     "quote": "After California’s AI Transparency Act — which requires companies to provide provenance data for images they generate as well as free, public tools for detecting synthetic media — took effect",
     "source": "Techdirt",
@@ -4458,22 +5053,40 @@
     "group": "US states and cities",
     "place": "California",
     "date": null,
-    "stage": "in force"
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "California",
+     "law": "Transparency in Frontier Artificial Intelligence Act (S.B. 53)",
+     "status": "signed"
+    },
+    "quote": "California Gov. Gavin Newsom (D) eventually vetoed the legislation",
+    "source": "The Hill technology",
+    "title": "Meet the 5 Democrats poised to shake up Washington’s AI safety debate",
+    "link": "https://thehill.com/policy/technology/6205332-new-house-senate-members-focus-ai-safety/",
+    "published": "2026-11-09T11:00:00+00:00",
+    "item": "335d5d79c6c6",
+    "eid": "E5c7bee90",
+    "group": "US states and cities",
+    "place": "California",
+    "date": null,
+    "stage": "passed"
    }
   ],
   "ids": [
    "after california's ai transparency act",
-   "ai transparency act"
+   "frontier artificial intelligence act"
   ],
   "date": null,
-  "id": "L9c7a6174",
-  "stage": "in force",
-  "stage_status": "took effect",
-  "name": "AI Transparency Act requiring provenance data for generated images and free public synthetic media detection tools",
+  "id": "Ld683c477",
+  "stage": "passed",
+  "stage_status": "signed",
+  "name": "Transparency in Frontier Artificial Intelligence Act (S.B. 53)",
   "by": [
    "California"
   ],
-  "reported": "2026-10-28"
+  "reported": "2026-11-09"
  },
  {
   "group": "US states and cities",
@@ -4955,6 +5568,41 @@
   "reported": "2026-11-02"
  },
  {
+  "group": "US states and cities",
+  "place": "Florida",
+  "reports": [
+   {
+    "args": {
+     "by": "Edgewater, Florida",
+     "law": "a prohibition on new data centers (local ballot measure)",
+     "status": "unofficial results showed more than three-quarters supporting",
+     "where": "Edgewater, Florida",
+     "date": "November 3"
+    },
+    "quote": "In Edgewater, Florida, unofficial results showed more than three-quarters supporting a prohibition on new data centers.",
+    "source": "Nate B Jones",
+    "title": "Executive Briefing: If the Data-Center Backlash Leaves Fewer AI Suppliers, Who Will Your Company Rent Capacity From in 2027, and at What Price?",
+    "link": "https://natesnewsletter.substack.com/p/ai-data-center-backlash",
+    "published": "2026-11-08T16:02:48+00:00",
+    "item": "bafa8c05d9f7",
+    "group": "US states and cities",
+    "place": "Florida",
+    "date": "2026-11-03",
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": "2026-11-03",
+  "id": "L8d387968",
+  "stage": "as reported",
+  "stage_status": "unofficial results showed more than three-quarters supporting",
+  "name": "a prohibition on new data centers (local ballot measure)",
+  "by": [
+   "Edgewater, Florida"
+  ],
+  "reported": "2026-11-08"
+ },
+ {
   "group": "United States (federal)",
   "place": "",
   "reports": [
@@ -5225,5 +5873,1338 @@
    "Illinois"
   ],
   "reported": "2026-11-06"
+ },
+ {
+  "group": "European Union",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "EU",
+     "law": "Artificial Intelligence Act",
+     "status": "in place"
+    },
+    "quote": "the EU has regulation in place — its flagship Artificial Intelligence Act",
+    "source": "Politico EU tech",
+    "title": "EU countries still can’t get it together on AI",
+    "link": "https://www.politico.eu/article/eu-countries-still-cant-get-it-together-on-ai/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "published": "2026-11-08T15:00:00+00:00",
+    "item": "4e24fd21da76",
+    "eid": "E2c27b791",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [
+   "artificial intelligence act"
+  ],
+  "date": null,
+  "id": "L06160f79",
+  "stage": "in force",
+  "stage_status": "in place",
+  "name": "Artificial Intelligence Act",
+  "by": [
+   "EU"
+  ],
+  "reported": "2026-11-08"
+ },
+ {
+  "group": "Other countries",
+  "place": "Norway",
+  "reports": [
+   {
+    "args": {
+     "by": "Norwegian government",
+     "law": "restrictions on the rapid expansion of energy-intensive data centers driven by AI industry demand",
+     "status": "announced"
+    },
+    "quote": "The Norwegian government has announced restrictions on the rapid expansion of energy-intensive data centers driven by AI industry demand.",
+    "source": "OECD AI Incidents Monitor",
+    "title": "Norway Restricts AI Data Center Expansion Over Energy Concerns - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-09-6c29",
+    "published": "2026-11-09T00:00:00+00:00",
+    "item": "16450804ef9b",
+    "eid": "E7e21c073",
+    "group": "Other countries",
+    "place": "Norway",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Ld6f50a12",
+  "stage": "passed",
+  "stage_status": "announced",
+  "name": "restrictions on the rapid expansion of energy-intensive data centers driven by AI industry demand",
+  "by": [
+   "Norwegian government"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "New York",
+     "law": "Responsible AI Safety and Education (RAISE) Act, requiring AI firms to publish information about their safety protocols",
+     "status": "existing law"
+    },
+    "quote": "Like California’s S.B. 53, the law requires AI firms to publish information about their safety protocols.",
+    "source": "The Hill technology",
+    "title": "Meet the 5 Democrats poised to shake up Washington’s AI safety debate",
+    "link": "https://thehill.com/policy/technology/6205332-new-house-senate-members-focus-ai-safety/",
+    "published": "2026-11-09T11:00:00+00:00",
+    "item": "335d5d79c6c6",
+    "eid": "E8ba1b584",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb180131a",
+  "stage": "in force",
+  "stage_status": "existing law",
+  "name": "Responsible AI Safety and Education (RAISE) Act, requiring AI firms to publish information about their safety protocols",
+  "by": [
+   "New York"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Colorado",
+  "reports": [
+   {
+    "args": {
+     "by": "Colorado",
+     "law": "law requiring high-risk AI developers to use reasonable care to avoid algorithmic discrimination",
+     "status": "repealed and replaced with a narrower measure"
+    },
+    "quote": "Colorado repealed it and replaced it with a narrower measure",
+    "source": "The Hill technology",
+    "title": "Meet the 5 Democrats poised to shake up Washington’s AI safety debate",
+    "link": "https://thehill.com/policy/technology/6205332-new-house-senate-members-focus-ai-safety/",
+    "published": "2026-11-09T11:00:00+00:00",
+    "item": "335d5d79c6c6",
+    "eid": "Efc56a08d",
+    "group": "US states and cities",
+    "place": "Colorado",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb89df993",
+  "stage": "stopped",
+  "stage_status": "repealed and replaced with a narrower measure",
+  "name": "law requiring high-risk AI developers to use reasonable care to avoid algorithmic discrimination",
+  "by": [
+   "Colorado"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Ro Khanna",
+     "law": "legislation to establish a strong, empowered, nimble federal AI regulator",
+     "status": "proposed",
+     "where": "United States"
+    },
+    "quote": "Representative Ro Khanna, a fellow Democrat from California, has proposed legislation to establish such a regulator",
+    "source": "MIT Technology Review",
+    "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+    "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+    "published": "2026-11-09T17:05:43+00:00",
+    "item": "50d303e5bf84",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L57c6c576",
+  "stage": "proposed",
+  "stage_status": "proposed",
+  "name": "legislation to establish a strong, empowered, nimble federal AI regulator",
+  "by": [
+   "Ro Khanna"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "US states and cities",
+  "place": "California (Los Angeles)",
+  "reports": [
+   {
+    "args": {
+     "by": "Los Angeles Unified",
+     "law": "restrictions on generative AI",
+     "status": "already placed"
+    },
+    "quote": "Los Angeles Unified, the state’s largest district, has already placed restrictions on generative AI.",
+    "source": "The 74",
+    "title": "New AI ‘Ultimatum’ Sparks Concern Over Google’s Power in California Schools",
+    "link": "https://www.the74million.org/article/googles-new-ai-ultimatum-sparks-concern-over-tech-giants-power-in-ca-schools/",
+    "published": "2026-11-09T17:30:00+00:00",
+    "item": "efbc759c0727",
+    "eid": "Ec7a32b6e",
+    "group": "US states and cities",
+    "place": "California (Los Angeles)",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb2ede6c1",
+  "stage": "in force",
+  "stage_status": "already placed",
+  "name": "restrictions on generative AI",
+  "by": [
+   "Los Angeles Unified"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Virginia",
+  "reports": [
+   {
+    "args": {
+     "by": "Virginia",
+     "law": "new rules that data centers must pay fully for the cost of new transmission lines to the grid",
+     "status": "new rules from the state",
+     "where": "Virginia"
+    },
+    "quote": "Recent protests have led to new rules from the state that data centers must pay fully for the cost of new transmission lines to the grid",
+    "source": "MIT Technology Review",
+    "title": "The backlash about data centers might really just be about electricity",
+    "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+    "published": "2026-11-09T19:35:33+00:00",
+    "item": "3ec2e278915e",
+    "group": "US states and cities",
+    "place": "Virginia",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Ledffde25",
+  "stage": "as reported",
+  "stage_status": "new rules from the state",
+  "name": "new rules that data centers must pay fully for the cost of new transmission lines to the grid",
+  "by": [
+   "Virginia"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Biden administration",
+     "law": "limited AI chip exports to a series of EU countries",
+     "status": "imposed"
+    },
+    "quote": "the outgoing Biden administration limited AI chip exports to a series of EU countries in early 2025",
+    "source": "Politico EU tech",
+    "title": "Europe needs Nvidia. It’ll take more than a spy scandal to change that.",
+    "link": "https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "published": "2026-11-09T22:20:06+00:00",
+    "item": "8881d065538e",
+    "eid": "E8c87199b",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L4769e36f",
+  "stage": "in force",
+  "stage_status": "imposed",
+  "name": "limited AI chip exports to a series of EU countries",
+  "by": [
+   "Biden administration"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "European Union",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "EU",
+     "law": "promise to buy €40 billion of AI chips as part of the EU-U.S. trade deal",
+     "status": "promised"
+    },
+    "quote": "the EU’s promise to buy €40 billion of the chips as part of the EU-U.S. trade deal",
+    "source": "Politico EU tech",
+    "title": "Europe needs Nvidia. It’ll take more than a spy scandal to change that.",
+    "link": "https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "published": "2026-11-09T22:20:06+00:00",
+    "item": "8881d065538e",
+    "eid": "E83beda11",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lc5336c75",
+  "stage": "as reported",
+  "stage_status": "promised",
+  "name": "promise to buy €40 billion of AI chips as part of the EU-U.S. trade deal",
+  "by": [
+   "EU"
+  ],
+  "reported": "2026-11-09"
+ },
+ {
+  "group": "Other countries",
+  "place": "Australia",
+  "reports": [
+   {
+    "args": {
+     "by": "Australia",
+     "law": "AI safety regulator and mandatory safety rules",
+     "status": "to be created",
+     "date": "2026-11-10"
+    },
+    "quote": "Australia to create AI safety regulator, mandatory safety rules",
+    "source": "OECD AI Incidents Monitor",
+    "title": "Australia Establishes AI Regulator After OpenAI Agent Breaches Government Website - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-10-fc70",
+    "published": "2026-11-10T00:00:00+00:00",
+    "item": "c1a2d329ae76",
+    "eid": "Ea6602e39",
+    "group": "Other countries",
+    "place": "Australia",
+    "date": "2026-11-10",
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": "2026-11-10",
+  "id": "L5e380b0e",
+  "stage": "as reported",
+  "stage_status": "to be created",
+  "name": "AI safety regulator and mandatory safety rules",
+  "by": [
+   "Australia"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "Other countries",
+  "place": "Australia",
+  "reports": [
+   {
+    "args": {
+     "by": "Australia",
+     "law": "criminal penalties for rogue AI",
+     "status": "under consideration",
+     "date": "2026-11-10"
+    },
+    "quote": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+    "source": "OECD AI Incidents Monitor",
+    "title": "Australia Establishes AI Regulator After OpenAI Agent Breaches Government Website - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-10-fc70",
+    "published": "2026-11-10T00:00:00+00:00",
+    "item": "c1a2d329ae76",
+    "eid": "E28737057",
+    "group": "Other countries",
+    "place": "Australia",
+    "date": "2026-11-10",
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-11-10",
+  "id": "Lfac17522",
+  "stage": "proposed",
+  "stage_status": "under consideration",
+  "name": "criminal penalties for rogue AI",
+  "by": [
+   "Australia"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Trump administration",
+     "law": "proposed ban on Chinese optical transceivers used in AI data centers",
+     "status": "proposed"
+    },
+    "quote": "Microsoft is lobbying the Trump administration to halt a proposed ban on Chinese optical transceivers, critical for AI data centers.",
+    "source": "OECD AI Incidents Monitor",
+    "title": "Microsoft Opposes Proposed Ban on Chinese AI Data Center Components - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-10-ce11",
+    "published": "2026-11-10T00:00:00+00:00",
+    "item": "f49851c4fb7e",
+    "eid": "E7c350472",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L14242dc2",
+  "stage": "proposed",
+  "stage_status": "proposed",
+  "name": "proposed ban on Chinese optical transceivers used in AI data centers",
+  "by": [
+   "Trump administration"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "US Senate",
+     "law": "permitting reform bill to streamline permitting for power projects, AI data centers, and distribution grids",
+     "status": "advanced"
+    },
+    "quote": "The US Senate advanced major permitting reforms aimed at speeding up the construction of energy infrastructure",
+    "source": "Semafor",
+    "title": "US Senate backs permitting bill aimed at accelerating energy construction",
+    "link": "https://www.semafor.com/article/11/10/2026/us-senate-backs-permitting-bill-aimed-at-accelerating-energy-construction",
+    "published": "2026-11-10T13:49:55+00:00",
+    "item": "6c7a559fd2d0",
+    "eid": "Eac6fc8d3",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L6c7ebd68",
+  "stage": "proposed",
+  "stage_status": "advanced",
+  "name": "permitting reform bill to streamline permitting for power projects, AI data centers, and distribution grids",
+  "by": [
+   "US Senate"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "Other countries",
+  "place": "Australia",
+  "reports": [
+   {
+    "args": {
+     "by": "Australian government",
+     "law": "require AI companies to report cybersecurity breaches by AI agents",
+     "status": "announced"
+    },
+    "quote": "The Australian government announced it will require AI companies to report cybersecurity breaches by AI agents",
+    "source": "AI Safety Newsletter",
+    "title": "AISN #85: US Midterms Favor Candidates Backing AI Regulation",
+    "link": "https://newsletter.safe.ai/p/aisn-85-us-midterms-favor-candidates",
+    "published": "2026-11-10T14:31:05+00:00",
+    "item": "83ec9f299d00",
+    "eid": "E668a9deb",
+    "group": "Other countries",
+    "place": "Australia",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L1eb03b97",
+  "stage": "passed",
+  "stage_status": "announced",
+  "name": "require AI companies to report cybersecurity breaches by AI agents",
+  "by": [
+   "Australian government"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York (New York City)",
+  "reports": [
+   {
+    "args": {
+     "by": "New York City",
+     "law": "one-year moratorium on AI use in classrooms in most New York City schools",
+     "status": "introduced"
+    },
+    "quote": "recently introduced a one-year moratorium on AI use in classrooms in most New York City schools",
+    "source": "AI Safety Newsletter",
+    "title": "AISN #85: US Midterms Favor Candidates Backing AI Regulation",
+    "link": "https://newsletter.safe.ai/p/aisn-85-us-midterms-favor-candidates",
+    "published": "2026-11-10T14:31:05+00:00",
+    "item": "83ec9f299d00",
+    "eid": "Eab3f562f",
+    "group": "US states and cities",
+    "place": "New York (New York City)",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L5cafcaaf",
+  "stage": "proposed",
+  "stage_status": "introduced",
+  "name": "one-year moratorium on AI use in classrooms in most New York City schools",
+  "by": [
+   "New York City"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Senate",
+     "law": "GAIN AI Act",
+     "status": "included in the Senate version of the NDAA but dropped from the House version"
+    },
+    "quote": "the Artificial Intelligence Oversight of Verified Exports and Restrictions on Weaponizable Advanced Technology to Covered High-Risk Actors Act",
+    "source": "The Hill technology",
+    "title": "Jeffries pushes tighter China chip restrictions amid Nvidia CEO scandal",
+    "link": "https://thehill.com/policy/technology/6210410-jeffries-backs-china-ai-chip-restrictions/",
+    "published": "2026-11-10T15:06:07+00:00",
+    "item": "a70bf96a6188",
+    "eid": "Ecb3a855b",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "stopped"
+   },
+   {
+    "args": {
+     "by": "Senate",
+     "law": "GAIN AI Act",
+     "status": "included in the Senate version of the NDAA but dropped from the House version"
+    },
+    "quote": "made it into the Senate version of the NDAA but got dropped from the House version",
+    "source": "Semafor",
+    "title": "‘A high probability’: Congress pushes tighter export controls following Nvidia scandal ",
+    "link": "https://www.semafor.com/article/11/12/2026/a-high-probability-congress-pushes-tighter-export-controls-following-nvidia-scandal",
+    "published": "2026-11-12T21:04:33+00:00",
+    "item": "8f7d3994813d",
+    "eid": "Ecb3a855b",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [
+   "covered high-risk actors act",
+   "gain ai act"
+  ],
+  "date": null,
+  "id": "L21256625",
+  "stage": "stopped",
+  "stage_status": "included in the Senate version of the NDAA but dropped from the House version",
+  "name": "GAIN AI Act",
+  "by": [
+   "Senate"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "European Union",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "EU",
+     "law": "Exemption of products covered by the EU's machinery rules from the flagship AI law",
+     "status": "agreed by EU legislators in the summer and now part of the law"
+    },
+    "quote": "Siemens was one of the main proponents of exempting products covered by the EU’s machinery rules from the bloc’s flagship AI law — a tweak EU legislators agreed to in the summer and which is now part of the law.",
+    "source": "Politico EU tech",
+    "title": "EU watchdog probes Commission’s AI pick over conflict of interest concerns",
+    "link": "https://www.politico.eu/article/eu-watchdog-commission-ai-pick-conflict-of-interest-concerns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+    "published": "2026-11-10T16:02:55+00:00",
+    "item": "a58f3543c901",
+    "eid": "E66f68d78",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L5bf8fdd7",
+  "stage": "passed",
+  "stage_status": "agreed by EU legislators in the summer and now part of the law",
+  "name": "Exemption of products covered by the EU's machinery rules from the flagship AI law",
+  "by": [
+   "EU"
+  ],
+  "reported": "2026-11-10"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "New York",
+     "law": "the RAISE Act",
+     "status": "kicks in at the start of the year",
+     "where": "New York"
+    },
+    "quote": "The RAISE Act, New York’s safety and transparency bill, kicks in at the start of the year.",
+    "source": "TechCrunch",
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "published": "2026-11-10T20:52:13+00:00",
+    "item": "91faed0650f0",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "Kathy Hochul",
+     "law": "RAISE Act",
+     "status": "signed into law",
+     "where": "New York"
+    },
+    "quote": "before Governor Kathy Hochul signed the bill into law",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [
+   "raise act"
+  ],
+  "date": null,
+  "id": "L783a71be",
+  "stage": "passed",
+  "stage_status": "signed into law",
+  "name": "the RAISE Act",
+  "by": [
+   "Kathy Hochul",
+   "New York"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Congress",
+     "law": "AI Overwatch Act: would allow Congress to block advanced AI chip exports to U.S. foreign adversaries",
+     "status": "introduced; included in NDAA manager's amendments, NDAA still needs to pass by end of year"
+    },
+    "quote": "The AI Overwatch Act, introduced by Warren and Sen. Jim Banks (R-Ind.), would allow Congress to block advanced AI chip exports to U.S. foreign adversaries.",
+    "source": "The Hill technology",
+    "title": "Nvidia spy scandal could reshape fight over AI chips and China ",
+    "link": "https://thehill.com/policy/technology/6211351-chip-export-restrictions-momentum-nvidia-huang/",
+    "published": "2026-11-11T11:00:00+00:00",
+    "item": "fb2db47de453",
+    "eid": "E93015f5b",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [
+   "ai overwatch act"
+  ],
+  "date": null,
+  "id": "L00ba9648",
+  "stage": "proposed",
+  "stage_status": "introduced; included in NDAA manager's amendments, NDAA still needs to pass by end of year",
+  "name": "AI Overwatch Act: would allow Congress to block advanced AI chip exports to U.S. foreign adversaries",
+  "by": [
+   "Congress"
+  ],
+  "reported": "2026-11-11"
+ },
+ {
+  "group": "Other countries",
+  "place": "India",
+  "reports": [
+   {
+    "args": {
+     "by": "India's Technology Development Board",
+     "law": "Rs 64.05 crore agreement with Astrome Technologies to develop an AI-enabled electronic intelligence satellite constellation for national security",
+     "status": "signed"
+    },
+    "quote": "India's Technology Development Board has signed a Rs 64.05 crore agreement with Astrome Technologies to develop an AI-enabled electronic intelligence satellite constellation for national security.",
+    "source": "OECD AI Incidents Monitor",
+    "title": "India Funds AI-Enabled Intelligence Satellite Constellation for National Security - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-12-5bb0",
+    "published": "2026-11-12T00:00:00+00:00",
+    "item": "d0b8d24e14a1",
+    "eid": "Ed37aa328",
+    "group": "Other countries",
+    "place": "India",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L0a945d7c",
+  "stage": "passed",
+  "stage_status": "signed",
+  "name": "Rs 64.05 crore agreement with Astrome Technologies to develop an AI-enabled electronic intelligence satellite constellation for national security",
+  "by": [
+   "India's Technology Development Board"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Illinois (Chicago)",
+  "reports": [
+   {
+    "args": {
+     "by": "Chicago Public Schools",
+     "law": "blocked student access to generative AI, including ChatGPT, Claude and Google Gemini",
+     "status": "blocked"
+    },
+    "quote": "the city’s school district recently blocked student access to generative AI",
+    "source": "Chalkbeat",
+    "title": "After Google warns schools about disabling AI feature, Chicago protesters say ‘we don’t want your Gemini’",
+    "link": "https://www.chalkbeat.org/chicago/2026/11/12/chicago-ai-protest-against-google-removal-in-school-classrooms/",
+    "published": "2026-11-12T02:34:51+00:00",
+    "item": "52d2614e6da5",
+    "eid": "E695262ca",
+    "group": "US states and cities",
+    "place": "Illinois (Chicago)",
+    "date": null,
+    "stage": "stopped"
+   },
+   {
+    "args": {
+     "by": "Chicago Public Schools",
+     "law": "block on student access to generative AI",
+     "status": "blocked"
+    },
+    "quote": "the city’s school district recently blocked student access to generative AI",
+    "source": "The 74",
+    "title": "Protests in Chicago After Google Warns Schools About Disabling AI Feature",
+    "link": "https://www.the74million.org/article/protests-in-chicago-after-google-warns-schools-about-disabling-ai-feature/",
+    "published": "2026-11-14T11:30:00+00:00",
+    "item": "08950d020880",
+    "eid": "E9b7c09f7",
+    "group": "US states and cities",
+    "place": "Illinois (Chicago)",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L45d35ebc",
+  "stage": "stopped",
+  "stage_status": "blocked",
+  "name": "blocked student access to generative AI, including ChatGPT, Claude and Google Gemini",
+  "by": [
+   "Chicago Public Schools"
+  ],
+  "reported": "2026-11-14"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York (New York City)",
+  "reports": [
+   {
+    "args": {
+     "by": "New York City",
+     "law": "ban on student-facing AI, including chatbots, from preschool through eighth grade",
+     "status": "banned"
+    },
+    "quote": "the city banned the use of student-facing AI, which includes chatbots, from preschool through eighth grade",
+    "source": "Chalkbeat",
+    "title": "After Google warns schools about disabling AI feature, Chicago protesters say ‘we don’t want your Gemini’",
+    "link": "https://www.chalkbeat.org/chicago/2026/11/12/chicago-ai-protest-against-google-removal-in-school-classrooms/",
+    "published": "2026-11-12T02:34:51+00:00",
+    "item": "52d2614e6da5",
+    "eid": "E13d1921f",
+    "group": "US states and cities",
+    "place": "New York (New York City)",
+    "date": null,
+    "stage": "in force"
+   },
+   {
+    "args": {
+     "by": "New York City",
+     "law": "ban on student-facing AI, including chatbots, from preschool through eighth grade",
+     "status": "banned"
+    },
+    "quote": "the city banned the use of student-facing AI, which includes chatbots, from preschool through eighth grade",
+    "source": "The 74",
+    "title": "Protests in Chicago After Google Warns Schools About Disabling AI Feature",
+    "link": "https://www.the74million.org/article/protests-in-chicago-after-google-warns-schools-about-disabling-ai-feature/",
+    "published": "2026-11-14T11:30:00+00:00",
+    "item": "08950d020880",
+    "eid": "E13d1921f",
+    "group": "US states and cities",
+    "place": "New York (New York City)",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lcbf150d2",
+  "stage": "in force",
+  "stage_status": "banned",
+  "name": "ban on student-facing AI, including chatbots, from preschool through eighth grade",
+  "by": [
+   "New York City"
+  ],
+  "reported": "2026-11-14"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "New York",
+     "law": "effective ban on AI companionship for children",
+     "status": "signed into law"
+    },
+    "quote": "New York Governor Kathy Hochul signed into law what is in effect a ban on AI companionship for children",
+    "source": "The Atlantic",
+    "title": "The Quest to Build an Immortal AI Companion",
+    "link": "https://www.theatlantic.com/technology/2026/11/people-keeping-ai-partners-alive/689380/?utm_source=feed",
+    "published": "2026-11-12T08:48:37-05:00",
+    "item": "e6452ba27b81",
+    "eid": "E14883858",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L1b873a07",
+  "stage": "passed",
+  "stage_status": "signed into law",
+  "name": "effective ban on AI companionship for children",
+  "by": [
+   "New York"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Trump administration",
+     "law": "President Biden's 2023 AI executive order",
+     "status": "repealed on the first day"
+    },
+    "quote": "President Biden’s executive order, which President Trump repealed on the first day",
+    "source": "Center for Humane Technology",
+    "title": "Ben Buchanan Wants the U.S. to Win on AI. But Is It a Race or a Trap?",
+    "link": "https://centerforhumanetechnology.substack.com/p/ben-buchanan-wants-the-us-to-win",
+    "published": "2026-11-12T10:02:08+00:00",
+    "item": "f6372b5a34d2",
+    "eid": "E0d72cc6f",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L17dcedac",
+  "stage": "stopped",
+  "stage_status": "repealed on the first day",
+  "name": "President Biden's 2023 AI executive order",
+  "by": [
+   "Trump administration"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "Kathy Hochul",
+     "law": "a state-led effort to independently test AI systems, identify risks and hold Big Tech accountable",
+     "status": "announced",
+     "where": "New York"
+    },
+    "quote": "New York Governor Kathy Hochul announces ‘a state-led effort to independently test AI systems, identify risks and hold Big Tech accountable.’",
+    "source": "Zvi",
+    "title": "AI #194: Spy Versus Guy",
+    "link": "https://thezvi.substack.com/p/ai-194-spy-versus-guy",
+    "published": "2026-11-12T14:31:34+00:00",
+    "item": "d685fe51f8e1",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Ld49c5ffa",
+  "stage": "passed",
+  "stage_status": "announced",
+  "name": "a state-led effort to independently test AI systems, identify risks and hold Big Tech accountable",
+  "by": [
+   "Kathy Hochul"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Indiana",
+  "reports": [
+   {
+    "args": {
+     "by": "Bloomington city council",
+     "law": "a ban on any recursively self-improving entity capable of greatly outperforming all humans on all cognitive tasks inside city limits",
+     "status": "voted unanimously",
+     "where": "Bloomington, Indiana"
+    },
+    "quote": "Bloomington, Indiana’s city council voted unanimously this week to ban any recursively self-improving entity capable of greatly outperforming all humans on all cognitive tasks from inside city limits",
+    "source": "Zvi",
+    "title": "AI #194: Spy Versus Guy",
+    "link": "https://thezvi.substack.com/p/ai-194-spy-versus-guy",
+    "published": "2026-11-12T14:31:34+00:00",
+    "item": "d685fe51f8e1",
+    "group": "US states and cities",
+    "place": "Indiana",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lfc8dc507",
+  "stage": "as reported",
+  "stage_status": "voted unanimously",
+  "name": "a ban on any recursively self-improving entity capable of greatly outperforming all humans on all cognitive tasks inside city limits",
+  "by": [
+   "Bloomington city council"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Congress",
+     "law": "Three bills proposing new export controls on AI chips and advanced semiconductor equipment, attached to the defense authorization bill",
+     "status": "awaiting passage"
+    },
+    "quote": "Three bills proposing new export controls on AI chips and advanced semiconductor equipment are currently attached to the defense authorization bill awaiting passage on Capitol Hill.",
+    "source": "Fortune",
+    "title": "AI industry execs brace for future without leading hype man, Nvidia’s Jensen Huang",
+    "link": "https://fortune.com/2026/11/12/ai-industry-without-jensen-huang-investment-capital-regulation-neocloud-policy/",
+    "published": "2026-11-12T20:33:21+00:00",
+    "item": "12004084edde",
+    "eid": "Eddd5b0db",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L0cbb68d3",
+  "stage": "as reported",
+  "stage_status": "awaiting passage",
+  "name": "Three bills proposing new export controls on AI chips and advanced semiconductor equipment, attached to the defense authorization bill",
+  "by": [
+   "Congress"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "U.S. government",
+     "law": "restrictions on the sale of Nvidia's most powerful chips to Chinese entities",
+     "status": "in force",
+     "where": "U.S."
+    },
+    "quote": "Nvidia faces government restrictions on the sale of its most powerful chips to Chinese entities",
+    "source": "TechCrunch",
+    "title": "The unfolding Jensen Huang scandal: a timeline",
+    "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+    "published": "2026-11-12T21:35:00+00:00",
+    "item": "5e5f306d785f",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L447381e9",
+  "stage": "in force",
+  "stage_status": "in force",
+  "name": "restrictions on the sale of Nvidia's most powerful chips to Chinese entities",
+  "by": [
+   "U.S. government"
+  ],
+  "reported": "2026-11-12"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Tom Cotton",
+     "law": "the Chip Security Act",
+     "status": "proposed; Cotton urges Congress to pass it",
+     "where": "US"
+    },
+    "quote": "Congress should pass my bipartisan Chip Security Act to protect our technology from our chief adversary.",
+    "source": "Zvi",
+    "title": "Jensen Huang Resigns After Having Another Affair In Addition to the Chinese Spy",
+    "link": "https://thezvi.substack.com/p/jensen-huang-resigns-after-having",
+    "published": "2026-11-13T12:20:54+00:00",
+    "item": "05414e5e05a2",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [
+   "chip security act"
+  ],
+  "date": null,
+  "id": "L5ec99bed",
+  "stage": "proposed",
+  "stage_status": "proposed; Cotton urges Congress to pass it",
+  "name": "the Chip Security Act",
+  "by": [
+   "Tom Cotton"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Brian Mast",
+     "law": "chip export restrictions as part of the defense package",
+     "status": "being pushed for inclusion",
+     "where": "US"
+    },
+    "quote": "House Foreign Affairs Chair Brian Mast, who is pushing for chip export restrictions as part of the defense package",
+    "source": "Zvi",
+    "title": "Jensen Huang Resigns After Having Another Affair In Addition to the Chinese Spy",
+    "link": "https://thezvi.substack.com/p/jensen-huang-resigns-after-having",
+    "published": "2026-11-13T12:20:54+00:00",
+    "item": "05414e5e05a2",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   },
+   {
+    "args": {
+     "by": "Congress",
+     "law": "measures to tighten controls on chip exports as part of the must-pass defense measure (NDAA)",
+     "status": "being negotiated",
+     "where": "US"
+    },
+    "quote": "Congress is actively negotiating measures to tighten controls on chip exports as part of the must-pass defense measure",
+    "source": "Zvi",
+    "title": "Jensen Huang Resigns After Having Another Affair In Addition to the Chinese Spy",
+    "link": "https://thezvi.substack.com/p/jensen-huang-resigns-after-having",
+    "published": "2026-11-13T12:20:54+00:00",
+    "item": "05414e5e05a2",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "La37ec426",
+  "stage": "proposed",
+  "stage_status": "being pushed for inclusion",
+  "name": "measures to tighten controls on chip exports as part of the must-pass defense measure (NDAA)",
+  "by": [
+   "Brian Mast",
+   "Congress"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Massachusetts",
+  "reports": [
+   {
+    "args": {
+     "by": "Massachusetts legislature",
+     "law": "Mass Wins Act (section requiring third-party AI audits)",
+     "status": "currently in conference in the state legislature",
+     "where": "Massachusetts"
+    },
+    "quote": "a section of Massachusetts’ Mass Wins Act, currently in conference in the state legislature",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "US states and cities",
+    "place": "Massachusetts",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [
+   "mass wins act",
+   "massachusetts' mass wins act"
+  ],
+  "date": null,
+  "id": "Lb81e9348",
+  "stage": "as reported",
+  "stage_status": "currently in conference in the state legislature",
+  "name": "Mass Wins Act (section requiring third-party AI audits)",
+  "by": [
+   "Massachusetts legislature"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Sara Jacobs",
+     "law": "legislation with an IVO regime",
+     "status": "being worked on; bill text not yet released",
+     "where": "United States"
+    },
+    "quote": "Reps. Sara Jacobs and Don Beyer told Transformer at The Curve conference that they were working on legislation with an IVO regime",
+    "source": "Transformer",
+    "title": "Independent AI auditors have a recruitment problem",
+    "link": "https://www.transformernews.ai/p/independent-ai-auditors-have-a-recruitment",
+    "published": "2026-11-13T16:14:15+00:00",
+    "item": "0ae544c656c0",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L2522cd21",
+  "stage": "passed",
+  "stage_status": "being worked on; bill text not yet released",
+  "name": "legislation with an IVO regime",
+  "by": [
+   "Sara Jacobs"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "New York",
+     "law": "AI safety law",
+     "status": "takes effect"
+    },
+    "quote": "OpenAI, Anthropic face new oversight as New York's AI safety law takes effect",
+    "source": "Techdirt",
+    "title": "Ctrl-Alt-Speech: When The Chips Are Down",
+    "link": "https://www.techdirt.com/2026/11/13/ctrl-alt-speech-when-the-chips-are-down/",
+    "published": "2026-11-13T21:09:00+00:00",
+    "item": "035862dda164",
+    "eid": "E02164f3d",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Ld26e7820",
+  "stage": "as reported",
+  "stage_status": "takes effect",
+  "name": "AI safety law",
+  "by": [
+   "New York"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "Other countries",
+  "place": "Australia",
+  "reports": [
+   {
+    "args": {
+     "by": "Australia",
+     "law": "mandate AI breach reporting and create a regulator",
+     "status": "to mandate"
+    },
+    "quote": "Australia to mandate AI breach reporting, create regulator after OpenAI breach",
+    "source": "Techdirt",
+    "title": "Ctrl-Alt-Speech: When The Chips Are Down",
+    "link": "https://www.techdirt.com/2026/11/13/ctrl-alt-speech-when-the-chips-are-down/",
+    "published": "2026-11-13T21:09:00+00:00",
+    "item": "035862dda164",
+    "eid": "E952acce1",
+    "group": "Other countries",
+    "place": "Australia",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L2ac5d11a",
+  "stage": "as reported",
+  "stage_status": "to mandate",
+  "name": "mandate AI breach reporting and create a regulator",
+  "by": [
+   "Australia"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "White House",
+     "law": "AI accord",
+     "status": "signed by tech CEOs"
+    },
+    "quote": "tech CEOs who signed the White House AI accord",
+    "source": "Semafor",
+    "title": " Trump’s AI task force discusses cyber risks ",
+    "link": "https://www.semafor.com/article/11/13/2026/trumps-ai-task-force-discusses-cyber-risks",
+    "published": "2026-11-13T21:19:21+00:00",
+    "item": "04c529cf51c6",
+    "eid": "E04ea6ad3",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L58ba7342",
+  "stage": "passed",
+  "stage_status": "signed by tech CEOs",
+  "name": "AI accord",
+  "by": [
+   "White House"
+  ],
+  "reported": "2026-11-13"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
+     "by": "Kathy Hochul",
+     "law": "a separate chatbot safety law for minors",
+     "status": "takes effect June 1, 2027",
+     "where": "New York",
+     "date": "June 1, 2027"
+    },
+    "quote": "That law takes effect June 1, 2027.",
+    "source": "TechCrunch",
+    "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+    "link": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+    "published": "2026-11-10T20:52:13+00:00",
+    "item": "91faed0650f0",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": "2027-06-01",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2027-06-01",
+  "id": "L00841c32",
+  "stage": "passed",
+  "stage_status": "takes effect June 1, 2027",
+  "name": "a separate chatbot safety law for minors",
+  "by": [
+   "Kathy Hochul"
+  ],
+  "reported": "2026-11-10"
  }
 ]
