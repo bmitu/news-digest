@@ -24,6 +24,25 @@
    },
    {
     "args": {
+     "by": "European Commission",
+     "law": "AI Act",
+     "status": "first proposal tabled April 2021, talks closed in 2024",
+     "date": "2021-04"
+    },
+    "quote": "the Cloud and AI Development Act. It sets different sovereignty levels for public sector cloud contracts depending on the risk",
+    "source": "Data Center Dynamics",
+    "title": "Britain is hosting the AI boom, not owning it",
+    "link": "https://www.datacenterdynamics.com/en/opinions/britain-is-hosting-the-ai-boom-not-owning-it/",
+    "published": "2026-11-22T11:00:43+00:00",
+    "item": "3f95b1f8e955",
+    "eid": "E63695db7",
+    "group": "European Union",
+    "place": "",
+    "date": "2021-04",
+    "stage": "proposed"
+   },
+   {
+    "args": {
      "by": "European Union",
      "law": "AI Act",
      "status": "went into effect",
@@ -92,7 +111,7 @@
    "European Commission",
    "European Union"
   ],
-  "reported": "2026-11-10"
+  "reported": "2026-11-22"
  },
  {
   "group": "United States (federal)",
@@ -1715,6 +1734,41 @@
    "White House"
   ],
   "reported": "2026-11-17"
+ },
+ {
+  "group": "European Union",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "European Commission",
+     "law": "proposals to cut EU reliance on American and Chinese firms, covering chips, cloud, AI and open-source software",
+     "status": "proposed",
+     "date": "2026-06"
+    },
+    "quote": "in June the Commission put forward a set of proposals to cut how much it leans on American and Chinese firms",
+    "source": "Data Center Dynamics",
+    "title": "Britain is hosting the AI boom, not owning it",
+    "link": "https://www.datacenterdynamics.com/en/opinions/britain-is-hosting-the-ai-boom-not-owning-it/",
+    "published": "2026-11-22T11:00:43+00:00",
+    "item": "3f95b1f8e955",
+    "eid": "E3ee860ed",
+    "group": "European Union",
+    "place": "",
+    "date": "2026-06",
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-06",
+  "id": "La7752503",
+  "stage": "proposed",
+  "stage_status": "proposed",
+  "name": "proposals to cut EU reliance on American and Chinese firms, covering chips, cloud, AI and open-source software",
+  "by": [
+   "European Commission"
+  ],
+  "reported": "2026-11-22"
  },
  {
   "group": "US states and cities",
@@ -4251,6 +4305,43 @@
    },
    {
     "args": {
+     "by": "U.S. Commerce Department",
+     "law": "rule closing the loophole that lets Chinese companies remotely access AI chips located outside China",
+     "status": "issued",
+     "date": "2026-11-16"
+    },
+    "quote": "the U.S. Commerce Department issued a rule closing this loophole",
+    "source": "Fortune",
+    "title": "Data centers full of U.S. chips are serving Chinese AI models–undermining Trump’s tech ambitions",
+    "link": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models/",
+    "published": "2026-11-21T10:00:00+00:00",
+    "item": "a33828c3d7f0",
+    "eid": "Eb8b6ab45",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2026-11-16",
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "Commerce Department",
+     "law": "rule change closing a loophole that let foreign rivals bypass export curbs on advanced computer chips by renting remote access from data centers in Indonesia, Malaysia, Singapore, Thailand, and Brazil",
+     "status": "takes effect 90 days after it's posted to the Federal Register",
+     "where": "US"
+    },
+    "quote": "The rule change takes effect 90 days after it’s posted to the Federal Register.",
+    "source": "Ars Technica",
+    "title": "US moves to cut China’s remote access to AI chips",
+    "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+    "published": "2026-11-16T19:10:09+00:00",
+    "item": "df8e5203f114",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   },
+   {
+    "args": {
      "by": "Department of Commerce",
      "law": "new restrictions on selling chips to countries such as Indonesia, Malaysia, Singapore, Thailand, and Brazil",
      "status": "informed of new restrictions",
@@ -4292,16 +4383,18 @@
   "id": "L0611d30a",
   "stage": "in force",
   "stage_status": "imposed",
-  "name": "a new rule to prevent Chinese companies from training models on Nvidia chips accessed remotely in data centers in countries like Malaysia",
+  "name": "rule change closing a loophole that let foreign rivals bypass export curbs on advanced computer chips by renting remote access from data centers in Indonesia, Malaysia, Singapore, Thailand, and Brazil",
   "by": [
+   "Commerce Department",
    "Department of Commerce",
    "Scott Bessent",
    "U.S.",
+   "U.S. Commerce Department",
    "US",
    "US Department of Commerce",
    "United States"
   ],
-  "reported": "2026-11-18"
+  "reported": "2026-11-21"
  },
  {
   "group": "United States (federal)",
@@ -8135,40 +8228,6 @@
   "reported": "2026-11-16"
  },
  {
-  "group": "United States (federal)",
-  "place": "",
-  "reports": [
-   {
-    "args": {
-     "by": "Commerce Department",
-     "law": "rule change closing a loophole that let foreign rivals bypass export curbs on advanced computer chips by renting remote access from data centers in Indonesia, Malaysia, Singapore, Thailand, and Brazil",
-     "status": "takes effect 90 days after it's posted to the Federal Register",
-     "where": "US"
-    },
-    "quote": "The rule change takes effect 90 days after it’s posted to the Federal Register.",
-    "source": "Ars Technica",
-    "title": "US moves to cut China’s remote access to AI chips",
-    "link": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
-    "published": "2026-11-16T19:10:09+00:00",
-    "item": "df8e5203f114",
-    "group": "United States (federal)",
-    "place": "",
-    "date": null,
-    "stage": "passed"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "Lc109133b",
-  "stage": "passed",
-  "stage_status": "takes effect 90 days after it's posted to the Federal Register",
-  "name": "rule change closing a loophole that let foreign rivals bypass export curbs on advanced computer chips by renting remote access from data centers in Indonesia, Malaysia, Singapore, Thailand, and Brazil",
-  "by": [
-   "Commerce Department"
-  ],
-  "reported": "2026-11-16"
- },
- {
   "group": "US states and cities",
   "place": "Texas",
   "reports": [
@@ -8896,6 +8955,242 @@
    "Texas"
   ],
   "reported": "2026-11-20"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Trump",
+     "law": "agreement with Xi on \"joint guardrails\" on AI",
+     "status": "agreed, no details given",
+     "where": "US–China"
+    },
+    "quote": "Trump said he and Xi agreed to \"joint guardrails\" on AI, with no details given",
+    "source": "Latent Space",
+    "title": "[AINews] Riemann Hypothesis proved...twice independently",
+    "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+    "published": "2026-11-21T05:02:13+00:00",
+    "item": "45149ab56aed",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L60f870c2",
+  "stage": "passed",
+  "stage_status": "agreed, no details given",
+  "name": "agreement with Xi on \"joint guardrails\" on AI",
+  "by": [
+   "Trump"
+  ],
+  "reported": "2026-11-21"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "US",
+     "law": "new rules that may block TSMC and Samsung from manufacturing Chinese AI chips",
+     "status": "new rules, may block",
+     "where": "US"
+    },
+    "quote": "New US rules may block TSMC and Samsung from manufacturing Chinese AI chips",
+    "source": "Latent Space",
+    "title": "[AINews] Riemann Hypothesis proved...twice independently",
+    "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+    "published": "2026-11-21T05:02:13+00:00",
+    "item": "45149ab56aed",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "stopped"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L9ee561c0",
+  "stage": "stopped",
+  "stage_status": "new rules, may block",
+  "name": "new rules that may block TSMC and Samsung from manufacturing Chinese AI chips",
+  "by": [
+   "US"
+  ],
+  "reported": "2026-11-21"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "US bankruptcy court",
+     "law": "appointment of a Consumer Privacy Ombudsman to review any sale involving user data",
+     "status": "ordered"
+    },
+    "quote": "The US bankruptcy court overseeing Character Technologies, Inc., the company behind Character.AI, has ordered the appointment of a Consumer Privacy Ombudsman to review any sale involving user data",
+    "source": "lawnews.co.uk",
+    "title": "Bankruptcy court orders privacy ombudsman for Character.AI user data ahead of 1 December auction",
+    "link": "https://www.lawnews.co.uk/international/bankruptcy-court-orders-privacy-ombudsman-for-character-ai-user-data-ahead/",
+    "published": "2026-11-21T09:16:43+00:00",
+    "item": "100de4cd0224",
+    "eid": "E9ef8da0e",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L9866ba60",
+  "stage": "passed",
+  "stage_status": "ordered",
+  "name": "appointment of a Consumer Privacy Ombudsman to review any sale involving user data",
+  "by": [
+   "US bankruptcy court"
+  ],
+  "reported": "2026-11-21"
+ },
+ {
+  "group": "International",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "United Nations Convention on Certain Conventional Weapons",
+     "law": "agreement to continue discussions on autonomous weapons (Slaughterbots) rather than negotiate a legally binding instrument",
+     "status": "agreed at the 7th Review Conference",
+     "where": "United Nations"
+    },
+    "quote": "the consensus principle of the CCW has led to an empty agreement that will drag out discussions for years with no meaningful solution in sight.",
+    "source": "Future of Life Institute",
+    "title": "Negotiations on Slaughterbots conclude with frustration: We must take the issue elsewhere.",
+    "link": "https://futureoflife.org/statement/negotiations-on-slaughterbots-conclude-with-frustration/",
+    "published": "2026-11-21T12:45:26+00:00",
+    "item": "6a0929276237",
+    "group": "International",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb8a42244",
+  "stage": "passed",
+  "stage_status": "agreed at the 7th Review Conference",
+  "name": "agreement to continue discussions on autonomous weapons (Slaughterbots) rather than negotiate a legally binding instrument",
+  "by": [
+   "United Nations Convention on Certain Conventional Weapons"
+  ],
+  "reported": "2026-11-21"
+ },
+ {
+  "group": "International",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "UN",
+     "law": "rules regulating the use of autonomous weapons",
+     "status": "agreed to \"start discussing options\"",
+     "where": "Geneva"
+    },
+    "quote": "representatives left the meetings agreeing to “start discussing options”",
+    "source": "The Verge",
+    "title": "The UN fails to agree on rules regulating ‘killer robots’",
+    "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "published": "2026-11-21T15:03:37-05:00",
+    "item": "234da3fc1867",
+    "group": "International",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L1b7206b8",
+  "stage": "passed",
+  "stage_status": "agreed to \"start discussing options\"",
+  "name": "rules regulating the use of autonomous weapons",
+  "by": [
+   "UN"
+  ],
+  "reported": "2026-11-21"
+ },
+ {
+  "group": "International",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "UN",
+     "law": "regulations on autonomous weapons, some possibly optional",
+     "status": "countries would have two years to propose regulations"
+    },
+    "quote": "The compromise reached was that countries would instead have two years to propose regulations.",
+    "source": "The Verge",
+    "title": "The UN fails to agree on rules regulating ‘killer robots’",
+    "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "published": "2026-11-21T15:03:37-05:00",
+    "item": "234da3fc1867",
+    "group": "International",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L51b72a1d",
+  "stage": "proposed",
+  "stage_status": "countries would have two years to propose regulations",
+  "name": "regulations on autonomous weapons, some possibly optional",
+  "by": [
+   "UN"
+  ],
+  "reported": "2026-11-21"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "United States",
+     "law": "nonbinding, optional guidelines for autonomous weapons",
+     "status": "proposed a five-year window to discuss"
+    },
+    "quote": "the United States proposed a five-year window to discuss nonbinding, optional guidelines for autonomous weapons.",
+    "source": "The Verge",
+    "title": "The UN fails to agree on rules regulating ‘killer robots’",
+    "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots",
+    "published": "2026-11-21T15:03:37-05:00",
+    "item": "234da3fc1867",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L2a14b718",
+  "stage": "proposed",
+  "stage_status": "proposed a five-year window to discuss",
+  "name": "nonbinding, optional guidelines for autonomous weapons",
+  "by": [
+   "United States"
+  ],
+  "reported": "2026-11-21"
  },
  {
   "group": "US states and cities",
