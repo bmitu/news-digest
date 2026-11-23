@@ -207,22 +207,41 @@
     "place": "",
     "date": null,
     "stage": "in force"
+   },
+   {
+    "args": {
+     "by": "US government",
+     "law": "restriction on exports of advanced Nvidia and AMD AI chips to Chinese companies",
+     "status": "in effect"
+    },
+    "quote": "The US government has restricted exports of advanced Nvidia and AMD AI chips to Chinese companies, citing national security and military concerns.",
+    "source": "OECD AI Incidents Monitor",
+    "title": "US Tightens AI Chip Export Controls to China Amid Circumvention Concerns - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-21-e19a",
+    "published": "2026-11-21T00:00:00+00:00",
+    "item": "ba7ce5417ca3",
+    "eid": "E738f97e6",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "in force"
    }
   ],
   "ids": [],
   "date": "2023",
   "id": "Ld3bc501d",
   "stage": "in force",
-  "stage_status": "in force",
+  "stage_status": "in effect",
   "name": "allowed Nvidia to resume some chip sales to China in return for a share of the revenue (15% of H20 sales, 25% of H200 sales)",
   "by": [
    "Joe Biden's administration",
    "Trump administration",
    "U.S. government",
+   "US government",
    "United States",
    "Washington"
   ],
-  "reported": "2026-11-19"
+  "reported": "2026-11-21"
  },
  {
   "group": "China",
@@ -5925,6 +5944,24 @@
     "place": "",
     "date": null,
     "stage": "proposed"
+   },
+   {
+    "args": {
+     "by": "House",
+     "law": "resolution opposing no-bailout policy for AI companies, similar to Schiff's planned resolution",
+     "status": "introduced"
+    },
+    "quote": "In the House, Reps. Greg Casar, D-Texas, and Maxine Waters, D-Calif., introduced a similar resolution last month.",
+    "source": "Semafor",
+    "title": "Schiff plans no-AI-bailouts resolution",
+    "link": "https://www.semafor.com/article/11/23/2026/schiff-plans-no-ai-bailouts-resolution",
+    "published": "2026-11-23T09:52:02+00:00",
+    "item": "fc3fd1c414c5",
+    "eid": "E38883b1d",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
    }
   ],
   "ids": [],
@@ -5932,11 +5969,12 @@
   "id": "L7b3dfbf8",
   "stage": "proposed",
   "stage_status": "introduced",
-  "name": "a resolution opposing AI company bailouts",
+  "name": "resolution opposing no-bailout policy for AI companies, similar to Schiff's planned resolution",
   "by": [
-   "Congressional Progressive Caucus"
+   "Congressional Progressive Caucus",
+   "House"
   ],
-  "reported": "2026-10-30"
+  "reported": "2026-11-23"
  },
  {
   "group": "US states and cities",
@@ -8212,6 +8250,24 @@
     "place": "",
     "date": null,
     "stage": "proposed"
+   },
+   {
+    "args": {
+     "by": "the Senate",
+     "law": "the Bipartisan American Affordability and Jobs Act (BAAJA), a permitting reform bill",
+     "status": "passed the Senate; now heads to the House of Representatives",
+     "where": "United States"
+    },
+    "quote": "BAAJA, a permitting reform bill designed to overturn key environmental protections in the name of making it easier for developers to build energy infrastructure and data centers, pass the Senate",
+    "source": "bloodinthemachine.com",
+    "title": "AI is becoming a disaster for the climate",
+    "link": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+    "published": "2026-11-22T12:19:46+00:00",
+    "item": "700cf7711b2d",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
    }
   ],
   "ids": [
@@ -8219,13 +8275,14 @@
   ],
   "date": null,
   "id": "Lc03096c4",
-  "stage": "proposed",
-  "stage_status": "Senate expected to vote on passage",
+  "stage": "passed",
+  "stage_status": "passed the Senate; now heads to the House of Representatives",
   "name": "Bipartisan American Affordability and Jobs Act",
   "by": [
-   "Senate"
+   "Senate",
+   "the Senate"
   ],
-  "reported": "2026-11-16"
+  "reported": "2026-11-22"
  },
  {
   "group": "US states and cities",
@@ -9191,6 +9248,40 @@
    "United States"
   ],
   "reported": "2026-11-21"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Congress",
+     "law": "resolution stating Congress must not bail out AI-industry corporations and wealthy investors should the AI industry falter",
+     "status": "proposed"
+    },
+    "quote": "Sen. Adam Schiff, D-Calif., plans to introduce a resolution when Congress returns",
+    "source": "Semafor",
+    "title": "Schiff plans no-AI-bailouts resolution",
+    "link": "https://www.semafor.com/article/11/23/2026/schiff-plans-no-ai-bailouts-resolution",
+    "published": "2026-11-23T09:52:02+00:00",
+    "item": "fc3fd1c414c5",
+    "eid": "E737e971d",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L20ecb38b",
+  "stage": "proposed",
+  "stage_status": "proposed",
+  "name": "resolution stating Congress must not bail out AI-industry corporations and wealthy investors should the AI industry falter",
+  "by": [
+   "Congress"
+  ],
+  "reported": "2026-11-23"
  },
  {
   "group": "US states and cities",

@@ -1,0 +1,66 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>AI and labor productivity</title><style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+.jump{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;font-size:14px;margin-bottom:8px}
+.jump a{text-decoration:none}.jump .n{color:var(--muted);font-size:12px;margin-left:3px}.jump .bar{width:1px;height:16px;background:var(--line)}
+.jump details{position:relative}.jump summary{cursor:pointer;color:var(--accent);list-style:none}.jump summary::-webkit-details-marker{display:none}
+.jump details>div{position:absolute;top:22px;left:0;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:8px;
+padding:6px 0;min-width:180px;box-shadow:0 4px 14px rgba(0,0,0,.12)}.jump details>div a{display:block;padding:5px 12px}
+h2[id],details[id]{scroll-margin-top:100px}details#arguments>summary .n{color:var(--muted);font-size:14px;margin-left:6px}
+
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:6px 0}td,th{border-bottom:1px solid var(--line);
+padding:5px 6px;text-align:left;vertical-align:top}th{color:var(--muted);font-weight:600}.num{white-space:nowrap}
+.wrap{overflow-x:auto}ul.plain ul{margin:2px 0 8px}details{margin:6px 0}details>summary{cursor:pointer}
+h3{font-size:15px;margin:16px 0 2px}</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news digest</a> · <a href="index.html">All debates</a></div><h1>AI and labor productivity</h1><div class="one">“AI will meaningfully lift labor productivity in the next few years”</div><div class="sub">5 people · 3 agree · 1 disagree · 1 unclear · 6 views · 2026-11-16 to 2026-11-23</div><div class="note">Who stands where on the statement above, from their own words. A person's side is shown only where two separate readings of the quote agree; otherwise they are under "Side unclear". This page does not say who is right.</div><h2>Agree <span class="count">3 people</span></h2><ul class="plain"><li><span class="pol ok">✓</span><span class="who">Jacob Helberg</span><ul><li><q>Helberg pointed to data showing that AI has helped prop up the US economy through investment and productivity gains.</q> <span class="meta">evaluation · 2026-11-16 · <a href="https://www.semafor.com/article/11/15/2026/us-official-says-government-needs-to-make-a-better-case-for-ai" target="_blank">US official says government needs to make a better case for AI </a> · via Semafor</span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Indeed Hiring Lab</span><ul><li><q>This doesn’t mean a productivity boom won’t soon come, as it takes time for the economy to adopt new technologies.</q> <span class="meta">prediction · hedged · 2026-11-18 · <a href="https://hiringlab.indeed.com/2026/11/18/there-is-no-ai-jobpocalypse/" target="_blank">There is no AI Jobpocalypse, but plenty of AI-nxiety</a></span></li></ul></li><li><span class="pol ok">✓</span><span class="who">Indeed Hiring Lab survey of economic and labor market experts</span><ul><li><q>Dozens of economic and labor market experts surveyed by Indeed Hiring Lab remain confident AI will meaningfully lift US labor productivity over the next three years.</q> <span class="meta">prediction · 2026-11-18 · <a href="https://hiringlab.indeed.com/2026/11/18/there-is-no-ai-jobpocalypse/" target="_blank">There is no AI Jobpocalypse, but plenty of AI-nxiety</a> · via Indeed Hiring Lab</span></li></ul></li></ul><h2>Disagree <span class="count">1 person</span></h2><ul class="plain"><li><span class="pol bad">✗</span><span class="who">Reed Albergotti</span><ul><li><q>it’s increasingly looking like one in which the real-life impacts of AI take longer to materialize than we initially expected</q> <span class="meta">prediction · hedged · 2026-11-20 · <a href="https://www.semafor.com/article/11/20/2026/the-case-for-an-ai-downturn" target="_blank">The case for an AI downturn</a> · via Semafor</span></li></ul></li></ul><h2>Side unclear <span class="count">2 people</span></h2><ul class="plain"><li><span class="pol ">·</span><span class="who">Indeed Hiring Lab</span><ul><li><q>While AI may have contributed to the recent recovery in productivity growth, the data do not yet show a dramatic shift.</q> <span class="meta">explanation · hedged · 2026-11-18 · <a href="https://hiringlab.indeed.com/2026/11/18/there-is-no-ai-jobpocalypse/" target="_blank">There is no AI Jobpocalypse, but plenty of AI-nxiety</a></span></li></ul></li><li><span class="pol ">·</span><span class="who">The Atlantic</span><ul><li><q>this shift may be more of a long, drawn-out process—similar, perhaps, to the way electrification transformed American industry in the early 20th century—rather than a fast and dramatic one.</q> <span class="meta">prediction · hedged · 2026-11-23 · <a href="https://www.theatlantic.com/ideas/2026/11/ai-bubble-returns-timeline/689504/?utm_source=feed" target="_blank">Air Is Easing Out of the AI Bubble</a></span></li></ul></li></ul><h2>Week by week</h2><ul class="plain"><li><span class="meta">Week of Nov 23</span> · 1: The Atlantic <span class="">·</span></li><li><span class="meta">Week of Nov 16</span> · 4: Jacob Helberg <span class="ok">✓</span>, Indeed Hiring Lab <span class="ok">✓</span>, Indeed Hiring Lab survey of economic and labor market experts <span class="ok">✓</span>, Reed Albergotti <span class="bad">✗</span></li></ul>
+<div class="note">Built 2026-11-23 13:45 UTC from the news knowledge
+graph by code. Every quote was checked against the source's own words; which side a quote takes is a model's reading,
+made twice.</div>
+</main><script data-goatcounter="https://bogdanmitu.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>
