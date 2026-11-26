@@ -1,0 +1,70 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>OpenAI matrix multiplication exponent 9/4 claim</title>
+<style>
+details.record>summary{cursor:pointer}details.record>summary h2{display:inline}
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#6b6a65;--card:#fff;--line:#e6e3dc;--accent:#2f5d8a;
+--ok:#2e7d4f;--mid:#9a6b00;--bad:#b3261e;--chip:#f1eee7}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;
+--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#ecebe6;--muted:#a3a19a;--card:#1f1f1d;--line:#34332f;--accent:#8db8e3;
+--ok:#6fcf97;--mid:#e0b44c;--bad:#f28b82;--chip:#2a2926}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 8px}
+.sub{color:var(--muted);font-size:13px;margin-bottom:16px}
+.scan{font-size:13.5px;font-weight:600;margin:2px 0 6px}.scan.stale{color:var(--bad)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:8px 0}
+.meta{color:var(--muted);font-size:12.5px}.t{font-weight:600}
+.one{margin:4px 0}.badge{display:inline-block;font-size:11.5px;padding:1px 8px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;white-space:nowrap}
+.ok{color:var(--ok)}.mid{color:var(--mid)}.bad{color:var(--bad)}
+details>summary{cursor:pointer;color:var(--muted);font-size:13px}
+ul{margin:6px 0 2px;padding-left:20px}.note{font-size:13px;color:var(--muted);margin-top:4px}
+details.src{border-top:1px solid var(--line);padding:6px 0}
+details.src>summary{font-size:16px;color:var(--fg);font-weight:600;padding:6px 0}
+.count{color:var(--muted);font-weight:400;font-size:13px}
+.story{border-left:3px solid var(--accent)}
+.story ul{list-style:none;padding-left:0}.story li{margin:6px 0}
+.who{font-weight:600;font-size:13px}.role{font-size:11.5px;color:var(--muted);border:1px solid var(--line);
+border-radius:99px;padding:0 6px;margin-left:4px}.role.own{color:var(--ok);border-color:currentColor}
+.plain{list-style:none;padding-left:0}.plain li{margin:4px 0}
+details.takes{margin-top:6px;border-top:1px dashed var(--line);padding-top:6px}
+.takes li{font-size:13.5px}.takes q{font-style:italic}
+.pol{display:inline-block;min-width:18px;text-align:center;font-weight:700;margin-right:4px}
+.card .sum{margin:6px 0 4px;font-size:15px}.card .sum p{margin:0 0 8px;line-height:1.55}.more{font-size:13px;font-weight:600}
+.toc{margin:4px 0 16px;padding-left:24px}.toc li{margin:3px 0}.story[id]{scroll-margin-top:64px}
+.lede .fh{font-size:21px;font-weight:700;margin:30px 0 4px}.lede .fh:first-child{margin-top:8px}
+.lede .fh .count{font-size:14px;font-weight:400;color:var(--muted)}
+.lede .lh{font-size:18px;font-weight:700;line-height:1.3;margin:28px 0 6px;padding-left:10px;border-left:4px solid var(--accent)}
+.lede .lh:first-child{margin-top:12px}.lede .lh.also{color:var(--muted);border-left-color:var(--line)}
+.lede .ls{margin:0 0 4px 14px;font-size:15px;line-height:1.55}.lede .toc{margin:0 0 4px 14px}
+.summary p{margin:0 0 10px;font-size:16px;line-height:1.6}sup a{font-size:11px;padding:0 1px}
+.fn{font-size:13px;color:var(--muted)}.fn li{margin:4px 0}.fn q{font-style:italic;color:var(--fg)}
+.inf{font-size:11px;color:var(--mid);margin-left:2px}.crumb{font-size:13px;margin-bottom:12px}
+details.rq{border-top:1px solid var(--line);padding:8px 0}details.rq>summary{font-size:15px;color:var(--fg);font-weight:600}
+details.rq p{margin:8px 0;line-height:1.55}
+.record h3{font-size:15px;margin:14px 0 2px}.record h3:first-child{margin-top:2px}.record li{margin:6px 0}
+nav{position:sticky;top:0;background:var(--bg);padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
+nav input{width:100%;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);font-size:14px}
+.jump{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;font-size:14px;margin-bottom:8px}
+.jump a{text-decoration:none}.jump .n{color:var(--muted);font-size:12px;margin-left:3px}.jump .bar{width:1px;height:16px;background:var(--line)}
+.jump details{position:relative}.jump summary{cursor:pointer;color:var(--accent);list-style:none}.jump summary::-webkit-details-marker{display:none}
+.jump details>div{position:absolute;top:22px;left:0;z-index:2;background:var(--card);border:1px solid var(--line);border-radius:8px;
+padding:6px 0;min-width:180px;box-shadow:0 4px 14px rgba(0,0,0,.12)}.jump details>div a{display:block;padding:5px 12px}
+h2[id],details[id]{scroll-margin-top:100px}details#arguments>summary .n{color:var(--muted);font-size:14px;margin-left:6px}
+</style></head><body><main>
+<div class="crumb"><a href="../digest.html">← AI news, last 7 days</a></div>
+<h1>OpenAI matrix multiplication exponent 9/4 claim</h1>
+<div class="scan" id="scan" data-scan="2026-11-26T05:11:55Z">Last scan Thu Nov 26, 05:11 UTC</div><script>(function(){var e=document.getElementById("scan"),h=(Date.now()-Date.parse(e.dataset.scan))/36e5;if(h>50){var d=Math.floor(h/24);e.className+=" stale";e.textContent+=" — not updated for "+(d>1?d+" days":"over a day")+": the latest daily scan did not publish, so “new” below is older than it looks.";}})();</script>
+<div class="sub">2 sources · <span class="mid">single origin (OpenAI)</span></div>
+<div class="summary"><p>OpenAI has claimed that the matrix multiplication exponent ω is exactly 9/4, in a 111-page paper, according to the posts quoted in the coverage.<sup><a href="#n1" id="r1">1</a></sup><sup><a href="#n2" id="r2">2</a></sup> The new result is said to build on an October release in which OpenAI&#x27;s model found an upper bound of 9/4.<sup><a href="#n3" id="r3">3</a></sup><sup><a href="#n4" id="r4">4</a></sup></p><p>OpenAI&#x27;s Sébastien Bubeck says the model then worked on a lower bound, for which nothing had been known before, and that the announcement shows 9/4 is tight.<sup><a href="#n5" id="r5">5</a></sup><sup><a href="#n6" id="r6">6</a></sup> Bubeck adds that an older result by Yin Tat Lee and collaborators implies linear programs could then be solved in time n^{9/4}.<sup><a href="#n7" id="r7">7</a></sup> Latent Space&#x27;s AINews calls the lower bound the biggest news, because a matching lower and upper bound leaves only one possible value.<sup><a href="#n8" id="r8">8</a></sup><sup><a href="#n9" id="r9">9</a></sup> One account says the result reportedly comes through an explicit superlinear circuit lower bound.<sup><a href="#n10" id="r10">10</a></sup></p><p>Deedy framed the result as moving the best known value from 2.3712 in 2026 to 2.25, after 36 years of shaving off 0.005.<sup><a href="#n11" id="r11">11</a></sup> However, Zvi Mowshowitz&#x27;s roundup says the claim is actively disappointing, since many had hoped the exponent was 2.<sup><a href="#n12" id="r12">12</a></sup> Bubeck says he never expected to see such a result in his lifetime.<sup><a href="#n13" id="r13">13</a></sup></p></div><div class="note">Every sentence was checked word for word against quotes from the articles it cites. Each footnote shows its quote, unless the page already quotes as much of that article as we allow; then it links the article instead. A model wrote and arranged the sentences, and a second read checked each against its quotes (written 2026-11-25).</div><h2>Sources quoted</h2><ol class="fn"><li id="n1"><q>OpenAI just dropped a 111-page proof of a 57-year old math problem: the matrix multiplication exponent (ω) is exactly 9/4.</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n2"><q>an OpenAI paper claimed that the square matrix multiplication exponent ω is exactly 9/4.</q> — <span class="who">Latent Space</span>, <a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a></li><li id="n3"><q>As part of the October 6 release we had a particularly clean advance on the matrix multiplication exponent, with a new upper bound of 9/4.</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n4"><q>In October, OpenAI found an upper bound for ω down to at most 9/4.</q> — <span class="who">Latent Space</span>, <a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a></li><li id="n5"><q>Since then, the model has been working on a LOWER BOUND for this exponent. This is already pretty crazy since NOTHING was known for lower bounds!</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n6"><q>Today we announced that actually 9/4 is tight</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n7"><q>by an “old” result of Yin Tat Lee and collaborators this also implies that linear programs can be solved in time n^{9/4}.</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n8"><q>The lower bound is the biggest news.</q> — <span class="who">Latent Space</span>, <a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a></li><li id="n9"><q>Finding the lower bound = upper bound leaves only one possible value, which is a shocking result for most.</q> — <span class="who">Latent Space</span>, <a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a></li><li id="n10"><q>The result reportedly comes through an explicit superlinear circuit lower bound ( @wjmzbmr1).</q> — <span class="who">Latent Space</span>, <a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a></li><li id="n11"><q>1990 to Aug 2026: 36 years to shave off 0.005, 2.3712 - Nov 2026: OpenAI proves the upper and lower bound is 2.25</q> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n12"><i>Quote not reprinted: this page already repeats as much of this article as we allow.</i> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li id="n13"><i>Quote not reprinted: this page already repeats as much of this article as we allow.</i> — <span class="who">Zvi Mowshowitz</span>, <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li></ol>
+<h2>Who reported it</h2>
+<div class="card story"><ul><li><span class="who">Zvi Mowshowitz</span><span class="role" title="Quotes Bubeck and Deedy on OpenAI&#x27;s 9/4 claim; no independent facts.">repeats OpenAI</span>: A 111-page OpenAI proof shows the matrix multiplication exponent is exactly 9/4. The upper bound came in the October 6 release, and the lower bound followed later. <span class="meta">(<a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a>)</span></li><li><span class="who">Latent Space</span><span class="role" title="Summarizes OpenAI&#x27;s 9/4 claim via Bubeck&#x27;s post and commentary.">repeats OpenAI</span>: An OpenAI model asserts a lower bound that equals the upper bound it set in October, pinning ω at precisely 9/4; many experts had not anticipated this outcome. <span class="meta">(<a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a>)</span></li></ul></div>
+<h2>Facts and takes</h2>
+<div class="note">No checked facts or takes on this story yet.</div>
+<h2>Timeline</h2>
+<ul class="plain"><li><span class="meta">Nov 25 17:24 UTC</span> · <span class="who">Zvi Mowshowitz</span>: <a href="https://thezvi.substack.com/p/claude-and-levent-alpoge-prove-the" target="_blank">Claude and Levent Alpöge Prove the Riemann Hypothesis</a></li><li><span class="meta">Nov 25 22:23 UTC</span> · <span class="who">Latent Space</span>: <a href="https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/" target="_blank">[AINews] Math Proofs Are Landing Faster Than We Can Read Them</a></li></ul>
+<div class="note">Built 2026-11-26 05:11 UTC. Facts and quotes say who states them, not that they are true.</div>
+</main><script data-goatcounter="https://bogdanmitu.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script></body></html>

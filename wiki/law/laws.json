@@ -96,12 +96,49 @@
     "place": "",
     "date": null,
     "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "European Commission",
+     "law": "draft template for the fundamental rights impact assessment required by Article 27 of the AI Act",
+     "status": "open for feedback until 15 January 2027",
+     "where": "EU"
+    },
+    "quote": "The European Commission is inviting feedback on a draft template to help certain deployers of Annex III high-risk AI systems prepare the fundamental rights impact assessment required by Article 27.",
+    "source": "EU AI Act Newsletter",
+    "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+    "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+    "published": "2026-11-24T07:44:37+00:00",
+    "item": "436c0918b5e0",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "European Union",
+     "law": "obligation to carry out a fundamental rights impact assessment before deployment for certain deployers of Annex III high-risk AI systems (Article 27 of the AI Act)",
+     "status": "applying from 2 December 2027",
+     "date": "2027-12"
+    },
+    "quote": "with the obligation applying from 2 December 2027",
+    "source": "EU AI Act Newsletter",
+    "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+    "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+    "published": "2026-11-24T07:44:37+00:00",
+    "item": "436c0918b5e0",
+    "eid": "E35e4c7d8",
+    "group": "European Union",
+    "place": "",
+    "date": "2027-12",
+    "stage": "as reported"
    }
   ],
   "ids": [
    "ai act"
   ],
-  "date": "2024",
+  "date": "2027-12",
   "id": "L625e9b8b",
   "stage": "in force",
   "stage_status": "went into effect",
@@ -111,7 +148,7 @@
    "European Commission",
    "European Union"
   ],
-  "reported": "2026-11-22"
+  "reported": "2026-11-24"
  },
  {
   "group": "United States (federal)",
@@ -225,23 +262,77 @@
     "place": "",
     "date": null,
     "stage": "in force"
+   },
+   {
+    "args": {
+     "by": "U.S.",
+     "law": "export controls on advanced chips",
+     "status": "in force",
+     "where": "U.S."
+    },
+    "quote": "despite U.S. export controls",
+    "source": "TechCrunch",
+    "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+    "link": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+    "published": "2026-11-25T00:12:02+00:00",
+    "item": "05f887d0221c",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "in force"
    }
   ],
   "ids": [],
   "date": "2023",
   "id": "Ld3bc501d",
   "stage": "in force",
-  "stage_status": "in effect",
+  "stage_status": "in force",
   "name": "allowed Nvidia to resume some chip sales to China in return for a share of the revenue (15% of H20 sales, 25% of H200 sales)",
   "by": [
    "Joe Biden's administration",
    "Trump administration",
+   "U.S.",
    "U.S. government",
    "US government",
    "United States",
    "Washington"
   ],
-  "reported": "2026-11-21"
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "Other countries",
+  "place": "Brazil",
+  "reports": [
+   {
+    "args": {
+     "by": "Porto Alegre",
+     "law": "one of the first known AI-generated ordinances",
+     "status": "enacted",
+     "where": "Porto Alegre, Brazil",
+     "date": "2023"
+    },
+    "quote": "In 2023, the Brazilian city of Porto Alegre enacted one of the first known AI-generated ordinances.",
+    "source": "Transformer",
+    "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+    "link": "https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws",
+    "published": "2026-11-25T17:02:08+00:00",
+    "item": "532f830fd55b",
+    "group": "Other countries",
+    "place": "Brazil",
+    "date": "2023",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2023",
+  "id": "L0ab3f5f2",
+  "stage": "passed",
+  "stage_status": "enacted",
+  "name": "one of the first known AI-generated ordinances",
+  "by": [
+   "Porto Alegre"
+  ],
+  "reported": "2026-11-25"
  },
  {
   "group": "China",
@@ -602,6 +693,41 @@
    "Remote Access Security Act"
   ],
   "reported": "2026-11-16"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Georgia",
+  "reports": [
+   {
+    "args": {
+     "by": "Kingsland city council",
+     "law": "tiny home ordinance",
+     "status": "passed 3-0",
+     "where": "Kingsland, Georgia",
+     "date": "May 12, 2025"
+    },
+    "quote": "the version that passed 3-0 by council later the same day",
+    "source": "Transformer",
+    "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+    "link": "https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws",
+    "published": "2026-11-25T17:02:08+00:00",
+    "item": "532f830fd55b",
+    "group": "US states and cities",
+    "place": "Georgia",
+    "date": "2025-05-12",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2025-05-12",
+  "id": "L2e15132a",
+  "stage": "passed",
+  "stage_status": "passed 3-0",
+  "name": "tiny home ordinance",
+  "by": [
+   "Kingsland city council"
+  ],
+  "reported": "2026-11-25"
  },
  {
   "group": "US states and cities",
@@ -1002,6 +1128,25 @@
    {
     "args": {
      "by": "Donald Trump",
+     "law": "allowed Nvidia to sell more powerful chips to China",
+     "status": "allowed",
+     "where": "US",
+     "date": "December"
+    },
+    "quote": "In December, Trump — who has a close relationship with Jensen Huang — allowed Nvidia to sell more powerful chips to China.",
+    "source": "The Verge",
+    "title": "Welcome to elite impunity, Jensen Huang",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang",
+    "published": "2026-11-23T17:09:26-05:00",
+    "item": "8ab70d6f89cf",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2025-12",
+    "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "Donald Trump",
      "law": "export controls on H200 chips",
      "status": "lifted",
      "where": "United States"
@@ -1047,7 +1192,7 @@
    "Howard Lutnick",
    "Trump Administration"
   ],
-  "reported": "2026-11-19"
+  "reported": "2026-11-23"
  },
  {
   "group": "United States (federal)",
@@ -1287,6 +1432,25 @@
     "place": "",
     "date": "2026",
     "stage": "stopped"
+   },
+   {
+    "args": {
+     "by": "Senate",
+     "law": "GAIN AI Act",
+     "status": "included in the Senate version of the NDAA but dropped from the House version",
+     "date": "2026"
+    },
+    "quote": "It already passed the Senate but is facing headwinds in the House during the lame-duck session.",
+    "source": "The Hill technology",
+    "title": "Virginia, Oregon sue SpaceX over AI deepfake porn, child sexual abuse material",
+    "link": "https://thehill.com/regulation/court-battles/6237551-virginia-oregon-lawsuit-spacex-ai/",
+    "published": "2026-11-23T17:20:38+00:00",
+    "item": "2f73cb50563e",
+    "eid": "Ecb3a855b",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2026",
+    "stage": "stopped"
    }
   ],
   "ids": [
@@ -1300,7 +1464,7 @@
   "by": [
    "Senate"
   ],
-  "reported": "2026-11-17"
+  "reported": "2026-11-23"
  },
  {
   "group": "United States (federal)",
@@ -1559,6 +1723,41 @@
  },
  {
   "group": "US states and cities",
+  "place": "Georgia",
+  "reports": [
+   {
+    "args": {
+     "by": "Kingsland city council",
+     "law": "data center ordinance",
+     "status": "passed 3-0 (one member absent)",
+     "where": "Kingsland, Georgia",
+     "date": "March"
+    },
+    "quote": "Kingsland’s city council voted 3-0 (one member was absent) to pass the data center ordinance.",
+    "source": "Transformer",
+    "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+    "link": "https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws",
+    "published": "2026-11-25T17:02:08+00:00",
+    "item": "532f830fd55b",
+    "group": "US states and cities",
+    "place": "Georgia",
+    "date": "2026-03",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-03",
+  "id": "L846dedbd",
+  "stage": "passed",
+  "stage_status": "passed 3-0 (one member absent)",
+  "name": "data center ordinance",
+  "by": [
+   "Kingsland city council"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
   "place": "Maine",
   "reports": [
    {
@@ -1629,6 +1828,41 @@
    "the governor of Maine"
   ],
   "reported": "2026-11-06"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Georgia",
+  "reports": [
+   {
+    "args": {
+     "by": "Kingsland city council",
+     "law": "resolution extending a citywide pause on apartment construction",
+     "status": "unanimously approved",
+     "where": "Kingsland, Georgia",
+     "date": "April 20"
+    },
+    "quote": "the council unanimously approved the moratorium extension on April 20",
+    "source": "Transformer",
+    "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+    "link": "https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws",
+    "published": "2026-11-25T17:02:08+00:00",
+    "item": "532f830fd55b",
+    "group": "US states and cities",
+    "place": "Georgia",
+    "date": "2026-04-20",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-04-20",
+  "id": "Lc31597d2",
+  "stage": "passed",
+  "stage_status": "unanimously approved",
+  "name": "resolution extending a citywide pause on apartment construction",
+  "by": [
+   "Kingsland city council"
+  ],
+  "reported": "2026-11-25"
  },
  {
   "group": "United States (federal)",
@@ -1933,6 +2167,40 @@
    "Byron Donalds"
   ],
   "reported": "2026-10-27"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Indiana",
+  "reports": [
+   {
+    "args": {
+     "by": "Indiana",
+     "law": "state law letting agencies charge out-of-state requesters, prioritize residents, and deny requests suspected of data scraping or phishing",
+     "status": "passed without a single dissenting vote; took effect July 1",
+     "where": "Indiana"
+    },
+    "quote": "A state law that passed without a single dissenting vote and took effect July 1 lets agencies charge out-of-state requesters, prioritize residents, and deny requests they suspect are aimed at data scraping or phishing.",
+    "source": "MIT Technology Review",
+    "title": "AI is straining America’s open records systems",
+    "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "published": "2026-11-25T10:00:00+00:00",
+    "item": "cb4782794f2f",
+    "group": "US states and cities",
+    "place": "Indiana",
+    "date": "2026-07-01",
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": "2026-07-01",
+  "id": "L23ef052e",
+  "stage": "in force",
+  "stage_status": "passed without a single dissenting vote; took effect July 1",
+  "name": "state law letting agencies charge out-of-state requesters, prioritize residents, and deny requests suspected of data scraping or phishing",
+  "by": [
+   "Indiana"
+  ],
+  "reported": "2026-11-25"
  },
  {
   "group": "US states and cities",
@@ -4395,6 +4663,42 @@
     "place": "",
     "date": null,
     "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "US",
+     "law": "AI chip export controls tightened to deter Chinese companies from accessing compute remotely",
+     "status": "tightened",
+     "where": "US"
+    },
+    "quote": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+    "source": "TechCrunch",
+    "title": "SEC reportedly investigating Nvidia amid Huang exit",
+    "link": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+    "published": "2026-11-17T21:48:07+00:00",
+    "item": "6e2564c29c66",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "US",
+     "law": "license requirement for data centers leasing compute to companies headquartered in China",
+     "status": "required",
+     "where": "US"
+    },
+    "quote": "data centers around the world need licenses from the US to lease compute to companies headquartered in China",
+    "source": "The Verge",
+    "title": "What is Nvidia without AI’s sugar daddy in charge?",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+    "published": "2026-11-18T13:34:15-05:00",
+    "item": "d7174b90d189",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
    }
   ],
   "ids": [],
@@ -6050,6 +6354,131 @@
   "reports": [
    {
     "args": {
+     "by": "Kathy Hochul",
+     "law": "a bill banning the manufacture, distribution, and sale of AI chatbot toys for the next five years",
+     "status": "signed",
+     "where": "New York",
+     "date": "this week"
+    },
+    "quote": "Gov. Kathy Hochul this week signed a bill banning the manufacture, distribution, and sale of such toys in New York for the next five years.",
+    "source": "TechCrunch",
+    "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+    "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+    "published": "2026-11-25T18:11:46+00:00",
+    "item": "4f0b7bfbd5a5",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": "2026-11",
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "New York",
+     "law": "five-year ban on the production, sale, and distribution of AI chatbot toys for children",
+     "status": "signed"
+    },
+    "quote": "New York Governor Kathy Hochul signed a law imposing a five-year ban on the production, sale, and distribution of AI chatbot toys for children",
+    "source": "OECD AI Incidents Monitor",
+    "title": "New York Imposes Five-Year Ban on AI Chatbot Toys for Children - OECD.AI",
+    "link": "https://oecd.ai/en/incidents/2026-11-24-c566",
+    "published": "2026-11-24T00:00:00+00:00",
+    "item": "de6496d883bf",
+    "eid": "E142c3c01",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "New York",
+     "law": "a bill banning the manufacture, distribution, and sale of AI chatbot toys for the next five years",
+     "status": "takes effect 90 days after signing",
+     "where": "New York"
+    },
+    "quote": "the new law takes effect 90 days after signing",
+    "source": "TechCrunch",
+    "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+    "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+    "published": "2026-11-25T18:11:46+00:00",
+    "item": "4f0b7bfbd5a5",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "New York",
+     "law": "ban on AI-chatbot toys for five years",
+     "status": "banned",
+     "where": "New York"
+    },
+    "quote": "New York banned AI-chatbot toys for five years",
+    "source": "Latent Space",
+    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+    "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+    "published": "2026-11-25T04:29:07+00:00",
+    "item": "054ddac7c837",
+    "group": "US states and cities",
+    "place": "New York",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": "2026-11",
+  "id": "L1d9501e5",
+  "stage": "in force",
+  "stage_status": "banned",
+  "name": "a bill banning the manufacture, distribution, and sale of AI chatbot toys for the next five years",
+  "by": [
+   "Kathy Hochul",
+   "New York"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "U.S. government",
+     "law": "new rules barring large data centers that purchase U.S. chips from serving customers in China and other nations seen as problematic by the U.S. government",
+     "status": "issued last week",
+     "where": "United States",
+     "date": "last week"
+    },
+    "quote": "The U.S. also issued new rules last week barring large data centers that purchase U.S. chips from serving customers in China and other nations seen as problematic by the U.S. government.",
+    "source": "TechCrunch",
+    "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+    "link": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+    "published": "2026-11-25T13:00:00+00:00",
+    "item": "958b4d502f59",
+    "group": "United States (federal)",
+    "place": "",
+    "date": "2026-11",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2026-11",
+  "id": "L4565d9b2",
+  "stage": "passed",
+  "stage_status": "issued last week",
+  "name": "new rules barring large data centers that purchase U.S. chips from serving customers in China and other nations seen as problematic by the U.S. government",
+  "by": [
+   "U.S. government"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "New York",
+  "reports": [
+   {
+    "args": {
      "by": "New York",
      "law": "New York chatbot safety law imposing restrictions on minor chatbot use",
      "status": "unveiled",
@@ -7420,6 +7849,24 @@
     "place": "",
     "date": null,
     "stage": "proposed"
+   },
+   {
+    "args": {
+     "by": "Tom Cotton",
+     "law": "the Chip Security Act",
+     "status": "Cotton says Congress will pass it, with other bipartisan chip export-control bills",
+     "where": "US"
+    },
+    "quote": "we will pass overwhelmingly bipartisan chip export-control bills, including my Chip Security Act, one way or the other.",
+    "source": "The Verge",
+    "title": "Trump engineered a risky comeback for Jensen Huang",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
+    "published": "2026-11-23T17:25:12-05:00",
+    "item": "049542555c2c",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
    }
   ],
   "ids": [
@@ -7433,7 +7880,7 @@
   "by": [
    "Tom Cotton"
   ],
-  "reported": "2026-11-13"
+  "reported": "2026-11-23"
  },
  {
   "group": "United States (federal)",
@@ -7844,6 +8291,40 @@
   "name": "a giant AI bill",
   "by": [
    "Colorado"
+  ],
+  "reported": "2026-11-14"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "U.S.",
+     "law": "export controls on Nvidia's restricted processors",
+     "status": "in force",
+     "where": "U.S."
+    },
+    "quote": "Many of these chips are subject to U.S. export controls, making them difficult for Chinese companies to obtain.",
+    "source": "TechCrunch",
+    "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+    "link": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "published": "2026-11-14T16:34:15+00:00",
+    "item": "075bbfb634c2",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lba156b77",
+  "stage": "in force",
+  "stage_status": "in force",
+  "name": "export controls on Nvidia's restricted processors",
+  "by": [
+   "U.S."
   ],
   "reported": "2026-11-14"
  },
@@ -8535,40 +9016,6 @@
   "reports": [
    {
     "args": {
-     "by": "US",
-     "law": "license requirement for data centers leasing compute to companies headquartered in China",
-     "status": "required",
-     "where": "US"
-    },
-    "quote": "data centers around the world need licenses from the US to lease compute to companies headquartered in China",
-    "source": "The Verge",
-    "title": "What is Nvidia without AI’s sugar daddy in charge?",
-    "link": "https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
-    "published": "2026-11-18T13:34:15-05:00",
-    "item": "d7174b90d189",
-    "group": "United States (federal)",
-    "place": "",
-    "date": null,
-    "stage": "as reported"
-   }
-  ],
-  "ids": [],
-  "date": null,
-  "id": "L7ef62b25",
-  "stage": "as reported",
-  "stage_status": "required",
-  "name": "license requirement for data centers leasing compute to companies headquartered in China",
-  "by": [
-   "US"
-  ],
-  "reported": "2026-11-18"
- },
- {
-  "group": "United States (federal)",
-  "place": "",
-  "reports": [
-   {
-    "args": {
      "by": "Alexandria Ocasio-Cortez",
      "law": "the Defiance Act, which would let victims of nonconsensual intimate deepfakes sue their creators",
      "status": "proposed, not yet law",
@@ -8584,6 +9031,23 @@
     "place": "",
     "date": null,
     "stage": "proposed"
+   },
+   {
+    "args": {
+     "by": "Senate",
+     "law": "the Defiance Act, a bill that would give victims a civil right of action to sue over deepfake pornography",
+     "status": "passed the Senate; facing headwinds in the House"
+    },
+    "quote": "It already passed the Senate but is facing headwinds in the House during the lame-duck session.",
+    "source": "The Hill technology",
+    "title": "Virginia, Oregon sue SpaceX over AI deepfake porn, child sexual abuse material",
+    "link": "https://thehill.com/regulation/court-battles/6237551-virginia-oregon-lawsuit-spacex-ai/",
+    "published": "2026-11-23T17:20:38+00:00",
+    "item": "2f73cb50563e",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
    }
   ],
   "ids": [
@@ -8591,13 +9055,14 @@
   ],
   "date": null,
   "id": "L6e8a78cb",
-  "stage": "proposed",
-  "stage_status": "proposed, not yet law",
+  "stage": "passed",
+  "stage_status": "passed the Senate; facing headwinds in the House",
   "name": "the Defiance Act, which would let victims of nonconsensual intimate deepfakes sue their creators",
   "by": [
-   "Alexandria Ocasio-Cortez"
+   "Alexandria Ocasio-Cortez",
+   "Senate"
   ],
-  "reported": "2026-11-18"
+  "reported": "2026-11-23"
  },
  {
   "group": "United States (federal)",
@@ -9282,6 +9747,484 @@
    "Congress"
   ],
   "reported": "2026-11-23"
+ },
+ {
+  "group": "European Union",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "EU",
+     "law": "a global AI pact",
+     "status": "EU renewing its push",
+     "where": "EU"
+    },
+    "quote": "the EU is renewing its push for a global AI pact",
+    "source": "EU AI Act Newsletter",
+    "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+    "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+    "published": "2026-11-24T07:44:37+00:00",
+    "item": "436c0918b5e0",
+    "group": "European Union",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L5d80d984",
+  "stage": "proposed",
+  "stage_status": "EU renewing its push",
+  "name": "a global AI pact",
+  "by": [
+   "EU"
+  ],
+  "reported": "2026-11-24"
+ },
+ {
+  "group": "Other countries",
+  "place": "Canada",
+  "reports": [
+   {
+    "args": {
+     "by": "Canada",
+     "law": "international Technology Stability Board for AI",
+     "status": "proposed"
+    },
+    "quote": "the letter asks the EU to back an international Technology Stability Board for AI, as proposed by Canada",
+    "source": "EU AI Act Newsletter",
+    "title": "The EU AI Act Newsletter #115: Global Rules After the Midterms",
+    "link": "https://artificialintelligenceact.substack.com/p/the-eu-ai-act-newsletter-115-global",
+    "published": "2026-11-24T07:44:37+00:00",
+    "item": "436c0918b5e0",
+    "eid": "E06a5e644",
+    "group": "Other countries",
+    "place": "Canada",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb09b4e9c",
+  "stage": "proposed",
+  "stage_status": "proposed",
+  "name": "international Technology Stability Board for AI",
+  "by": [
+   "Canada"
+  ],
+  "reported": "2026-11-24"
+ },
+ {
+  "group": "Other countries",
+  "place": "United Arab Emirates",
+  "reports": [
+   {
+    "args": {
+     "by": "United Arab Emirates",
+     "law": "mandated AI curriculum for kindergarten through grade 12 in public and some private schools",
+     "status": "mandated"
+    },
+    "quote": "after the UAE mandated an AI curriculum, which began in fall 2025 in all public and some private schools",
+    "source": "Semafor",
+    "title": "UAE launches AI assistant to track children’s learning",
+    "link": "https://www.semafor.com/article/11/24/2026/uae-launches-ai-assistant-to-track-childrens-learning",
+    "published": "2026-11-24T12:41:34+00:00",
+    "item": "6783fc470f88",
+    "eid": "E4fb3fd5a",
+    "group": "Other countries",
+    "place": "United Arab Emirates",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lf6800acc",
+  "stage": "as reported",
+  "stage_status": "mandated",
+  "name": "mandated AI curriculum for kindergarten through grade 12 in public and some private schools",
+  "by": [
+   "United Arab Emirates"
+  ],
+  "reported": "2026-11-24"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Pennsylvania",
+  "reports": [
+   {
+    "args": {
+     "by": "Pennsylvania’s court advisory committee",
+     "law": "proposed AI notice and compliance certification",
+     "status": "proposed"
+    },
+    "quote": "Pennsylvania’s court advisory committee has published a proposed AI notice and compliance certification for public comment",
+    "source": "Above the Law",
+    "title": "How LexisNexis Protégé Helps Attorneys Meet Emerging AI Standards",
+    "link": "https://abovethelaw.com/2026/11/how-lexisnexis-protege-helps-attorneys-meet-emerging-ai-standards/",
+    "published": "2026-11-24T18:48:00+00:00",
+    "item": "27b5f0cd845d",
+    "eid": "Ec2410506",
+    "group": "US states and cities",
+    "place": "Pennsylvania",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L120ac1cd",
+  "stage": "proposed",
+  "stage_status": "proposed",
+  "name": "proposed AI notice and compliance certification",
+  "by": [
+   "Pennsylvania’s court advisory committee"
+  ],
+  "reported": "2026-11-24"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Donald Trump",
+     "law": "approved sales of Nvidia chips to the United Arab Emirates",
+     "status": "approved",
+     "where": "United States"
+    },
+    "quote": "He approved sales of sensitive technology, such as F-35 jet fighters to Saudi Arabia and Nvidia chips to the United Arab Emirates",
+    "source": "Zvi",
+    "title": "Jensen Huang Reinstated As Nvidia CEO at Behest of President Trump",
+    "link": "https://thezvi.substack.com/p/jensen-huang-reinstated-as-nvidia",
+    "published": "2026-11-24T22:42:01+00:00",
+    "item": "fdd37cbc3ba2",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L93a18504",
+  "stage": "passed",
+  "stage_status": "approved",
+  "name": "approved sales of Nvidia chips to the United Arab Emirates",
+  "by": [
+   "Donald Trump"
+  ],
+  "reported": "2026-11-24"
+ },
+ {
+  "group": "US states and cities",
+  "place": "California",
+  "reports": [
+   {
+    "args": {
+     "by": "California",
+     "law": "California measure declaring that AI systems are not \"members of the public\" under public records law",
+     "status": "signed in September",
+     "where": "California"
+    },
+    "quote": "California’s, signed in September, declares that AI systems are not “members of the public,”",
+    "source": "MIT Technology Review",
+    "title": "AI is straining America’s open records systems",
+    "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "published": "2026-11-25T10:00:00+00:00",
+    "item": "cb4782794f2f",
+    "group": "US states and cities",
+    "place": "California",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L472a9429",
+  "stage": "passed",
+  "stage_status": "signed in September",
+  "name": "California measure declaring that AI systems are not \"members of the public\" under public records law",
+  "by": [
+   "California"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Pennsylvania",
+  "reports": [
+   {
+    "args": {
+     "by": "Pennsylvania",
+     "law": "a bill letting agencies deny requests they \"reasonably suspect\" were generated by a script or AI",
+     "status": "stalled",
+     "where": "Pennsylvania"
+    },
+    "quote": "A stalled Pennsylvania bill would let agencies deny requests they “reasonably suspect” were generated by a script or AI.",
+    "source": "MIT Technology Review",
+    "title": "AI is straining America’s open records systems",
+    "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "published": "2026-11-25T10:00:00+00:00",
+    "item": "cb4782794f2f",
+    "group": "US states and cities",
+    "place": "Pennsylvania",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L19f5abc2",
+  "stage": "as reported",
+  "stage_status": "stalled",
+  "name": "a bill letting agencies deny requests they \"reasonably suspect\" were generated by a script or AI",
+  "by": [
+   "Pennsylvania"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Indiana",
+  "reports": [
+   {
+    "args": {
+     "by": "Adams County",
+     "law": "ban on commercial use of its records, including resale",
+     "status": "banned in March",
+     "where": "Adams County, Indiana"
+    },
+    "quote": "In March, it banned commercial use of its records, including resale.",
+    "source": "MIT Technology Review",
+    "title": "AI is straining America’s open records systems",
+    "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "published": "2026-11-25T10:00:00+00:00",
+    "item": "cb4782794f2f",
+    "group": "US states and cities",
+    "place": "Indiana",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L59314a9a",
+  "stage": "in force",
+  "stage_status": "banned in March",
+  "name": "ban on commercial use of its records, including resale",
+  "by": [
+   "Adams County"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Congress",
+     "law": "1986 amendment to FOIA letting agencies charge commercial requesters more",
+     "status": "enacted in 1986; rarely applied due to exceptions",
+     "where": "United States"
+    },
+    "quote": "Congress tried to put the responsibility on business in 1986, amending FOIA to let agencies charge commercial requesters more",
+    "source": "MIT Technology Review",
+    "title": "AI is straining America’s open records systems",
+    "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+    "published": "2026-11-25T10:00:00+00:00",
+    "item": "cb4782794f2f",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L9e259e66",
+  "stage": "passed",
+  "stage_status": "enacted in 1986; rarely applied due to exceptions",
+  "name": "1986 amendment to FOIA letting agencies charge commercial requesters more",
+  "by": [
+   "Congress"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Georgia",
+  "reports": [
+   {
+    "args": {
+     "by": "Kingsland city council",
+     "law": "backflow package (ordinance, resolution, fees)",
+     "status": "voted to approve",
+     "where": "Kingsland, Georgia"
+    },
+    "quote": "Kingsland voted to approve ChatGPT’s backflow package, nearly word-for-word, two weeks later.",
+    "source": "Transformer",
+    "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+    "link": "https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws",
+    "published": "2026-11-25T17:02:08+00:00",
+    "item": "532f830fd55b",
+    "group": "US states and cities",
+    "place": "Georgia",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb8c6e985",
+  "stage": "as reported",
+  "stage_status": "voted to approve",
+  "name": "backflow package (ordinance, resolution, fees)",
+  "by": [
+   "Kingsland city council"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "Georgia",
+  "reports": [
+   {
+    "args": {
+     "by": "Georgia",
+     "law": "Georgia law requiring a public hearing before taking action resulting in a zoning decision",
+     "status": "in force",
+     "where": "Georgia"
+    },
+    "quote": "a Georgia law requiring that governments hold one before “taking action resulting in a zoning decision.”",
+    "source": "Transformer",
+    "title": "“Rewrite this as a new ordinance”: Inside the ChatGPT transcripts of a city manager",
+    "link": "https://www.transformernews.ai/p/inside-chatgpt-transcripts-city-manager-kingsland-georgia-ai-writting-laws",
+    "published": "2026-11-25T17:02:08+00:00",
+    "item": "532f830fd55b",
+    "group": "US states and cities",
+    "place": "Georgia",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Le4a3481d",
+  "stage": "in force",
+  "stage_status": "in force",
+  "name": "Georgia law requiring a public hearing before taking action resulting in a zoning decision",
+  "by": [
+   "Georgia"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "California",
+  "reports": [
+   {
+    "args": {
+     "by": "California",
+     "law": "a ban on AI toys",
+     "status": "in force",
+     "where": "California"
+    },
+    "quote": "The bill makes New York the second state after California to institute a ban on AI toys.",
+    "source": "TechCrunch",
+    "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+    "link": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+    "published": "2026-11-25T18:11:46+00:00",
+    "item": "4f0b7bfbd5a5",
+    "group": "US states and cities",
+    "place": "California",
+    "date": null,
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L45237f12",
+  "stage": "in force",
+  "stage_status": "in force",
+  "name": "a ban on AI toys",
+  "by": [
+   "California"
+  ],
+  "reported": "2026-11-25"
+ },
+ {
+  "group": "US states and cities",
+  "place": "California",
+  "reports": [
+   {
+    "args": {
+     "by": "California",
+     "law": "chatbot safety legislation",
+     "status": "enacted",
+     "date": "2027-01-01"
+    },
+    "quote": "Some states, including California, Colorado, New York, and Connecticut, have added additional clarity to their laws, enacting chatbot safety legislation that will go into effect on January 1, 2027",
+    "source": "ag.state.mn.us",
+    "title": "November 23, 2026 Press Release",
+    "link": "https://www.ag.state.mn.us/Office/Communications/2026/11/23_CharacterAI.asp",
+    "published": "2026-11-23T23:53:58+00:00",
+    "item": "6dd041b5c9e8",
+    "eid": "E6873df12",
+    "group": "US states and cities",
+    "place": "California",
+    "date": "2027-01-01",
+    "stage": "passed"
+   }
+  ],
+  "ids": [],
+  "date": "2027-01-01",
+  "id": "L6245cfed",
+  "stage": "passed",
+  "stage_status": "enacted",
+  "name": "chatbot safety legislation",
+  "by": [
+   "California"
+  ],
+  "reported": "2026-11-23"
+ },
+ {
+  "group": "US states and cities",
+  "place": "California",
+  "reports": [
+   {
+    "args": {
+     "by": "California",
+     "law": "chatbot safety legislation",
+     "status": "enacted, effective January 1, 2027",
+     "date": "2027-01-01"
+    },
+    "quote": "Some states, including California, Colorado, New York, and Connecticut, have added additional clarity to their laws, enacting chatbot safety legislation that will go into effect on January 1, 2027",
+    "source": "greenwichfreepress.com",
+    "title": "CT Attorney General Tong Challenges Plan to Auction off Character.AI Users’ Private Chats, Including Kids’ Data, to Highest Bidder",
+    "link": "https://greenwichfreepress.com/news/business/ct-attorney-general-tong-challenges-plan-to-auction-off-character-ai-users-private-chats-including-kids-data-to-highest-bidder-257538/",
+    "published": "2026-11-25T14:25:34+00:00",
+    "item": "39bfb4182aa3",
+    "eid": "E0eec8c42",
+    "group": "US states and cities",
+    "place": "California",
+    "date": "2027-01-01",
+    "stage": "in force"
+   }
+  ],
+  "ids": [],
+  "date": "2027-01-01",
+  "id": "L4c499af2",
+  "stage": "in force",
+  "stage_status": "enacted, effective January 1, 2027",
+  "name": "chatbot safety legislation",
+  "by": [
+   "California"
+  ],
+  "reported": "2026-11-25"
  },
  {
   "group": "US states and cities",
