@@ -4699,6 +4699,24 @@
     "place": "",
     "date": null,
     "stage": "as reported"
+   },
+   {
+    "args": {
+     "by": "U.S.",
+     "law": "Access to Chips and Tokens",
+     "status": "Tightens",
+     "where": "U.S."
+    },
+    "quote": "Chinese AI Firms Confront Dire Future as U.S. Tightens Access to Chips and Tokens.",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
    }
   ],
   "ids": [],
@@ -4717,7 +4735,7 @@
    "US Department of Commerce",
    "United States"
   ],
-  "reported": "2026-11-21"
+  "reported": "2026-11-26"
  },
  {
   "group": "United States (federal)",
@@ -9499,18 +9517,36 @@
     "place": "",
     "date": null,
     "stage": "passed"
+   },
+   {
+    "args": {
+     "by": "Donald Trump",
+     "law": "joint guardrails",
+     "status": "agreed"
+    },
+    "quote": "Donald Trump says that the problem is that the ‘problem is it may be too super’ and thus he has agreed with Xi on doing some joint guardrails",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "passed"
    }
   ],
   "ids": [],
   "date": null,
   "id": "L60f870c2",
   "stage": "passed",
-  "stage_status": "agreed, no details given",
+  "stage_status": "agreed",
   "name": "agreement with Xi on \"joint guardrails\" on AI",
   "by": [
+   "Donald Trump",
    "Trump"
   ],
-  "reported": "2026-11-21"
+  "reported": "2026-11-26"
  },
  {
   "group": "United States (federal)",
@@ -10155,6 +10191,279 @@
    "California"
   ],
   "reported": "2026-11-25"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Donald Trump",
+     "law": "‘not going to allow’ American companies to build data centers abroad",
+     "status": "claims he is ‘not going to allow’",
+     "where": "US"
+    },
+    "quote": "The other policy announcement from Trump was that he claims he is ‘not going to allow’ American companies to build data centers abroad, threatening a ‘tremendous tax’ if they dare to try it.",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Ld0b1de90",
+  "stage": "as reported",
+  "stage_status": "claims he is ‘not going to allow’",
+  "name": "‘not going to allow’ American companies to build data centers abroad",
+  "by": [
+   "Donald Trump"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Josh Gottheimer",
+     "law": "RSI Safety Act",
+     "status": "introduce",
+     "where": "US"
+    },
+    "quote": "Representatives Josh Gottheimer (D-New Jersey) and Nathaniel Moran (R-Texas) introduce the bipartisan RSI Safety Act.",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [
+   "rsi safety act"
+  ],
+  "date": null,
+  "id": "La64bbe92",
+  "stage": "proposed",
+  "stage_status": "introduce",
+  "name": "RSI Safety Act",
+  "by": [
+   "Josh Gottheimer"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Bernie Sanders",
+     "law": "pause AI",
+     "status": "call"
+    },
+    "quote": "Senator Bernie Sanders cites Paul Christiano in his latest call to pause AI.",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Le144467f",
+  "stage": "as reported",
+  "stage_status": "call",
+  "name": "pause AI",
+  "by": [
+   "Bernie Sanders"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Chris Van Hollen",
+     "law": "an AI safety bill requiring independent evaluation of AI company models and practices",
+     "status": "proposes",
+     "where": "US"
+    },
+    "quote": "Senator Chris Van Hollen proposes an AI safety bill requiring independent evaluation of AI company models and practices",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L2c166223",
+  "stage": "proposed",
+  "stage_status": "proposes",
+  "name": "an AI safety bill requiring independent evaluation of AI company models and practices",
+  "by": [
+   "Chris Van Hollen"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Chuck Schumer",
+     "law": "bipartisan export control bills",
+     "status": "We urgently need to pass",
+     "where": "US"
+    },
+    "quote": "Chuck Schumer: ‘We urgently need to pass the bipartisan export control bills to start to cut off the flow of Al chips and manufacturing equipment to China once and for all.’",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "as reported"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "Lb081cd70",
+  "stage": "as reported",
+  "stage_status": "We urgently need to pass",
+  "name": "bipartisan export control bills",
+  "by": [
+   "Chuck Schumer"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "Cory Booker",
+     "law": "reining in the race to RSI",
+     "status": "calls for",
+     "where": "US"
+    },
+    "quote": "Senator Cory Booker calls for reining in the race to RSI.",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L9484e915",
+  "stage": "proposed",
+  "stage_status": "calls for",
+  "name": "reining in the race to RSI",
+  "by": [
+   "Cory Booker"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "John Hickenlooper",
+     "law": "third-party evaluations to independently review the safety of new and powerful AI systems",
+     "status": "should have a day-one plan",
+     "where": "US"
+    },
+    "quote": "The next Majority Leader should have a day-one plan for responsible regulation. That starts with having third-party evaluations to independently review the safety of new and powerful AI systems.",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "La7e46d72",
+  "stage": "proposed",
+  "stage_status": "should have a day-one plan",
+  "name": "third-party evaluations to independently review the safety of new and powerful AI systems",
+  "by": [
+   "John Hickenlooper"
+  ],
+  "reported": "2026-11-26"
+ },
+ {
+  "group": "United States (federal)",
+  "place": "",
+  "reports": [
+   {
+    "args": {
+     "by": "John Hickenlooper",
+     "law": "a ban on Recursive Self-Improvement",
+     "status": "considering",
+     "where": "US"
+    },
+    "quote": "We should be examining how best to promote competition and open-source innovation and considering a ban on Recursive Self-Improvement",
+    "source": "Zvi",
+    "title": "AI #196: The Return",
+    "link": "https://thezvi.substack.com/p/ai-196-the-return",
+    "published": "2026-11-26T15:01:21+00:00",
+    "item": "5449004755ba",
+    "group": "United States (federal)",
+    "place": "",
+    "date": null,
+    "stage": "proposed"
+   }
+  ],
+  "ids": [],
+  "date": null,
+  "id": "L204b7bf9",
+  "stage": "proposed",
+  "stage_status": "considering",
+  "name": "a ban on Recursive Self-Improvement",
+  "by": [
+   "John Hickenlooper"
+  ],
+  "reported": "2026-11-26"
  },
  {
   "group": "US states and cities",
